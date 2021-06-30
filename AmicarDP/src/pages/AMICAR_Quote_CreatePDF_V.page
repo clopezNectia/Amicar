@@ -1,0 +1,1132 @@
+<apex:page readOnly="true"
+           standardController="Quote"   
+           applyHtmlTag="false"    
+           sidebar="false"    
+           showHeader="false"
+           applyBodyTag="false"
+           renderAs="pdf"
+           cache="true"        
+           docType="html-5.0"
+           extensions="AMICAR_Quote_controller_CreaPDF"> 
+    <html>
+        
+        
+        <head>   
+            <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />    
+            <style >
+                
+                @page{
+                size: A4;
+                margin-bottom:6mm;
+                margin-top:1mm;
+                margin-left:6mm;
+                margin-right:6mm;
+                @top-center{
+                content: element(header);
+                }
+                }
+                div.header{
+                padding:0px;
+                margin-bottom:0px;
+                margin-top:20px;
+                margin-left:2mm;
+                margin-right:2mm;
+                position: running(header);
+                }
+                div.content{
+                margin-top:1px;
+                margin-bottom:0px;
+                }
+                
+                p {
+                font-size:12px; 
+                font-weight: 300;
+                color: #808080;
+                -webkit-font-smoothing: subpixel-antialiased; 
+                margin:2px;
+                }
+                
+                span{
+                font-size: 9px;
+                font-family:  Arial, Helvetica, sans-serif;
+                margin-top:0px; 
+                padding-left:5px; 
+                text-transform: uppercase;
+                }
+                
+                
+                h3{
+                font-family: Verdana, Arial, Helvetica, sans-serif;
+                font-size: 13px;
+                margin:5px;
+                color: #;
+                text-align: center;
+                margin-top:10px;
+                margin-bottom:10px;
+                }
+                
+                
+                
+                
+            </style>
+            
+        </head>
+        <body>
+            <div class="header">
+            </div> 
+            <div class="content">
+                
+                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                    <tr>
+                        <td width="90%">
+                            <apex:image id="theImage" url="{!$Resource.logo_amicar}" style="vertical-align:left" width="240px" height="80px" alt="Logo" />
+                        </td>
+                        <td>
+                            
+                            <table border="0" cellpadding="" cellspacing="0" width="100%">
+                                <tr>
+                                    <td colspan="3" align="center">
+                                        <span> FECHA</span>
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>
+                                        <span>DD</span>
+                                    </td>
+                                    <td>
+                                        <span>MM</span>
+                                    </td>
+                                    <td>
+                                        <span>AAAA</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <span>{!dia}</span>
+                                    </td>
+                                    <td>
+                                        <span>{!mes}</span>
+                                    </td>
+                                    <td>
+                                        <span>{!ano}</span>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            
+                        </td>
+                        <table border="" cellpadding="0" cellspacing="0" width="100%">
+                            <tr>
+                                <td align="center" width="60%">
+                                    <br/>
+                                    <h3>
+                                        <u> SOLICITUD DE CREDITO AUTOMOTRIZ Nº {!idSolicitud}</u> <br/></h3>
+                                    <h3> <u>  PERSONA {!if(valida_nombre=='Simulación de crédito Empresa','JURIDICA','NATURAL')}</u>
+                                    </h3>
+                                </td>
+                                <td>
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                        <tr>
+                                            <td>
+                                                <span>Producto </span>
+                                            </td>
+                                            <td>
+                                                <span>{!producto}</span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <span>Concesionario  </span>
+                                            </td>
+                                            <td>
+                                                <span>{!concecionario}</span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <span>Local</span>
+                                            </td>
+                                            <td>
+                                                <span>{!local}</span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <span>Vendedor</span>
+                                            </td>
+                                            <td>
+                                                <span>{!vendedor}</span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <span>Ejecutivo</span>
+                                            </td>
+                                            <td>
+                                                <span>{!ejecutivo}</span>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </tr>
+                </table>
+                <br/>
+                <div>
+                    <p>
+                        DETALLE DEL CREDITO
+                    </p>
+                    <table border="1" cellpadding="0" cellspacing="0" width="100%">
+                        <tr>
+                            <td >
+                                <span>Pie $</span>
+                            </td>
+                            <td>
+                                <span> Monto a Financiar $ </span>
+                            </td>
+                            <td>
+                                <span> Nº Cuotas </span>
+                            </td>
+                            <td>
+                                <span>1er Vencimiento (DD/MM/AAAA)</span>
+                            </td>
+                            <td>
+                                <span>Valor Cuota $</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span>&nbsp;{!if(pie!=null,'$ ','')}{!pie}</span>
+                            </td>
+                            <td>
+                                <span>&nbsp;{!if(monto_a_Financiar!=null,'$ ','')}{!monto_a_Financiar}</span>
+                            </td>
+                            <td>
+                                <span>&nbsp;{!cuotas}</span>
+                            </td>
+                            <td>
+                                <span>&nbsp; {!fechaVCoompleta} </span>
+                            </td>
+                            <td>
+                                <span>&nbsp;{!if(valor_en_Cuotas!=null,'$ ','')}{!valor_en_Cuotas}</span>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <br/>
+                <div>
+                    <p>
+                        DETALLE VEHICULOS COTIZADOS
+                    </p>
+                    <table border="1" cellpadding="0" cellspacing="0" width="100%">
+                        <tr>
+                            <td align="" width="%" style="padding: 0px">
+                                <span> Tipo de Vehiculo  </span>
+                            </td>
+                            <td align="" style="padding: 0px;">
+                                <span>  Marca </span>
+                            </td>
+                            <td align="" style="padding: 0px">
+                                <span> Modelo</span>
+                            </td>
+                            <td align="" style="padding: 0px">
+                                <span>Año </span>
+                            </td>
+                            <td align="" style="padding: 0px;">
+                                <span>Precio Lista $</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 0px;">
+                                <span>&nbsp;{!tipo_de_Vehiculo}</span>
+                            </td>
+                            <td style="padding: 0px;">
+                                <span>&nbsp;{!marca}</span>
+                            </td>
+                            <td style="padding: 0px;">
+                                <span>&nbsp;{!modelo} </span>
+                            </td>
+                            <td style="padding: 0px;">
+                                <span>&nbsp;{!anoV}</span>
+                            </td>
+                            <td style="padding: 0px;">
+                                <span>&nbsp;{!if(precioVehiculo!=null,'$ ','')}{!precioVehiculo}</span>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <br/>
+                <div>
+                    <p>
+                        IDENTIFICACION DEL SOLICITANTE
+                    </p>
+                    <table border="1" cellpadding="0" cellspacing="0" width="100%"> 
+                        <tr>
+                            <td >
+                                <span> Apellidos </span>
+                            </td>
+                           <!-- <td >
+                                <span> Apellido Materno </span>
+                            </td>-->
+                            <td >
+                                <span> Nombres</span>
+                            </td>
+                            <td >
+                                <span> Rut</span>
+                            </td>
+                            <td >
+                                <span> Nº de Serie</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td >
+                                <span>&nbsp;{!apellido_Paterno} </span>
+                            </td>
+                           <!-- <td >
+                                <span>&nbsp;{!apellido_Materno} </span>
+                            </td>-->
+                            <td >
+                                <span>&nbsp;{!Nombres}</span>
+                            </td>
+                            <td >
+                                <span>&nbsp; {!rut}</span>
+                            </td>
+                            <td >
+                                <span>&nbsp;{!n_serie} </span>
+                            </td>
+                        </tr>
+                    </table>
+                    
+                    <table border="1" cellpadding="0" cellspacing="0" width="100%" style="border-top: 0px;">
+                        <tr>
+                            <td >
+                                <span>Dirección Particular (Calle, Nº, Depto. Nº)</span>
+                            </td>
+                            <td >
+                                <span>Comuna </span>
+                            </td>
+                          
+                            <td >
+                                <span>Región </span>
+                            </td>
+                            <td >
+                                <span>Teléfono Particular</span>
+                            </td>
+                            <td >
+                                <span>Teléfono Celular</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td >
+                                <span>&nbsp; {!direccion}</span>
+                            </td>
+                            <td >
+                                <span>&nbsp;{!comuna}</span>
+                            </td>
+                            <td >
+                                <span>&nbsp;{!region}</span>
+                            </td>
+                            <td >
+                                <span>&nbsp;{!telefono_Particular}</span>
+                            </td>
+                            <td >
+                                <span>&nbsp;{!telefono_Celular}</span>
+                            </td>
+                        </tr>
+                    </table>
+                    <table border="1" cellpadding="0" cellspacing="0" width="100%" style="border-top: 0px;">
+                        <tr>
+                            <td>
+                                <span>Fecha Nacimiento (DD/MM/AAAA) </span>
+                            </td>
+                            <td>
+                                <span>Nacionalidad </span>
+                            </td>
+                            <td>
+                                <span>Estudios</span>
+                            </td>
+                            <td>
+                                <span>Profesion</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span>&nbsp;<apex:outputText value="{0,date,dd/MM/yyyy}" label="date"> 
+                                    <apex:param value="{!fecha_de_Cumpleano}"  />
+                                </apex:outputText>  </span>
+                            </td>
+                            <td>
+                                <span>&nbsp;{!nacionalidad} </span>
+                            </td>
+                            <td>
+                                <span>&nbsp;SECUNDARIOS</span>
+                            </td>
+                            <td>
+                                <span>&nbsp;{!estudios}</span>
+                            </td>
+                        </tr>
+                    </table>
+                    <table border="1" cellpadding="0" cellspacing="0" width="100%" style="border-top: 0px;">
+                        <tr>
+                            <td>
+                                <span>Estado Civil </span>
+                            </td>
+                            <td>
+                                <span>Tipo Residencia</span>
+                            </td>
+                            <!--<td>
+                                <span>Años, Meses de Residencia </span>
+                            </td>-->
+                            <td>
+                                <span>Reg. Matrimonial </span>
+                            </td>
+                            <!--<td>
+                                <span>N° Cargas </span>
+                            </td>-->
+                            <td>
+                                <span>Email</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span>&nbsp;{!estado_Civil} </span>
+                            </td>
+                            <td>
+                                <span>&nbsp;{!tipo_de_residencia}</span>
+                            </td>
+                          <!--  <td>
+                                <span>&nbsp;0 </span>
+                            </td>-->
+                            <td>
+                                <span>&nbsp;{!regimen_Matrimonial} </span>
+                            </td>
+                            <!--<td>
+                                <span>&nbsp;0 </span>
+                            </td>-->
+                            <td>
+                                <span>&nbsp;{!email}</span>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <br/>
+                
+                <div>
+                    <p>
+                        ACTIVIDAD DESARROLLADA
+                    </p>
+                    <table border="1" cellpadding="0" cellspacing="0" width="100%">
+                        <tr>
+                            <td width="20%">
+                                <span> Trabajador Independiente   </span>
+                            </td>
+                            <td width="8%" align="center">
+                                <span> {!if(Tipo_de_trabajador=='IN','X','')} </span>
+                            </td>
+                            <td>
+                                <span> Nombre Empleador  </span>
+                            </td>
+                            <td width="20%">
+                                <span> Rut   </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="">
+                                <span>&nbsp;Jubilado Montepiado   </span>
+                            </td>
+                            <td>
+                                <span> &nbsp;  </span>
+                            </td>
+                            <td>
+                                <span>&nbsp;{!nombre_Empleador}</span>
+                            </td>
+                            <td>
+                                <span> &nbsp;{!rut_empleador}   </span>
+                            </td>
+                        </tr>
+                    </table>
+                    <table border="1" cellpadding="0" cellspacing="0" width="100%" style="border-top: 0px;">
+                        <tr>
+                            <td width="20%">
+                                <span> Trabajador Dependiente   </span>
+                            </td>
+                            <td width="8%" align="center">
+                                <span>{!if(Tipo_de_trabajador=='DE','X','')}   </span>
+                            </td>                            
+                            <td>
+                                <span> Rubro Empleado  </span>
+                            </td>
+                            <td>
+                                <span> Tipo Contrato   </span>
+                            </td>
+                            <td>
+                                <span> Tipo Renta   </span>
+                            </td>
+                           <!-- <td>
+                                <span>Día Pago Sueldo  </span>
+                            </td>-->
+                        </tr>
+                        <tr>
+                          <td colspan="2">
+                                <span> </span>
+                            </td>
+                            <td >
+                                <span>{!rubro_Empleado} </span>
+                            </td>
+                            <td>
+                                <span>{!tipo_de_Contrato}</span>
+                            </td>
+                            <td>
+                                <span>{!tipo_de_renta}</span>
+                            </td>
+                           <!-- <td>
+                                <span>30 en duro  </span>
+                            </td>-->
+                        </tr>
+                    </table>
+                    <table border="1" cellpadding="0" cellspacing="0" width="100%" style="border-top: 0px;">
+                        <tr>
+                            <td>
+                                <span>Tipo de Actividad (Para Independientes)  </span>
+                            </td>
+                            <td>
+                                <span>Cargo</span>
+                            </td>
+                            <td>
+                                <span>Fecha Ingreso Empleo</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span>&nbsp;{!tipo_de_Actividad}</span>
+                            </td>
+                            <td>
+                                <span>&nbsp;{!cargo}</span>
+                            </td>
+                            <td>
+                                <span>&nbsp;<apex:outputText value="{0,date,dd/MM/yyyy}" label="date"> 
+                                    <apex:param value="{!fecha_de_ingreso}"  />
+                                </apex:outputText> </span>
+                            </td>
+                        </tr>
+                    </table>
+                    <table border="1" cellpadding="0" cellspacing="0" width="100%" style="border-top: 0px;">
+                        <tr>
+                            <td>
+                                <span>Nombre Empleador Anterior (Si posee menos de 1 año ant. laboral)  </span>
+                            </td>
+                            <td>
+                                <span>Años de Permanencia Empleo Anterior </span>
+                            </td>
+                            <td>
+                                <span>Fono Empleador Anterior </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span>&nbsp;{!empleador_Anterior}  </span>
+                            </td>
+                            <td>
+                                <span>&nbsp;{!antiguedad_Empleo_Anterior} </span>
+                            </td>
+                            <td>
+                                <span>&nbsp;{!telefono_Empleador_Anterior}</span>
+                            </td>
+                        </tr>
+                    </table>      
+                </div> 
+                <br/>
+                <div>
+                    <table border="0" cellpadding="0" cellspacing="0" width="100%" >
+                        <tr>
+                            <td width="47%"><span><b>BALANCE O ESTADO DE SITUACIÓN $ (ACTIVOS MENOS PASIVOS)</b></span></td>
+                            <td>
+                                <table border="" cellpadding="0" cellspacing="0" width="100%" style="border-bottom: 1px solid black;">
+                                    <tr>
+                                        <td>
+                                            &nbsp;
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <br/>
+                <table border="" cellpadding="0" cellspacing="1" width="100%">
+                    <tr>
+                        <td width="50%">
+                            <p>
+                                INGRESOS $ 
+                            </p>
+                            <table border="2" cellpadding="0" cellspacing="0" width="100%">
+                                <tr>
+                                    <td >
+                                        <span>1.- Sueldo Líquido </span>
+                                    </td>
+                                    <td >
+                                        <span>$ {!renta}</span>  
+                                        
+                                    </td>
+                                </tr>
+                                <!--<tr>
+                                    <td >
+                                        <span>2.- Honorarios </span>
+                                    </td>
+                                    <td >
+                                        <span>$ 0</span>  
+                                        
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td >
+                                        <span>3.- Pensión / Jubilación </span>
+                                    </td>
+                                    <td >
+                                        <span>$ 0</span>  
+                                        
+                                    </td>
+                                </tr>
+                                <tr >
+                                    <td >
+                                        <span>4.- Renta Bienes Raíces </span>
+                                    </td>
+                                    <td >
+                                        <span>$ 0</span>  
+                                        
+                                    </td>
+                                </tr>-->
+                                <tr>
+                                    <td >
+                                        <span>2.- Otros Ingresos</span>
+                                    </td>
+                                    <td >
+                                        <span>${!otros_Ingresos}</span>  
+                                        
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td >
+                                        <span>3.- Descripción Otros Ingresos </span>
+                                    </td>
+                                    <td >
+                                        <span>{!descripcion_Otros_Ingresos}</span>  
+                                        
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td >
+                                        <span><b>TOTAL INGRESOS</b>  </span>
+                                    </td>
+                                    <td >
+                                        <span>$ {!total_I}</span>  
+                                        
+                                    </td>
+                                </tr>
+                                
+                            </table>
+                        </td>
+                        <td>
+                            <td style="width:50%;  vertical-align:top">
+                                <p>
+                                    GASTOS $
+                                </p>
+                                <table border="2" cellpadding="0" cellspacing="0" width="100%">
+                                    <tr>
+                                        <td>
+                                            <span> 1. ARRIENDO </span>  
+                                        </td>
+                                        <td>
+                                            <span> $ {!arriendo} </span>  
+                                        </td>
+                                    </tr>
+                                     <tr>
+                                        <td>
+                                            <span> 2. DIVIDENDO </span>  
+                                        </td>
+                                        <td>
+                                            <span> $ {!dividendo}</span>  
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <span> 3. OTROS GASTOS FIJOS:  </span>  
+                                        </td>
+                                        <td>
+                                            <span> $ {!otros_Egresos} </span>  
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <span><b>TOTAL GASTOS</b>  </span>  
+                                        </td>
+                                        <td>
+                                            <span> $ {!total_E} </span>  
+                                        </td>
+                                    </tr>
+                                </table>
+                        </td>
+                    </td> 
+            </tr>
+            
+        </table>
+        <br/>
+         <table border="" cellpadding="0" cellspacing="1" width="100%">
+        <tr>
+            <td width="49%" >
+                <p>DECLARACIÓN IVA</p>
+                <table border="1" cellpadding="0" cellspacing="0" width="100%">
+                    <tr>
+                        <td align="center">
+                            <p>MES </p>
+                        </td>
+                        <td align="center">
+                            <p> AÑO</p>
+                        </td>
+                        <td align="center">
+                            <p> IVA COMPRA ($) </p>
+                        </td>
+                        <td align="center">
+                            <p> IVA VENTA ($)</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center">
+                            <span>Noviembre  </span>
+                        </td>
+                        <td align="center">
+                            <span>{!if(noviembreA!='',noviembreA,'')}</span>
+                        </td>
+                        <td align="center">
+                            <span>{!if(noviembrec!=null,'$ ','')}{!if(noviembrec!=null,noviembrec,'0')}</span>
+                        </td>
+                        <td align="center">
+                            <span>{!if(noviembrev!=null,'$ ','')}{!if(noviembrev!=null,noviembrev,'0')}</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center">
+                            <span>Octubre  </span>
+                        </td>
+                        <td align="center">
+                            <span>{!if(octubreA!='',octubreA,'')}</span>
+                        </td>
+                        <td align="center">
+                            <span>{!if(octubrec!=null,'$ ','')}{!if(octubrec!=null,octubrec,'0')} </span>
+                        </td>
+                        <td align="center">
+                            <span>{!if(octubreV!=null,'$ ','')}{!if(octubreV!=null,octubreV,'0')}</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center">
+                            <span>Septiembre  </span>
+                        </td>
+                        <td align="center">
+                            <span>{!if(septiembreA!='',septiembreA,'')}</span>
+                        </td>
+                        <td align="center">
+                            <span>{!if(septiembrec!=null,'$ ','')}{!if(septiembrec!=null,septiembrec,'0')} </span>
+                        </td>
+                        <td align="center">
+                            <span>{!if(septiembrev!=null,'$ ','')} {!if(septiembrev!=null,septiembrev,'0')}</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center">
+                            <span>Agosto  </span>
+                        </td>
+                        <td align="center">
+                            <span>{!if(agostoA!='',agostoA,'')}</span>
+                        </td>
+                        <td align="center">
+                            <span>{!if(agostoc!=null,'$ ','')}{!if(agostoc!=null,agostoc,'0')}</span>
+                        </td>
+                        <td align="center">
+                            <span>{!if(agostov!=null,'$ ','')}{!if(agostov!=null,agostov,'0')}</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center">
+                            <span>Julio  </span>
+                        </td>
+                        <td align="center">
+                            <span>{!if(julioA!='',julioA,'')}</span>
+                        </td>
+                        <td align="center">
+                            <span>{!if(julioc!=null,'$ ','')}{!if(julioc!=null,julioc,'0')} </span>
+                        </td>
+                        <td align="center">
+                            <span>{!if(juliov!=null,'$ ','')}{!if(juliov!=null,juliov,'0')}</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center">
+                            <span>Junio  </span>
+                        </td>
+                        <td align="center">
+                            <span>{!if(junioA!='',junioA,'')}</span>
+                        </td>
+                        <td align="center">
+                            <span>{!if(junioc!=null,'$ ','')}{!if(junioc!=null,junioc,'0')}</span>
+                        </td>
+                        <td align="center">
+                            <span>{!if(junioc!=null,'$ ','')}{!if(junioc!=null,junioc,'0')}</span>
+                        </td>
+                    </tr>
+                    
+                </table>
+            </td>
+            <td width="2%" > </td>
+            <td width="49%" >
+                <table border="" cellpadding="0" cellspacing="0" width="100%">
+                    <tr>
+                        <td>
+                            <p>&nbsp;</p>
+                            <table border="1" cellpadding="0" cellspacing="0" width="100%">
+                                <tr>
+                                    <td align="center">
+                                        <p>MES </p>
+                                    </td>
+                                    <td align="center">
+                                        <p> AÑO</p>
+                                    </td>
+                                    <td align="center">
+                                        <p> IVA COMPRA ($) </p>
+                                    </td>
+                                    <td align="center">
+                                        <p> IVA VENTA ($)</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center">
+                                        <span>Mayo  </span>
+                                    </td>
+                                    <td align="center">
+                                        <span>{!if(mayoA!='',mayoA,'')}</span>
+                                    </td>
+                                    <td align="center">
+                                        <span>{!if(mayoc!=null,'$ ','')}{!if(mayoc!=null,mayoc,'0')} </span>
+                                    </td>
+                                    <td align="center">
+                                        <span>{!if(mayov!=null,'$ ','')}{!if(mayov!=null,mayov,'0')}</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center">
+                                        <span>Abril  </span>
+                                    </td>
+                                    <td align="center">
+                                        <span>{!if(abrilA!='',abrilA,'')}</span>
+                                    </td>
+                                    <td align="center">
+                                        <span>{!if(abrilc!=null,'$ ','')}{!if(abrilc!=null,abrilc,'0')} </span>
+                                    </td>
+                                    <td align="center">
+                                        <span>{!if(abrilv!=null,'$ ','')}{!if(abrilv!=null,abrilv,'0')}</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center">
+                                        <span>Marzo  </span>
+                                    </td>
+                                    <td align="center">
+                                        <span>{!if(marzoA!='',marzoA,'')}</span>
+                                    </td>
+                                    <td align="center">
+                                        <span>{!if(marzoc!=null,'$ ','')}{!if(marzoc!=null,marzoc,'0')} </span>
+                                    </td>
+                                    <td align="center">
+                                        <span>{!if(marzov!=null,'$ ','')}{!if(marzov!=null,marzov,'0')}</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center">
+                                        <span>Febrero  </span>
+                                    </td>
+                                    <td align="center">
+                                        <span>{!if(febreroA!='',febreroA,'')}</span>
+                                    </td>
+                                    <td align="center">
+                                        <span>{!if(febreroc!=null,'$ ','')}{!if(febreroc!=null,febreroc,'0')}</span>
+                                    </td>
+                                    <td align="center">
+                                        <span>{!if(febrerov!=null,'$ ','')}{!if(febrerov!=null,febrerov,'0')}</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center">
+                                        <span>Enero  </span>
+                                    </td>
+                                    <td align="center">
+                                        <span>{!if(eneroA!='',eneroA,'')}</span>
+                                    </td>
+                                    <td align="center">
+                                        <span>{!if(eneroc!=null,'$ ','')}{!if(eneroc!=null,eneroc,'0')}</span>
+                                    </td>
+                                    <td align="center">
+                                        <span>{!if(enerov!=null,'$ ','')}{!if(enerov!=null,enerov,'0')} </span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center">
+                                        <span>Diciembre  </span>
+                                    </td>
+                                    <td align="center">
+                                        <span>{!if(diciembreA!='',diciembreA,'')}</span>
+                                    </td>
+                                    <td align="center">
+                                        <span>{!if(diciembrec!=null,'$ ','')}{!if(diciembrec!=null,diciembrec,'0')} </span>
+                                    </td>
+                                    <td align="center">
+                                        <span>{!if(diciembrev!=null,'$ ','')}{!if(diciembrev!=null,diciembrev,'0')} </span>
+                                    </td>
+                                </tr>
+                                
+                            </table>
+                        </td>
+                    </tr>
+                    
+                </table>
+            </td>
+        </tr>
+    </table>
+    </div>
+    <div style="page-break-after: always"/> <br/> 
+    
+   
+    <br/>
+    <div>
+        <p>
+            ACTIVOS
+        </p>
+        <table border="1" cellpadding="0" cellspacing="0" width="100%">
+            <tr>
+                <td colspan="4">
+                    <span>BIENES RAICES</span>
+                </td>
+            </tr>
+            <tr>
+                <td >
+                    <span>DESCRIPCIÓN </span>
+                </td>
+                <td >
+                    <span>VALOR COMERCIAL </span>
+                </td>
+                <td >
+                    <span>FINANCIAMIENTO </span>
+                </td>
+                <td >
+                    <span>CON DEUDA</span>
+                </td>
+            </tr>
+            <tr>
+                <td >
+                    <span>&nbsp;{!decimalDescripcion_P}</span>
+                </td>
+                <td >
+                    <span>&nbsp;{!if(valor_comercial_P!=null,'$ ','')}{!valor_comercial_P}</span>
+                </td>
+                <td >
+                    <span>&nbsp;{!if(financiamoento_P!=null,'$ ','')}{!financiamoento_P}</span>
+                </td>
+                <td >
+                    <span>&nbsp;{!if(con_deuda_P=='true','Si','No')}</span>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <br/>
+    <div>
+        <p>
+            REFERENCIAS PERSONALES 
+        </p>
+        <table border="1" cellpadding="0" cellspacing="0" width="100%">
+            <tr>
+                <td>
+                    <span>NOMBRE COMPLETO</span> 
+                </td>
+                <td>
+                    <span>PARENTESCO </span>
+                </td>
+                <td>
+                    <span> FONO</span>
+                </td>
+            </tr>
+            <apex:repeat var="rel" value="{!relacion}">
+ 
+        <tr>
+ 
+            <td>
+                    <span>&nbsp;{!if(rel.RecordType.Name=='Referencia' || rel.RecordType.Name=='Conyuge', if(rel.Nombre__c!=null,rel.Nombre__c,'')+' '+if(rel.Apellidos__c!=null,rel.Apellidos__c,''), if(rel.Cuenta__r.Name!=null,rel.Cuenta__r.Name,''))}</span> 
+                </td>
+                <td>
+                    <span>&nbsp;{!if(rel.RecordType.Name=='Referencia', if(rel.Tipo_de_relacion__c!=null,rel.Tipo_de_relacion__c,''), if(rel.RecordType.Name!=null,rel.RecordType.Name,''))}</span> 
+                </td>
+                <td>
+                    <span>&nbsp;{!if(rel.RecordType.Name=='Referencia', if(rel.Telefono__c!=null,rel.Telefono__c,''), if(rel.RecordType.Name=='Conyuge', if(rel.Telefono_empleador__c!=null,rel.Telefono_empleador__c,''), if(rel.Cuenta__r.Phone!=null,rel.Cuenta__r.Phone,'')))}</span>                     
+                </td>
+ 
+        </tr>
+ 
+        </apex:repeat> 
+            <!-- <tr> -->
+                <!-- <td> -->
+                    <!-- <span>&nbsp;{!nombre_Completo}</span>  -->
+                <!-- </td> -->
+                <!-- <td> -->
+                    <!-- <span>&nbsp;{!parententesco}</span> -->
+                <!-- </td> -->
+                <!-- <td> -->
+                    <!-- <span>&nbsp;{!fono}</span> -->
+                <!-- </td> -->
+            <!-- </tr> -->
+        </table>
+    </div>
+    <br/>
+    <div>
+        <p>
+            OBSERVACIONES GENERALES  
+        </p>
+        <table border="1" cellpadding="0" cellspacing="0" width="50%" >
+            <tr>
+                <td height="120px" style=" vertical-align:top">
+                    <span>&nbsp;{!Description}
+                    </span>
+                    
+                </td>
+            </tr>
+        </table>
+        
+    </div>
+    <br/>
+    <p  style=" font-size:12px; 
+               font-weight: 300;
+               color: black;
+               font-family: Verdana, Arial, Helvetica, sans-serif;
+               ">
+        En este acto el solicitante, expresamente:          
+    </p>
+    
+    <p align="justify" style=" font-size:12px; 
+                              font-weight: 300;
+                              color: black;
+                              font-family: Verdana, Arial, Helvetica, sans-serif;
+                              ">
+        1) Declara conocer, entender y aceptar que AMICAR S.A. no es la entidad financiera que otorga el crédito. El eventual otorgamiento del crédito, de ser procedente, será realizado por
+        una tercera entidad financiera, persona jurídica distinta a AMICAR, que sujeta el otorgamiento del mismo a las siguientes condiciones copulativas: i) Verificación y aprobación previa
+        de los antecedentes del solicitante; ii) Cumplimiento de las políticas de riesgo de la entidad financiera otorgante del crédito y iii) Emisión de la aprobación definitiva de la operación
+        por parte de la entidad financiera, suscribiéndose la documentación de respaldo entregada por ésta.</p>
+    
+    <p align="justify" style=" font-size:12px; 
+                              font-weight: 300;
+                              color: black;
+                              font-family: Verdana, Arial, Helvetica, sans-serif;
+                              ">
+        2) Autoriza a AMICAR S.A. y/o a la i) tercera entidad financiera eventualmente otorgante del crédito y a ii) todas aquellas entidades financieras que realicen un procedimiento de
+        evaluación de riesgo del mismo, independiente de que finalmente otorguen o no dicho crédito, en adelante e indistintamente las anteriores signadas en i) y ii) las “Entidades”, para:
+    </p>
+    <p align="justify" style=" font-size:12px; 
+                              font-weight: 300;
+                              color: black;
+                              font-family: Verdana, Arial, Helvetica, sans-serif;
+                              ">
+        a) Realizar las gestiones con el objeto de verificar los datos proporcionados en esta solicitud y sus documentos adjuntos, así como para cotejar sus datos personales y
+        comportamiento financiero en Dicom u otro proveedor de informes comerciales o base de datos.
+        <br/>
+        b) Utilizar y almacenar sus antecedentes personales, situación económica - financiera, y la información de la(s) operaciones sometidas al conocimiento de AMICAR S.A. y las
+        “Entidades”. Especialmente, autoriza expresamente a AMICAR S.A. y a las “Entidades” para utilizar y almacenar todos los datos que ha proporcionado en esta solicitud y sus
+        documentos adjuntos, especialmente aquellos denominados como de carácter personal o sensibles según la Ley N° 19.628, y requerir los mismos a terceras Instituciones.
+        Particularmente, autoriza a AMICAR S.A. y a las “Entidades” a pedir, para su uso exclusivo y bajo confidencialidad, en los términos de la Ley 19.628, y a mi Administradora de Fondos
+        de Pensiones a entregar a éstas, a través de Previred S.A., información sobre mis cotizaciones previsionales de los últimos 12 meses, como antecedente a esta solicitud de crédito.
+    </p>
+    <p align="justify" style=" font-size:12px; 
+                              font-weight: 300;
+                              color: black;
+                              font-family: Verdana, Arial, Helvetica, sans-serif;
+                              ">
+        c) Ofrecerle, sea por escrito, por teléfono, o por cualquier otro medio, créditos, renovaciones de créditos, seguros u otros servicios financieros y/o conexos, todos los cuales son
+        otorgados por terceras empresas.
+    </p>
+    <p align="justify" style=" font-size:12px; 
+                              font-weight: 300;
+                              color: black;
+                              font-family: Verdana, Arial, Helvetica, sans-serif;
+                              ">
+        d) Realizar todas las comunicaciones que deba enviarse por correo electrónico dirigido a la dirección electrónica señalada en la presente solicitud, o que informe con posterioridad por
+        escrito, sin perjuicio de otros medios de comunicación.
+    </p>
+    <p align="justify" style=" font-size:12px; 
+                              font-weight: 300;
+                              color: black;
+                              font-family: Verdana, Arial, Helvetica, sans-serif;
+                              ">
+        e) En el evento de otorgársele el crédito, entreguen a AMICAR S.A. información relativa a la ejecución y estado de dicho crédito, tales como pagos del mismo, saldos, prepagos, mora,
+        garantía, datos de contacto, o cualquier otra que diga relación con el cumplimiento y/o incumplimiento de las obligaciones derivadas del mismo.
+    </p>
+    <p align="justify" style=" font-size:12px; 
+                              font-weight: 300;
+                              color: black;
+                              font-family: Verdana, Arial, Helvetica, sans-serif;
+                              ">
+        3) Declara bajo juramento que:
+        
+    </p>
+    <p align="justify" style=" font-size:12px; 
+                              font-weight: 300;
+                              color: black;
+                              font-family: Verdana, Arial, Helvetica, sans-serif;
+                              ">
+        a) Ha sido informado que los datos proporcionados son para el uso de a Amicar y las “Entidades” a efectos de que estas últimas evaluen y, eventualmente, otorguen el crédito
+        solicitado, y para ofrecer nuevos créditos, seguros u otros servicios financieros.
+    </p>
+    <p align="justify" style=" font-size:12px; 
+                              font-weight: 300;
+                              color: black;
+                              font-family: Verdana, Arial, Helvetica, sans-serif;
+                              ">
+        b) Todos y cada uno de los datos e informaciones proporcionados y contenidos en la presente solicitud y sus documentos adjuntos, son expresión fiel de la verdad.
+    </p>
+    <p align="justify" style=" font-size:12px; 
+                              font-weight: 300;
+                              color: black;
+                              font-family: Verdana, Arial, Helvetica, sans-serif;
+                              ">
+        4) Se obliga a mantener actualizada la información entregada y proporcionar aquella requerida por AMICAR S.A. o la entidad financiera que, en definitiva, otorgue el crédito.
+    </p >
+    <br/><br/><br/><br/><br/><br/><br/><br/>
+    
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+        <tr>
+            <td  width="5%" ></td>
+            <td  width="40%">
+                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                    <tr >
+                        <td align="center">
+                            <div style="border-top: solid;"><span>
+                                FIRMA FIADOR Y CODEUDOR SOLIDARIO</span>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td width="20%">
+                
+            </td>
+            <td align="center">
+                <div style="border-top: solid;">
+                    <span>FIRMA CLIENTE</span>
+                </div>
+            </td>
+            <td  width="5%"></td>
+        </tr>
+    </table>   
+    
+</body>
+</html>
+</apex:page>

@@ -1,0 +1,8 @@
+Hola {!Receiving_User.FirstName},
+
+            Le damos la bienvenida a {!Community_Name}! Para comenzar, vaya a {!Community_Url}
+
+            Nombre de usuario: {!Receiving_User.Username}
+
+            Gracias,
+            {!Organization.Name}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>hola@amicar.cl</contactEmail>
+    <description>App para conectar la API de Leads Web a Salesforce</description>
+    <label>Leads Web</label>
+    <oauthConfig>
+        <callbackUrl>https://certificacionapidigital.amicar.cl/AmicarAPI/Consulta</callbackUrl>
+        <consumerKey>3MVG9Ccwq.TeycMZ1tEBAj8_Qhe_d6Ul7Bo05_JhQLuRrRreQmRnveaPBGs.SgaCPzyP4hRqWQlIBjK6q9Qgy</consumerKey>
+        <isAdminApproved>false</isAdminApproved>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <scopes>Api</scopes>
+        <scopes>Web</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>BYPASS</ipRelaxation>
+        <refreshTokenPolicy>zero</refreshTokenPolicy>
+    </oauthPolicy>
+</ConnectedApp>

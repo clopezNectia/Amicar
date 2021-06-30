@@ -1,0 +1,26 @@
+<project name="deploy" xmlns:sf="antlib:com.salesforce">
+
+	<target name="deploy">
+		<echo message="Starting deployment..."/>
+		<prepareStaticResources/>
+		<sf:deploy username="${sf.username}" password="${sf.password}" serverurl="${sf.server}" deployRoot="${sf.deployDir}" maxPoll="${sf.maxPoll}" pollWaitMillis="${sf.pollWaitMillis}" rollbackOnError="true" singlePackage="true" allowMissingFiles="false" />
+		<echo message="Deployment have finished."/>
+	</target>
+	
+	<target name="prepareStaticResources">
+	  <echo message="Preparing static resources for deployment..."/>
+	  <foreach target="packageStaticResource" param="staticResourceFolder">
+		<dirset dir="${sf.deployDir}/../staticresources" includes="*"/>
+	  </foreach>
+	  <echo message="Finished preparing static resources for deployment."/>
+	</target>
+
+	<target name="packageStaticResource">
+	  <basename property="resourceName" file="${staticResourceFolder}"/>
+	  <echo message="Processing '{$resourceName}' static resource"/>
+	  <zip destfile="${sf.deployDir}/staticresources/${resourceName}.resource">
+		  <fileset dir="${staticResourceFolder}" includes="**"/>
+	  </zip>
+	</target>
+	
+</project>

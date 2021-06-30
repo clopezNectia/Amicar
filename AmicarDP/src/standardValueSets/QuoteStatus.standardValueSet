@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Borrador</fullName>
+        <default>true</default>
+        <label>Borrador</label>
+        <allowEmail>true</allowEmail>
+    </standardValue>
+    <standardValue>
+        <fullName>Presentado jefe de ventas</fullName>
+        <default>false</default>
+        <label>Presentado jefe de ventas</label>
+        <allowEmail>false</allowEmail>
+    </standardValue>
+    <standardValue>
+        <fullName>Pendiente Aprobación</fullName>
+        <default>false</default>
+        <label>Pendiente Aprobación</label>
+        <allowEmail>false</allowEmail>
+    </standardValue>
+    <standardValue>
+        <fullName>Aceptado jefe de ventas</fullName>
+        <default>false</default>
+        <label>Aceptado jefe de ventas</label>
+        <allowEmail>false</allowEmail>
+    </standardValue>
+</StandardValueSet>

@@ -1,0 +1,13 @@
+<apex:page showHeader="true" sidebar="true" standardController="Opportunity" standardStylesheets="true" title="Documentos">
+
+    <!--<apex:iframe src="https://portal-frontend-staging-aulcbm3xuq-ue.a.run.app/checklist?loanId={!Opportunity.Id_Solicitud__c}" scrolling="true" id="Documentos" rendered="{!Opportunity.Stagename == 'Checklist'}"/>-->
+    
+    <!--<apex:iframe src="https://amices.staging.amicar.com/checklist?loanId={!Opportunity.Id_Solicitud__c}" scrolling="true" id="Documentos" rendered="{!Opportunity.Stagename == 'Checklist'}"/>-->
+    
+    <apex:iframe src="https://amices.staging.amicar.com/checklist?loanId={!Opportunity.Id_Solicitud__c}" scrolling="true" id="Documentos" rendered="{!Opportunity.Stagename == 'Checklist'}"/>
+
+    <!--<apex:iframe src="https://test-salesforce-front.herokuapp.com/checklist?loanId=0065500000FcXi2AAF" scrolling="true" id="Firmas" rendered="{!Opportunity.Stagename == 'Firma documentación'}"/>-->
+    
+    <apex:iframe src="https://amices.staging.amicar.com/documents-to-sign?loanId={!Opportunity.Id_Solicitud__c}" scrolling="true" id="Firmas" rendered="{!OR(Opportunity.Stagename == 'Firma documentación', Opportunity.Stagename == 'Adjudicación')}"/>
+
+</apex:page>

@@ -1,0 +1,9 @@
+<apex:page controller="et4ae5.phoenixSendControl" tabStyle="et4ae5__SMSDefinition__c">    
+    <apex:composition template="et4ae5__UserErrorTemplate">
+		<apex:define name="customMessage">
+			<apex:pageBlock title="{!$Label.et4ae5__deprecatevisualforcepagetitle}">
+				{!$Label.et4ae5__deprecatevisualforcepagebody}
+			</apex:pageBlock>
+		</apex:define>
+	</apex:composition>
+</apex:page>

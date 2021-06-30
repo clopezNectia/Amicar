@@ -1,0 +1,664 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Solicitud</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Solicitudes</value>
+    </caseValues>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Acceso a Solicitudes</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_access</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Nivel de acceso a las Solicitudes</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_access_level</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Alerta de solicitud</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>opportunity_alert</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Importe de la solicitud</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_amount</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Maletín de solicitudes</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_based_briefcase</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Fecha de cierre de la solicitud</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>opportunity_close_date</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Solicitud cerrada</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>opportunity_closed</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Competidor de solicitudes</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_competitor</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Informe del competidor de solicitudes</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_competitor_report</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Contacto de solicitud</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_contact</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Informe de contacto de solicitud</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_contact_report</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Función del contacto de solicitud</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Funciones del contacto de la solicitud</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>opportunity_contact_role</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Creador de solicitudes</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_creator</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Divisa de la Solicitud</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>opportunity_currency</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Descripción de la solicitudes</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>opportunity_description</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Página de detalles de solicitudes</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>opportunity_detail_page</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>División de Solicitudes</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>opportunity_division</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Modificación de la solicitud</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>opportunity_edit</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Campo de la Solicitud</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Campos de solicitud</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_field</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Historial de campos de solicitudes</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_field_history</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>ID de historial de campos de solicitudes</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_field_history_id</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Informe de historial de campos de solicitudes</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_field_history_report</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Previsión de solicitudes</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Previsiones de solicitudes</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>opportunity_forecast</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Categoría de previsión de solicitudes</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>opportunity_forecast_category</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Modificación de previsión de solicitudes</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_forecast_edit</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Historial de solicitudes</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_history</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Id. del historial de solicitudes</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_history_id</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Información del historial de la solicitud</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>opportunity_history_information</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Informe de historial de solicitud</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_history_report</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Id. de la solicitud</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_id</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Info de la solicitud</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>opportunity_info</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Información de la solicitud</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>opportunity_information</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Origen del candidato de la solicitud</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_lead_source</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Partida de la solicitud</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>opportunity_line_item</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Campo de partida de solicitud</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Campos de partida de solicitud</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_line_item_field</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Id. de la partida de solicitud</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_line_item_id</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Nombre de la Solicitud</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Nombres de Solicitudes</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_name</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Propietario de la Solicitud</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Propietarios de Solicitudes</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_owner</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Alias del propietario de la solicitud</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_owner_alias</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Correo electrónico del propietario de la solicitud</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_owner_email</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Informe de socio de solicitud</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_partner_report</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Listas de selección de la solicitud</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>opportunity_picklists</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Solicitudes en proceso</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>opportunity_pipeline</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Tendencia de las solicitudes en curso</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_pipeline_trend</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Nombre de producto de Solicitud</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Nombres de productos de Solicitudes</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_product_name</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Cantidad de solicitud</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>opportunity_quantity</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Tipo de registro de la Solicitud</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Tipos de registro de Solicitudes</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_record_type</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Informe de las Solicitudes</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Informes de Solicitudes</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_report</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Informe de programación de solicitudes</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_schedule_report</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Origen de la Solicitud</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Orígenes de las solicitudes</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_source</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Etapa de la Solicitud</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Etapas de la solicitud</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_stage</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Informe de duración de las etapas de la solicitud</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_stage_duration_report</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Id. de etapa de la solicitud</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>opportunity_stage_id</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Nombre de etapa de la solicitud</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_stage_name</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Valor de lista de selección Etapa de la solicitud</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_stage_picklist_value</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Estado de etapa de la solicitud</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_stage_status</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Estado de la solicitud</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_status</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Simulación sincronizada</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>opportunity_syncedquote</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Equipo de solicitudes</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Equipos de solicitudes</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_team</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Miembro del equipo de solicitudes</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Miembros del equipo de solicitudes</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_team_member</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Campo Miembro del equipo de solicitudes</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Campos Miembro del equipo de solicitudes</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_team_member_field</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Id. del miembro del equipo de solicitudes</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_team_member_id</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Informe de oportunidades con equipos de solicitudes y productos</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_team_product_report</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Informe de equipo de solicitudes</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Informes de equipos de solicitudes</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_team_report</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Territorio de solicitud</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Territorios de solicitud</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_territory</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Territorio de solicitud</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Territorios de solicitud</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_territory2</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Informe de territorio de solicitud</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_territory_report</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Tendencia de solicitudes</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Tendencias de solicitudes</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>opportunity_trend</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Información de tendencia de solicitudes</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_trend_information</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Informe de tendencias de la solicitud</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_trend_report</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Tipo de solicitud</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>opportunity_type</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Vista de la solicitud</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Vistas de solicitudes</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>opportunity_view</name>
+    </fields>
+    <gender>Feminine</gender>
+</CustomObjectTranslation>

@@ -1,0 +1,3 @@
+<apex:page id="actionPage" controller="et4ae5.EmailCleanupController" tabstyle="et4ae5__SendDefinition__c" action="{!actionPageSetup}">
+    <apex:outputText value="This page has been deprecated. Please navigate to the new Tracking Data Cleanup tool in the Marketing Cloud Settings page."/>
+</apex:page>

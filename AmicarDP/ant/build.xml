@@ -1,0 +1,19 @@
+<project name="The Welkin Suite's Salesforce Ant tasks" default="deploy" basedir="." xmlns:sf="antlib:com.salesforce">
+
+    <property file="build.properties"/>
+    <property environment="env"/>
+
+	<taskdef uri="antlib:com.salesforce"
+			 resource="com/salesforce/antlib.xml"
+			 classpath="${basedir}/ant-salesforce.jar"/>
+			 
+	<taskdef resource="net/sf/antcontrib/antlib.xml" 
+			 classpath="${basedir}/ant-contrib-1.0b3.jar"/>
+	
+	<import file="${basedir}/Deploy.xml"/>
+	
+    <!-- Setting default value for username, password and session id properties to empty string 
+         so unset values are treated as empty. Without this, ant expressions such as ${sf.username}
+         will be treated literally.
+    -->
+</project>

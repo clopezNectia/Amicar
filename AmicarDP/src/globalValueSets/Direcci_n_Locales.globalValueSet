@@ -1,0 +1,810 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>15 NORTE 1018 VIÑA DEL MAR</fullName>
+        <default>false</default>
+        <label>15 NORTE 1018 VIÑA DEL MAR</label>
+    </customValue>
+    <customValue>
+        <fullName>34 COLÓN 2537, VALPARAISO</fullName>
+        <default>false</default>
+        <label>34 COLÓN 2537, VALPARAISO</label>
+    </customValue>
+    <customValue>
+        <fullName>5 ORIENTE 204, VIÑA DEL MAR</fullName>
+        <default>false</default>
+        <label>5 ORIENTE 204, VIÑA DEL MAR</label>
+    </customValue>
+    <customValue>
+        <fullName>7 ORIENTE 1377 TALCA</fullName>
+        <default>false</default>
+        <label>7 ORIENTE 1377 TALCA</label>
+    </customValue>
+    <customValue>
+        <fullName>ALAMEDA #2488</fullName>
+        <default>false</default>
+        <label>ALAMEDA #2488</label>
+    </customValue>
+    <customValue>
+        <fullName>AMÉRICO VESPUCIO 1155, LOCAL 525, HUECHURABA</fullName>
+        <default>false</default>
+        <label>AMÉRICO VESPUCIO 1155, LOCAL 525, HUECHURABA</label>
+    </customValue>
+    <customValue>
+        <fullName>AMÉRICO VESPUCIO 1155, LOCAL 633, HUECHURABA</fullName>
+        <default>false</default>
+        <label>AMÉRICO VESPUCIO 1155, LOCAL 633, HUECHURABA</label>
+    </customValue>
+    <customValue>
+        <fullName>AMERICO VESPUCIO 1501</fullName>
+        <default>false</default>
+        <label>AMERICO VESPUCIO 1501</label>
+    </customValue>
+    <customValue>
+        <fullName>AMÉRICO VESPUCIO 1501, CERRILLOS</fullName>
+        <default>false</default>
+        <label>AMÉRICO VESPUCIO 1501, CERRILLOS</label>
+    </customValue>
+    <customValue>
+        <fullName>ARTURO PRAT 708</fullName>
+        <default>false</default>
+        <label>ARTURO PRAT 708</label>
+    </customValue>
+    <customValue>
+        <fullName>AUTOPISTA A TALCAHUANO 3310-A, CONCEPCION</fullName>
+        <default>false</default>
+        <label>AUTOPISTA A TALCAHUANO 3310-A, CONCEPCION</label>
+    </customValue>
+    <customValue>
+        <fullName>AUTOPLAZA MALL PLAZA OESTE, CERRILLOS</fullName>
+        <default>false</default>
+        <label>AUTOPLAZA MALL PLAZA OESTE, CERRILLOS</label>
+    </customValue>
+    <customValue>
+        <fullName>AV. AMERICO VESPUCIO 1155, LOCAL 629 - HUECHURABA</fullName>
+        <default>false</default>
+        <label>AV. AMERICO VESPUCIO 1155, LOCAL 629 - HUECHURABA</label>
+    </customValue>
+    <customValue>
+        <fullName>AV. AMÉRICO VESPUCIO 1737, HUECHURABA</fullName>
+        <default>false</default>
+        <label>AV. AMÉRICO VESPUCIO 1737, HUECHURABA</label>
+    </customValue>
+    <customValue>
+        <fullName>AV. AMÉRICO VESPUCIO 570, PUDAHUEL</fullName>
+        <default>false</default>
+        <label>AV. AMÉRICO VESPUCIO 570, PUDAHUEL</label>
+    </customValue>
+    <customValue>
+        <fullName>AV. AMERICO VESPUCIO NORTE 1155, HUECHURABA</fullName>
+        <default>false</default>
+        <label>AV. AMERICO VESPUCIO NORTE 1155, HUECHURABA</label>
+    </customValue>
+    <customValue>
+        <fullName>AV. AMERICO VESPUCIO NORTE 1155 LOCAL 633</fullName>
+        <default>false</default>
+        <label>AV. AMERICO VESPUCIO NORTE 1155 LOCAL 633</label>
+    </customValue>
+    <customValue>
+        <fullName>AV. AMERICO VESPUCIO NORTE 1737, HUECHURABA</fullName>
+        <default>false</default>
+        <label>AV. AMERICO VESPUCIO NORTE 1737, HUECHURABA</label>
+    </customValue>
+    <customValue>
+        <fullName>AV. BALMACEDA N°2060, LA SERENA</fullName>
+        <default>false</default>
+        <label>AV. BALMACEDA N°2060, LA SERENA</label>
+    </customValue>
+    <customValue>
+        <fullName>AV. CAMILO HENRIQUEZ # 3296- MALL PLAZA TOBALABA</fullName>
+        <default>false</default>
+        <label>AV. CAMILO HENRIQUEZ # 3296- MALL PLAZA TOBALABA</label>
+    </customValue>
+    <customValue>
+        <fullName>AV. CAMILO HENRIQUEZ # 3692</fullName>
+        <default>false</default>
+        <label>AV. CAMILO HENRIQUEZ # 3692</label>
+    </customValue>
+    <customValue>
+        <fullName>AV. FRANCISCO BILBAO 2307, PROVIDENCIA</fullName>
+        <default>false</default>
+        <label>AV. FRANCISCO BILBAO 2307, PROVIDENCIA</label>
+    </customValue>
+    <customValue>
+        <fullName>AV. FRANCISCO BILBAO 2322, PROVIDENCIA</fullName>
+        <default>false</default>
+        <label>AV. FRANCISCO BILBAO 2322, PROVIDENCIA</label>
+    </customValue>
+    <customValue>
+        <fullName>AV. GRAMADO SN, ACCESO NORTE, PUERTO VARAS</fullName>
+        <default>false</default>
+        <label>AV. GRAMADO SN, ACCESO NORTE, PUERTO VARAS</label>
+    </customValue>
+    <customValue>
+        <fullName>AV. JORGE ALESSANDRI 20040, NOS, SAN BERNARDO</fullName>
+        <default>false</default>
+        <label>AV. JORGE ALESSANDRI 20040, NOS, SAN BERNARDO</label>
+    </customValue>
+    <customValue>
+        <fullName>AV. JORGE ALESSANDRI 3177 LOCAL 104 MALL PLAZA DEL TREBOL AUTOPLAZA, CONCEPCION</fullName>
+        <default>false</default>
+        <label>AV. JORGE ALESSANDRI 3177 LOCAL 104 MALL PLAZA DEL TREBOL AUTOPLAZA, CONCEPCION</label>
+    </customValue>
+    <customValue>
+        <fullName>AV. JORGE ALESSANDRI 3177 LOCAL AP 105 MALL PLAZA DEL TREBOL AUTOPLAZA, CONCEPCION</fullName>
+        <default>false</default>
+        <label>AV. JORGE ALESSANDRI 3177 LOCAL AP 105 MALL PLAZA DEL TREBOL AUTOPLAZA, CONCEPCION</label>
+    </customValue>
+    <customValue>
+        <fullName>AV. KENNEDY 5601, LAS CONDES</fullName>
+        <default>false</default>
+        <label>AV. KENNEDY 5601, LAS CONDES</label>
+    </customValue>
+    <customValue>
+        <fullName>AV. KENNEDY 5601, PRIMER SUBTERRÁNEO, LAS CONDES</fullName>
+        <default>false</default>
+        <label>AV. KENNEDY 5601, PRIMER SUBTERRÁNEO, LAS CONDES</label>
+    </customValue>
+    <customValue>
+        <fullName>AV. LA DEHESA 1845, LO BARNECHEA</fullName>
+        <default>false</default>
+        <label>AV. LA DEHESA 1845, LO BARNECHEA</label>
+    </customValue>
+    <customValue>
+        <fullName>AV. LEON BUSTOS N° 1300</fullName>
+        <default>false</default>
+        <label>AV. LEON BUSTOS N° 1300</label>
+    </customValue>
+    <customValue>
+        <fullName>AV. MIGUEL RAMIREZ 199, RANCAGUA</fullName>
+        <default>false</default>
+        <label>AV. MIGUEL RAMIREZ 199, RANCAGUA</label>
+    </customValue>
+    <customValue>
+        <fullName>AV. PADRE HURTADO 198, LA CALERA</fullName>
+        <default>false</default>
+        <label>AV. PADRE HURTADO 198, LA CALERA</label>
+    </customValue>
+    <customValue>
+        <fullName>AV.SEMINARIO 148</fullName>
+        <default>false</default>
+        <label>AV.SEMINARIO 148</label>
+    </customValue>
+    <customValue>
+        <fullName>AV.VICUÑA MACKENNA 1454 ÑUÑOA</fullName>
+        <default>false</default>
+        <label>AV.VICUÑA MACKENNA 1454 ÑUÑOA</label>
+    </customValue>
+    <customValue>
+        <fullName>AV. VICUÑA MACKENNA 5951, LA FLORIDA</fullName>
+        <default>false</default>
+        <label>AV. VICUÑA MACKENNA 5951, LA FLORIDA</label>
+    </customValue>
+    <customValue>
+        <fullName>AV. VITACURA 5373</fullName>
+        <default>false</default>
+        <label>AV. VITACURA 5373</label>
+    </customValue>
+    <customValue>
+        <fullName>AV ALEMANIA 413</fullName>
+        <default>false</default>
+        <label>AV ALEMANIA 413</label>
+    </customValue>
+    <customValue>
+        <fullName>AV AMERICO VESPUCIO #1155 LOCAL 642</fullName>
+        <default>false</default>
+        <label>AV AMERICO VESPUCIO #1155 LOCAL 642</label>
+    </customValue>
+    <customValue>
+        <fullName>AV AMERICO VESPUCIO #1501 CERRILLOS AUTOPLAZA MALL PLAZA OESTE</fullName>
+        <default>false</default>
+        <label>AV AMERICO VESPUCIO #1501 CERRILLOS AUTOPLAZA MALL PLAZA OESTE</label>
+    </customValue>
+    <customValue>
+        <fullName>AV AMERICO VESPUCIO 1155 LOCAL 633</fullName>
+        <default>false</default>
+        <label>AV AMERICO VESPUCIO 1155 LOCAL 633</label>
+    </customValue>
+    <customValue>
+        <fullName>AV AMERICO VESPUCIO 1501, CERRILLOS, AUTOPLAZA, MALL PLAZA OESTE</fullName>
+        <default>false</default>
+        <label>AV AMERICO VESPUCIO 1501, CERRILLOS, AUTOPLAZA, MALL PLAZA OESTE</label>
+    </customValue>
+    <customValue>
+        <fullName>AV AMERICO VESPUCIO NORTE 1155 LOCAL 623 HUECHURABA, MOVICENTER</fullName>
+        <default>false</default>
+        <label>AV AMERICO VESPUCIO NORTE 1155 LOCAL 623 HUECHURABA, MOVICENTER</label>
+    </customValue>
+    <customValue>
+        <fullName>AV BALMACEDA 2353-MALL PLAZA ANTOFAGASTA</fullName>
+        <default>false</default>
+        <label>AV BALMACEDA 2353-MALL PLAZA ANTOFAGASTA</label>
+    </customValue>
+    <customValue>
+        <fullName>AV BERNARDO OHIGGINS #3470, NIVEL -1</fullName>
+        <default>false</default>
+        <label>AV BERNARDO OHIGGINS #3470, NIVEL -1</label>
+    </customValue>
+    <customValue>
+        <fullName>AVDA. AMERICO VESPUCIO 1501, CERRILLOS, AUTO PLAZA, MALL PLAZA OESTE</fullName>
+        <default>false</default>
+        <label>AVDA. AMERICO VESPUCIO 1501, CERRILLOS, AUTO PLAZA, MALL PLAZA OESTE</label>
+    </customValue>
+    <customValue>
+        <fullName>AVDA. AMERICO VESPUCIO 1501, CERRILLOS, MALL PLAZA OESTE</fullName>
+        <default>false</default>
+        <label>AVDA. AMERICO VESPUCIO 1501, CERRILLOS, MALL PLAZA OESTE</label>
+    </customValue>
+    <customValue>
+        <fullName>AVDA. AMERICO VESPUCIO NORTE # 1737, LOCAL 111-112, HUECHURABA</fullName>
+        <default>false</default>
+        <label>AVDA. AMERICO VESPUCIO NORTE # 1737, LOCAL 111-112, HUECHURABA</label>
+    </customValue>
+    <customValue>
+        <fullName>AVDA. AMERICO VESPUCIO NORTE 1155, HUECHURABA</fullName>
+        <default>false</default>
+        <label>AVDA. AMERICO VESPUCIO NORTE 1155, HUECHURABA</label>
+    </customValue>
+    <customValue>
+        <fullName>AVDA. BRASIL # 954, CHILLAN</fullName>
+        <default>false</default>
+        <label>AVDA. BRASIL # 954, CHILLAN</label>
+    </customValue>
+    <customValue>
+        <fullName>AVDA. CAMILO HENRIQUEZ 3296 AUTOPLAZA LOCAL FORTALEZA, PUENTE ALTO</fullName>
+        <default>false</default>
+        <label>AVDA. CAMILO HENRIQUEZ 3296 AUTOPLAZA LOCAL FORTALEZA, PUENTE ALTO</label>
+    </customValue>
+    <customValue>
+        <fullName>AVDA. CAMILO HENRIQUEZ 3296 AUTOPLAZA LOCAL HYUNDAI, PUENTE ALTO</fullName>
+        <default>false</default>
+        <label>AVDA. CAMILO HENRIQUEZ 3296 AUTOPLAZA LOCAL HYUNDAI, PUENTE ALTO</label>
+    </customValue>
+    <customValue>
+        <fullName>AVDA. DEPARTAMENTAL 4500</fullName>
+        <default>false</default>
+        <label>AVDA. DEPARTAMENTAL 4500</label>
+    </customValue>
+    <customValue>
+        <fullName>AVDA. FRANCISCO BILBAO #2307</fullName>
+        <default>false</default>
+        <label>AVDA. FRANCISCO BILBAO #2307</label>
+    </customValue>
+    <customValue>
+        <fullName>AVDA. GLADYS MARIN 6716, EX PAJARITOS</fullName>
+        <default>false</default>
+        <label>AVDA. GLADYS MARIN 6716, EX PAJARITOS</label>
+    </customValue>
+    <customValue>
+        <fullName>AVDA. JORGE ALESSANDRI # 3177, LOCAL 105 , TALCAHUANO</fullName>
+        <default>false</default>
+        <label>AVDA. JORGE ALESSANDRI # 3177, LOCAL 105 , TALCAHUANO</label>
+    </customValue>
+    <customValue>
+        <fullName>AVDA. LARRAIN # 5862, LOCAL #1044 Y #1060, LA REINA</fullName>
+        <default>false</default>
+        <label>AVDA. LARRAIN # 5862, LOCAL #1044 Y #1060, LA REINA</label>
+    </customValue>
+    <customValue>
+        <fullName>AVDA. OGANA 1157 COYHAIQUE, AYSÉN</fullName>
+        <default>false</default>
+        <label>AVDA. OGANA 1157 COYHAIQUE, AYSÉN</label>
+    </customValue>
+    <customValue>
+        <fullName>AVDA. PANAMERICANA NORTE # 1410 - CASTRO</fullName>
+        <default>false</default>
+        <label>AVDA. PANAMERICANA NORTE # 1410 - CASTRO</label>
+    </customValue>
+    <customValue>
+        <fullName>AVDA. PICARTE # 935, VALDIVIA</fullName>
+        <default>false</default>
+        <label>AVDA. PICARTE # 935, VALDIVIA</label>
+    </customValue>
+    <customValue>
+        <fullName>AVDA. PRESIDENTE JORGE ALESSANDRI RODRIGUEZ #20040, SAN BERNARDO</fullName>
+        <default>false</default>
+        <label>AVDA. PRESIDENTE JORGE ALESSANDRI RODRIGUEZ #20040, SAN BERNARDO</label>
+    </customValue>
+    <customValue>
+        <fullName>AVDA. TABANCURA 1375</fullName>
+        <default>false</default>
+        <label>AVDA. TABANCURA 1375</label>
+    </customValue>
+    <customValue>
+        <fullName>AVDA ANIBAL LEON BUSTOS N°50</fullName>
+        <default>false</default>
+        <label>AVDA ANIBAL LEON BUSTOS N°50</label>
+    </customValue>
+    <customValue>
+        <fullName>AVDA LAS CONDES #11000</fullName>
+        <default>false</default>
+        <label>AVDA LAS CONDES #11000</label>
+    </customValue>
+    <customValue>
+        <fullName>AVDA VICUÑA MACKENA ORIENTE 7110 (AUTO PLAZA, CHINOS) MALL VESPUCIO.</fullName>
+        <default>false</default>
+        <label>AVDA VICUÑA MACKENA ORIENTE 7110 (AUTO PLAZA, CHINOS) MALL VESPUCIO.</label>
+    </customValue>
+    <customValue>
+        <fullName>AV DEPARTAMENTAL #4500</fullName>
+        <default>false</default>
+        <label>AV DEPARTAMENTAL #4500</label>
+    </customValue>
+    <customValue>
+        <fullName>AVENIDA BELLAVISTA 0790 PROVIDENCIA</fullName>
+        <default>false</default>
+        <label>AVENIDA BELLAVISTA 0790 PROVIDENCIA</label>
+    </customValue>
+    <customValue>
+        <fullName>AVENIDA FRANCISCO BILBAO 2669</fullName>
+        <default>false</default>
+        <label>AVENIDA FRANCISCO BILBAO 2669</label>
+    </customValue>
+    <customValue>
+        <fullName>AVENIDA FRANCISCO DE AGUIRRE 02, LOCAL HYUNDAI AUTOSHOPPING LA SERENA </fullName>
+        <default>false</default>
+        <label>AVENIDA FRANCISCO DE AGUIRRE 02, LOCAL HYUNDAI AUTOSHOPPING LA SERENA </label>
+    </customValue>
+    <customValue>
+        <fullName>AVENIDA FRANCISCO DE AGUIRRE 02 MALL PUERTAS DEL MAR LOCAL DERCO VALENTINI AUTOSHOOPPING, LA SERENA</fullName>
+        <default>false</default>
+        <label>AVENIDA FRANCISCO DE AGUIRRE 02 MALL PUERTAS DEL MAR LOCAL DERCO VALENTINI AUTOSHOOPPING, LA SERENA</label>
+    </customValue>
+    <customValue>
+        <fullName>AVENIDA JORGE ALESSANDRI 20040, SAN BERNARDO</fullName>
+        <default>false</default>
+        <label>AVENIDA JORGE ALESSANDRI 20040, SAN BERNARDO</label>
+    </customValue>
+    <customValue>
+        <fullName>AVENIDA KENNEDY 9370</fullName>
+        <default>false</default>
+        <label>AVENIDA KENNEDY 9370</label>
+    </customValue>
+    <customValue>
+        <fullName>AVENIDA LAS CONDES 12907</fullName>
+        <default>false</default>
+        <label>AVENIDA LAS CONDES 12907</label>
+    </customValue>
+    <customValue>
+        <fullName>AVENIDA SAN MIGUEL 3010, TALCA</fullName>
+        <default>false</default>
+        <label>AVENIDA SAN MIGUEL 3010, TALCA</label>
+    </customValue>
+    <customValue>
+        <fullName>AVENIDA SAN MIGUEL 3385</fullName>
+        <default>false</default>
+        <label>AVENIDA SAN MIGUEL 3385</label>
+    </customValue>
+    <customValue>
+        <fullName>AVENIDA VICUÑA MACKENA 7110, LOCAL MAZDA</fullName>
+        <default>false</default>
+        <label>AVENIDA VICUÑA MACKENA 7110, LOCAL MAZDA</label>
+    </customValue>
+    <customValue>
+        <fullName>AV FREIRE 2414 PORTAL EL BELLOTO LOCAL 1009</fullName>
+        <default>false</default>
+        <label>AV FREIRE 2414 PORTAL EL BELLOTO LOCAL 1009</label>
+    </customValue>
+    <customValue>
+        <fullName>AV GRANADEROS 3332</fullName>
+        <default>false</default>
+        <label>AV GRANADEROS 3332</label>
+    </customValue>
+    <customValue>
+        <fullName>AV IGNACIO CARRERA PINTO 284</fullName>
+        <default>false</default>
+        <label>AV IGNACIO CARRERA PINTO 284</label>
+    </customValue>
+    <customValue>
+        <fullName>AV IRARRAZABAL 1195</fullName>
+        <default>false</default>
+        <label>AV IRARRAZABAL 1195</label>
+    </customValue>
+    <customValue>
+        <fullName>AV JOSE MIGUEL CARRERA 7665</fullName>
+        <default>false</default>
+        <label>AV JOSE MIGUEL CARRERA 7665</label>
+    </customValue>
+    <customValue>
+        <fullName>AV OSSA #2345</fullName>
+        <default>false</default>
+        <label>AV OSSA #2345</label>
+    </customValue>
+    <customValue>
+        <fullName>AV PEDRO AGUIRRE CERDA 5007</fullName>
+        <default>false</default>
+        <label>AV PEDRO AGUIRRE CERDA 5007</label>
+    </customValue>
+    <customValue>
+        <fullName>AV VIDELA 335, COQUIMBO</fullName>
+        <default>false</default>
+        <label>AV VIDELA 335, COQUIMBO</label>
+    </customValue>
+    <customValue>
+        <fullName>BALMACEDA #150</fullName>
+        <default>false</default>
+        <label>BALMACEDA #150</label>
+    </customValue>
+    <customValue>
+        <fullName>BALMACEDA 2060, LA SERENA</fullName>
+        <default>false</default>
+        <label>BALMACEDA 2060, LA SERENA</label>
+    </customValue>
+    <customValue>
+        <fullName>BALMACEDA 2355. MALL PLAZA , AUTO PLAZA</fullName>
+        <default>false</default>
+        <label>BALMACEDA 2355. MALL PLAZA , AUTO PLAZA</label>
+    </customValue>
+    <customValue>
+        <fullName>BALMACEDA 2595</fullName>
+        <default>false</default>
+        <label>BALMACEDA 2595</label>
+    </customValue>
+    <customValue>
+        <fullName>BAQUEDANO 12, RANCAGUA</fullName>
+        <default>false</default>
+        <label>BAQUEDANO 12, RANCAGUA</label>
+    </customValue>
+    <customValue>
+        <fullName>BILBAO # 801, OSORNO</fullName>
+        <default>false</default>
+        <label>BILBAO # 801, OSORNO</label>
+    </customValue>
+    <customValue>
+        <fullName>BILBAO 801</fullName>
+        <default>false</default>
+        <label>BILBAO 801</label>
+    </customValue>
+    <customValue>
+        <fullName>CALETERA PANAMERICANA SUR 554, PUERTO MONTT</fullName>
+        <default>false</default>
+        <label>CALETERA PANAMERICANA SUR 554, PUERTO MONTT</label>
+    </customValue>
+    <customValue>
+        <fullName>CALLE BENAVENTE 1075, LOCAL 1025 |OPEN PLAZA</fullName>
+        <default>false</default>
+        <label>CALLE BENAVENTE 1075, LOCAL 1025 |OPEN PLAZA</label>
+    </customValue>
+    <customValue>
+        <fullName>CALLE QUILLOTA #766, VIÑA DEL MAR</fullName>
+        <default>false</default>
+        <label>CALLE QUILLOTA #766, VIÑA DEL MAR</label>
+    </customValue>
+    <customValue>
+        <fullName>CAMINO A MELIPILLA #11611</fullName>
+        <default>false</default>
+        <label>CAMINO A MELIPILLA #11611</label>
+    </customValue>
+    <customValue>
+        <fullName>CAMINO LONQUEN 8981 CERRILLOS</fullName>
+        <default>false</default>
+        <label>CAMINO LONQUEN 8981 CERRILLOS</label>
+    </customValue>
+    <customValue>
+        <fullName>CAUPOLICÁN 963, LA CALERA</fullName>
+        <default>false</default>
+        <label>CAUPOLICÁN 963, LA CALERA</label>
+    </customValue>
+    <customValue>
+        <fullName>CHACABUCO # 235, SAN FELIPE</fullName>
+        <default>false</default>
+        <label>CHACABUCO # 235, SAN FELIPE</label>
+    </customValue>
+    <customValue>
+        <fullName>CHACABUCO #255</fullName>
+        <default>false</default>
+        <label>CHACABUCO #255</label>
+    </customValue>
+    <customValue>
+        <fullName>CHACABUCO # 725, COPIAPÓ</fullName>
+        <default>false</default>
+        <label>CHACABUCO # 725, COPIAPÓ</label>
+    </customValue>
+    <customValue>
+        <fullName>COLÓN 2537, VALPARAISO</fullName>
+        <default>false</default>
+        <label>COLÓN 2537, VALPARAISO</label>
+    </customValue>
+    <customValue>
+        <fullName>CURIFOR - LINDEROS BUIN</fullName>
+        <default>false</default>
+        <label>CURIFOR - LINDEROS BUIN</label>
+    </customValue>
+    <customValue>
+        <fullName>EDMUNDO PÉREZ ZUJOVIC 5740</fullName>
+        <default>false</default>
+        <label>EDMUNDO PÉREZ ZUJOVIC 5740</label>
+    </customValue>
+    <customValue>
+        <fullName>EDMUNDO PÉREZ ZUJOVIC 6274</fullName>
+        <default>false</default>
+        <label>EDMUNDO PÉREZ ZUJOVIC 6274</label>
+    </customValue>
+    <customValue>
+        <fullName>EGAÑA 405, PUERTO MONTT</fullName>
+        <default>false</default>
+        <label>EGAÑA 405, PUERTO MONTT</label>
+    </customValue>
+    <customValue>
+        <fullName>FREIRE #2050 BELLOTO</fullName>
+        <default>false</default>
+        <label>FREIRE #2050 BELLOTO</label>
+    </customValue>
+    <customValue>
+        <fullName>FREIRE 1020</fullName>
+        <default>false</default>
+        <label>FREIRE 1020</label>
+    </customValue>
+    <customValue>
+        <fullName>GRAL BAQUEDANO 131</fullName>
+        <default>false</default>
+        <label>GRAL BAQUEDANO 131</label>
+    </customValue>
+    <customValue>
+        <fullName>GRANADEROS 3685</fullName>
+        <default>false</default>
+        <label>GRANADEROS 3685</label>
+    </customValue>
+    <customValue>
+        <fullName>HEROES DE LA CONCEPCION 2555, LOCAL 144, IQUIQUE.</fullName>
+        <default>false</default>
+        <label>HEROES DE LA CONCEPCION 2555, LOCAL 144, IQUIQUE.</label>
+    </customValue>
+    <customValue>
+        <fullName>HOSCHTETER 1070 TEMUCO</fullName>
+        <default>false</default>
+        <label>HOSCHTETER 1070 TEMUCO</label>
+    </customValue>
+    <customValue>
+        <fullName>HOSCHTETTER 1070</fullName>
+        <default>false</default>
+        <label>HOSCHTETTER 1070</label>
+    </customValue>
+    <customValue>
+        <fullName>IRARRAZABAL #4790</fullName>
+        <default>false</default>
+        <label>IRARRAZABAL #4790</label>
+    </customValue>
+    <customValue>
+        <fullName>IRARRÁZABAL 2223, ÑUÑOA</fullName>
+        <default>false</default>
+        <label>IRARRÁZABAL 2223, ÑUÑOA</label>
+    </customValue>
+    <customValue>
+        <fullName>IRARRAZABAL 401, NUÑOA</fullName>
+        <default>false</default>
+        <label>IRARRAZABAL 401, NUÑOA</label>
+    </customValue>
+    <customValue>
+        <fullName>IRARRAZABAL 577, ÑUÑOA</fullName>
+        <default>false</default>
+        <label>IRARRAZABAL 577, ÑUÑOA</label>
+    </customValue>
+    <customValue>
+        <fullName>JOSE MIGUEL CARRERA # 56, METRO LOS HÉROES</fullName>
+        <default>false</default>
+        <label>JOSE MIGUEL CARRERA # 56, METRO LOS HÉROES</label>
+    </customValue>
+    <customValue>
+        <fullName>LONGITUDINAL RUTA 5 SUR N 3290, PARCELA 1 Y 2</fullName>
+        <default>false</default>
+        <label>LONGITUDINAL RUTA 5 SUR N 3290, PARCELA 1 Y 2</label>
+    </customValue>
+    <customValue>
+        <fullName>LONGITUDINAL SUR, KILOMETRO # 191, CRUCE LOS NICHES</fullName>
+        <default>false</default>
+        <label>LONGITUDINAL SUR, KILOMETRO # 191, CRUCE LOS NICHES</label>
+    </customValue>
+    <customValue>
+        <fullName>LONGITUDINAL SUR KM. 191, CRUCE LOS NICHES, CURICÓ.</fullName>
+        <default>false</default>
+        <label>LONGITUDINAL SUR KM. 191, CRUCE LOS NICHES, CURICÓ.</label>
+    </customValue>
+    <customValue>
+        <fullName>LONGITUDINAL SUR KM. 508</fullName>
+        <default>false</default>
+        <label>LONGITUDINAL SUR KM. 508</label>
+    </customValue>
+    <customValue>
+        <fullName>LONGITUDINAL SUR KM 186,5 ROMERAL</fullName>
+        <default>false</default>
+        <label>LONGITUDINAL SUR KM 186,5 ROMERAL</label>
+    </customValue>
+    <customValue>
+        <fullName>MALL PLAZA OESTE</fullName>
+        <default>false</default>
+        <label>MALL PLAZA OESTE</label>
+    </customValue>
+    <customValue>
+        <fullName>MANUEL RODRIGUEZ # 1265 - SAN FERNANDO</fullName>
+        <default>false</default>
+        <label>MANUEL RODRIGUEZ # 1265 - SAN FERNANDO</label>
+    </customValue>
+    <customValue>
+        <fullName>O´HIGGINS 0250</fullName>
+        <default>false</default>
+        <label>O´HIGGINS 0250</label>
+    </customValue>
+    <customValue>
+        <fullName>O´HIGGINS 768 CHILLÁN</fullName>
+        <default>false</default>
+        <label>O´HIGGINS 768 CHILLÁN</label>
+    </customValue>
+    <customValue>
+        <fullName>O&apos;HIGGINS #302, TEMUCO</fullName>
+        <default>false</default>
+        <label>O&apos;HIGGINS #302, TEMUCO</label>
+    </customValue>
+    <customValue>
+        <fullName>O&apos;HIGGINS #36</fullName>
+        <default>false</default>
+        <label>O&apos;HIGGINS #36</label>
+    </customValue>
+    <customValue>
+        <fullName>O&apos;HIGGINS # 768, CHILLAN</fullName>
+        <default>false</default>
+        <label>O&apos;HIGGINS # 768, CHILLAN</label>
+    </customValue>
+    <customValue>
+        <fullName>OBISPO LABBE 151</fullName>
+        <default>false</default>
+        <label>OBISPO LABBE 151</label>
+    </customValue>
+    <customValue>
+        <fullName>PAICAVÍ # 2613 - CONCEPCIÓN</fullName>
+        <default>false</default>
+        <label>PAICAVÍ # 2613 - CONCEPCIÓN</label>
+    </customValue>
+    <customValue>
+        <fullName>PAICAVI 2222, CONCEPCION</fullName>
+        <default>false</default>
+        <label>PAICAVI 2222, CONCEPCION</label>
+    </customValue>
+    <customValue>
+        <fullName>PAICAVI 2613 CONCEPCION</fullName>
+        <default>false</default>
+        <label>PAICAVI 2613 CONCEPCION</label>
+    </customValue>
+    <customValue>
+        <fullName>PAICAVI 2770</fullName>
+        <default>false</default>
+        <label>PAICAVI 2770</label>
+    </customValue>
+    <customValue>
+        <fullName>PANAMERICANA NORTE 461</fullName>
+        <default>false</default>
+        <label>PANAMERICANA NORTE 461</label>
+    </customValue>
+    <customValue>
+        <fullName>PARAGUAY #037</fullName>
+        <default>false</default>
+        <label>PARAGUAY #037</label>
+    </customValue>
+    <customValue>
+        <fullName>PEDRO AGUIRRE CERDA # 206 - VALDIVIA.</fullName>
+        <default>false</default>
+        <label>PEDRO AGUIRRE CERDA # 206 - VALDIVIA.</label>
+    </customValue>
+    <customValue>
+        <fullName>PEDRO AGUIRRE CERDA 9400 BOULEVARD, ANTOFAGASTA</fullName>
+        <default>false</default>
+        <label>PEDRO AGUIRRE CERDA 9400 BOULEVARD, ANTOFAGASTA</label>
+    </customValue>
+    <customValue>
+        <fullName>PLAZA VESPUCIO MAZDA/RENAULT/SMSG/GW</fullName>
+        <default>false</default>
+        <label>PLAZA VESPUCIO MAZDA/RENAULT/SMSG/GW</label>
+    </customValue>
+    <customValue>
+        <fullName>PORTALES 501</fullName>
+        <default>false</default>
+        <label>PORTALES 501</label>
+    </customValue>
+    <customValue>
+        <fullName>PROVIDENCIA # 2191, SAN ANTONIO</fullName>
+        <default>false</default>
+        <label>PROVIDENCIA # 2191, SAN ANTONIO</label>
+    </customValue>
+    <customValue>
+        <fullName>QUILLOTA 335, VIÑA DEL MAR</fullName>
+        <default>false</default>
+        <label>QUILLOTA 335, VIÑA DEL MAR</label>
+    </customValue>
+    <customValue>
+        <fullName>QUILLOTA 795, VIÑA DEL MAR</fullName>
+        <default>false</default>
+        <label>QUILLOTA 795, VIÑA DEL MAR</label>
+    </customValue>
+    <customValue>
+        <fullName>RENGIFO #474, ESQUINA GUILLERMO GALLARDO</fullName>
+        <default>false</default>
+        <label>RENGIFO #474, ESQUINA GUILLERMO GALLARDO</label>
+    </customValue>
+    <customValue>
+        <fullName>RODRIGUEZ 350</fullName>
+        <default>false</default>
+        <label>RODRIGUEZ 350</label>
+    </customValue>
+    <customValue>
+        <fullName>SAN MARTIN 656</fullName>
+        <default>false</default>
+        <label>SAN MARTIN 656</label>
+    </customValue>
+    <customValue>
+        <fullName>SANTA MARIA #691</fullName>
+        <default>false</default>
+        <label>SANTA MARIA #691</label>
+    </customValue>
+    <customValue>
+        <fullName>SANTA MARÍA 691, PUERTO MONTT</fullName>
+        <default>false</default>
+        <label>SANTA MARÍA 691, PUERTO MONTT</label>
+    </customValue>
+    <customValue>
+        <fullName>SEMINARIO 592, PROVIDENCIA</fullName>
+        <default>false</default>
+        <label>SEMINARIO 592, PROVIDENCIA</label>
+    </customValue>
+    <customValue>
+        <fullName>SITIO 14 MANZANA 14 ZONA FRANCA</fullName>
+        <default>false</default>
+        <label>SITIO 14 MANZANA 14 ZONA FRANCA</label>
+    </customValue>
+    <customValue>
+        <fullName>TUCAPEL #771</fullName>
+        <default>false</default>
+        <label>TUCAPEL #771</label>
+    </customValue>
+    <customValue>
+        <fullName>VALENTIN LETELIER #514</fullName>
+        <default>false</default>
+        <label>VALENTIN LETELIER #514</label>
+    </customValue>
+    <customValue>
+        <fullName>VALENTIN LETELIER #515</fullName>
+        <default>false</default>
+        <label>VALENTIN LETELIER #515</label>
+    </customValue>
+    <customValue>
+        <fullName>VALENTIN LETELIER #516</fullName>
+        <default>false</default>
+        <label>VALENTIN LETELIER #516</label>
+    </customValue>
+    <customValue>
+        <fullName>VALENTIN LETELIER #517</fullName>
+        <default>false</default>
+        <label>VALENTIN LETELIER #517</label>
+    </customValue>
+    <customValue>
+        <fullName>VALENTIN LETELIER #518</fullName>
+        <default>false</default>
+        <label>VALENTIN LETELIER #518</label>
+    </customValue>
+    <customValue>
+        <fullName>VALENTIN LETELIER #519</fullName>
+        <default>false</default>
+        <label>VALENTIN LETELIER #519</label>
+    </customValue>
+    <customValue>
+        <fullName>VALENTIN LETELIER #520</fullName>
+        <default>false</default>
+        <label>VALENTIN LETELIER #520</label>
+    </customValue>
+    <customValue>
+        <fullName>VICUÑA MACKENNA # 1500, OVALLE</fullName>
+        <default>false</default>
+        <label>VICUÑA MACKENNA # 1500, OVALLE</label>
+    </customValue>
+    <customValue>
+        <fullName>VICUÑA MACKENNA 7110, AUTO PLAZA, MALL PLAZA VESPUCIO</fullName>
+        <default>false</default>
+        <label>VICUÑA MACKENNA 7110, AUTO PLAZA, MALL PLAZA VESPUCIO</label>
+    </customValue>
+    <customValue>
+        <fullName>VICUÑA MACKENNA OTE 7110LOCALES 114 Y 115</fullName>
+        <default>false</default>
+        <label>VICUÑA MACKENNA OTE 7110LOCALES 114 Y 115</label>
+    </customValue>
+    <masterLabel>Dirección Locales</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

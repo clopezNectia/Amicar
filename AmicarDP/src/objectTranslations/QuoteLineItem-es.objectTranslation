@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Partida de simulación</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Partidas de simulaciones</value>
+    </caseValues>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Divisa de partida de simulación</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>quotelineitem_currency</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Descripción de simulación</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>quotelineitem_description</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>División de partida de simulación</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>quotelineitem_division</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Campo de partida de simulación</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Campos de partidas de simulación</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>quotelineitem_field</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Id. de partida de simulación</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>quotelineitem_id</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Información de partida de simulación</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>quotelineitem_information</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Número de simulación</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>quotelineitem_name</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Informe de partidas de simulaicón y solicitudes con simulación</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>quotelineitem_report</name>
+    </fields>
+    <gender>Feminine</gender>
+</CustomObjectTranslation>

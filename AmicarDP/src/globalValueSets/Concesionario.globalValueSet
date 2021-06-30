@@ -1,0 +1,660 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>AG MOTOS</fullName>
+        <default>false</default>
+        <label>AG MOTOS</label>
+    </customValue>
+    <customValue>
+        <fullName>ALPINO AUTOS</fullName>
+        <default>false</default>
+        <label>ALPINO AUTOS</label>
+    </customValue>
+    <customValue>
+        <fullName>ANFRUNS MOTORS</fullName>
+        <default>false</default>
+        <label>ANFRUNS MOTORS</label>
+    </customValue>
+    <customValue>
+        <fullName>ANFRUNS Y CIA. LTDA. (STGO)</fullName>
+        <default>false</default>
+        <label>ANFRUNS Y CIA. LTDA. (STGO)</label>
+    </customValue>
+    <customValue>
+        <fullName>ANSA</fullName>
+        <default>false</default>
+        <label>ANSA</label>
+    </customValue>
+    <customValue>
+        <fullName>ASPILLAGA Y HORNAUER</fullName>
+        <default>false</default>
+        <label>ASPILLAGA Y HORNAUER</label>
+    </customValue>
+    <customValue>
+        <fullName>ATLANTIC MOTORS</fullName>
+        <default>false</default>
+        <label>ATLANTIC MOTORS</label>
+    </customValue>
+    <customValue>
+        <fullName>AUTO360</fullName>
+        <default>false</default>
+        <label>AUTO360</label>
+    </customValue>
+    <customValue>
+        <fullName>AUTOCARGO</fullName>
+        <default>false</default>
+        <label>AUTOCARGO</label>
+    </customValue>
+    <customValue>
+        <fullName>AUTOCASTILLO</fullName>
+        <default>false</default>
+        <label>AUTOCASTILLO</label>
+    </customValue>
+    <customValue>
+        <fullName>AUTOCENTRO NICOLAS</fullName>
+        <default>false</default>
+        <label>AUTOCENTRO NICOLAS</label>
+    </customValue>
+    <customValue>
+        <fullName>AUTOCORP</fullName>
+        <default>false</default>
+        <label>AUTOCORP</label>
+    </customValue>
+    <customValue>
+        <fullName>AUTOFRANCE</fullName>
+        <default>false</default>
+        <label>AUTOFRANCE</label>
+    </customValue>
+    <customValue>
+        <fullName>AUTOMARKET</fullName>
+        <default>false</default>
+        <label>AUTOMARKET</label>
+    </customValue>
+    <customValue>
+        <fullName>AUTOMOTORA ARAUCO</fullName>
+        <default>false</default>
+        <label>AUTOMOTORA ARAUCO</label>
+    </customValue>
+    <customValue>
+        <fullName>AUTOMOTORA BILBAO</fullName>
+        <default>false</default>
+        <label>AUTOMOTORA BILBAO</label>
+    </customValue>
+    <customValue>
+        <fullName>AUTOMOTORA FRANCIA</fullName>
+        <default>false</default>
+        <label>AUTOMOTORA FRANCIA</label>
+    </customValue>
+    <customValue>
+        <fullName>AUTOMOTORA JORGE PLAZA OLGUIN</fullName>
+        <default>false</default>
+        <label>AUTOMOTORA JORGE PLAZA OLGUIN</label>
+    </customValue>
+    <customValue>
+        <fullName>AUTOMOTORA PUIG</fullName>
+        <default>false</default>
+        <label>AUTOMOTORA PUIG</label>
+    </customValue>
+    <customValue>
+        <fullName>AUTOMOTORA SANTO TOMAS</fullName>
+        <default>false</default>
+        <label>AUTOMOTORA SANTO TOMAS</label>
+    </customValue>
+    <customValue>
+        <fullName>AUTOMOTORES GILDEMEISTER</fullName>
+        <default>false</default>
+        <label>AUTOMOTORES GILDEMEISTER</label>
+    </customValue>
+    <customValue>
+        <fullName>AUTOMOTRIZ COVEMA</fullName>
+        <default>false</default>
+        <label>AUTOMOTRIZ COVEMA</label>
+    </customValue>
+    <customValue>
+        <fullName>AUTOMOTRIZ ONLINE</fullName>
+        <default>false</default>
+        <label>AUTOMOTRIZ ONLINE</label>
+    </customValue>
+    <customValue>
+        <fullName>AUTOPIA</fullName>
+        <default>false</default>
+        <label>AUTOPIA</label>
+    </customValue>
+    <customValue>
+        <fullName>AUTOSHOPPING</fullName>
+        <default>false</default>
+        <label>AUTOSHOPPING</label>
+    </customValue>
+    <customValue>
+        <fullName>AUTOSTOP</fullName>
+        <default>false</default>
+        <label>AUTOSTOP</label>
+    </customValue>
+    <customValue>
+        <fullName>AUTOS YUSIC</fullName>
+        <default>false</default>
+        <label>AUTOS YUSIC</label>
+    </customValue>
+    <customValue>
+        <fullName>AUTOVIR</fullName>
+        <default>false</default>
+        <label>AUTOVIR</label>
+    </customValue>
+    <customValue>
+        <fullName>BAUER</fullName>
+        <default>false</default>
+        <label>BAUER</label>
+    </customValue>
+    <customValue>
+        <fullName>BRUNO FRITSCH</fullName>
+        <default>false</default>
+        <label>BRUNO FRITSCH</label>
+    </customValue>
+    <customValue>
+        <fullName>CARLOS DUMAY</fullName>
+        <default>false</default>
+        <label>CARLOS DUMAY</label>
+    </customValue>
+    <customValue>
+        <fullName>CARMEISTER</fullName>
+        <default>false</default>
+        <label>CARMEISTER</label>
+    </customValue>
+    <customValue>
+        <fullName>CARRERA</fullName>
+        <default>false</default>
+        <label>CARRERA</label>
+    </customValue>
+    <customValue>
+        <fullName>CAVAL</fullName>
+        <default>false</default>
+        <label>CAVAL</label>
+    </customValue>
+    <customValue>
+        <fullName>CENTRAL CAR S.A.</fullName>
+        <default>false</default>
+        <label>CENTRAL CAR S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>CHAMY HNOS.</fullName>
+        <default>false</default>
+        <label>CHAMY HNOS.</label>
+    </customValue>
+    <customValue>
+        <fullName>CHILOE MOTORES</fullName>
+        <default>false</default>
+        <label>CHILOE MOTORES</label>
+    </customValue>
+    <customValue>
+        <fullName>CICLOMOTO</fullName>
+        <default>false</default>
+        <label>CICLOMOTO</label>
+    </customValue>
+    <customValue>
+        <fullName>CIRCULO</fullName>
+        <default>false</default>
+        <label>CIRCULO</label>
+    </customValue>
+    <customValue>
+        <fullName>CITROEN BELLAVISTA</fullName>
+        <default>false</default>
+        <label>CITROEN BELLAVISTA</label>
+    </customValue>
+    <customValue>
+        <fullName>COMERCIAL ANFRUNS (RANCAGUA)</fullName>
+        <default>false</default>
+        <label>COMERCIAL ANFRUNS (RANCAGUA)</label>
+    </customValue>
+    <customValue>
+        <fullName>COMERCIAL ERRAZURIZ</fullName>
+        <default>false</default>
+        <label>COMERCIAL ERRAZURIZ</label>
+    </customValue>
+    <customValue>
+        <fullName>COMERCIAL VALENTINI</fullName>
+        <default>false</default>
+        <label>COMERCIAL VALENTINI</label>
+    </customValue>
+    <customValue>
+        <fullName>CONCESIONARIO GENERICO</fullName>
+        <default>false</default>
+        <label>CONCESIONARIO GENERICO</label>
+    </customValue>
+    <customValue>
+        <fullName>CORDERO</fullName>
+        <default>false</default>
+        <label>CORDERO</label>
+    </customValue>
+    <customValue>
+        <fullName>COVALSA (AG)</fullName>
+        <default>false</default>
+        <label>COVALSA (AG)</label>
+    </customValue>
+    <customValue>
+        <fullName>COVALSA (DERCO)</fullName>
+        <default>false</default>
+        <label>COVALSA (DERCO)</label>
+    </customValue>
+    <customValue>
+        <fullName>COZ</fullName>
+        <default>false</default>
+        <label>COZ</label>
+    </customValue>
+    <customValue>
+        <fullName>CURIFOR</fullName>
+        <default>false</default>
+        <label>CURIFOR</label>
+    </customValue>
+    <customValue>
+        <fullName>DECAR S.A</fullName>
+        <default>false</default>
+        <label>DECAR S.A</label>
+    </customValue>
+    <customValue>
+        <fullName>DEMOTORES</fullName>
+        <default>false</default>
+        <label>DEMOTORES</label>
+    </customValue>
+    <customValue>
+        <fullName>DEPETRIS</fullName>
+        <default>false</default>
+        <label>DEPETRIS</label>
+    </customValue>
+    <customValue>
+        <fullName>DERCOMAQ</fullName>
+        <default>false</default>
+        <label>DERCOMAQ</label>
+    </customValue>
+    <customValue>
+        <fullName>DERCO MOTOS</fullName>
+        <default>false</default>
+        <label>DERCO MOTOS</label>
+    </customValue>
+    <customValue>
+        <fullName>DERCO S.A.</fullName>
+        <default>false</default>
+        <label>DERCO S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>DERCO USADOS</fullName>
+        <default>false</default>
+        <label>DERCO USADOS</label>
+    </customValue>
+    <customValue>
+        <fullName>DERCO VITACURA</fullName>
+        <default>false</default>
+        <label>DERCO VITACURA</label>
+    </customValue>
+    <customValue>
+        <fullName>DOLOMITI</fullName>
+        <default>false</default>
+        <label>DOLOMITI</label>
+    </customValue>
+    <customValue>
+        <fullName>ELECTRODIESEL</fullName>
+        <default>false</default>
+        <label>ELECTRODIESEL</label>
+    </customValue>
+    <customValue>
+        <fullName>EXEQUIEL BERRIOS</fullName>
+        <default>false</default>
+        <label>EXEQUIEL BERRIOS</label>
+    </customValue>
+    <customValue>
+        <fullName>FORTALEZA</fullName>
+        <default>false</default>
+        <label>FORTALEZA</label>
+    </customValue>
+    <customValue>
+        <fullName>FORTALEZA CAMIONES</fullName>
+        <default>false</default>
+        <label>FORTALEZA CAMIONES</label>
+    </customValue>
+    <customValue>
+        <fullName>FULL MOTO</fullName>
+        <default>false</default>
+        <label>FULL MOTO</label>
+    </customValue>
+    <customValue>
+        <fullName>GCL SOTTA S.A.</fullName>
+        <default>false</default>
+        <label>GCL SOTTA S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>GIDI</fullName>
+        <default>false</default>
+        <label>GIDI</label>
+    </customValue>
+    <customValue>
+        <fullName>GONZALO CARMONA</fullName>
+        <default>false</default>
+        <label>GONZALO CARMONA</label>
+    </customValue>
+    <customValue>
+        <fullName>GUILLERMO MORALES</fullName>
+        <default>false</default>
+        <label>GUILLERMO MORALES</label>
+    </customValue>
+    <customValue>
+        <fullName>GUSTAVO SAAVEDRA</fullName>
+        <default>false</default>
+        <label>GUSTAVO SAAVEDRA</label>
+    </customValue>
+    <customValue>
+        <fullName>69</fullName>
+        <default>false</default>
+        <label>HERNANDEZ MOTORES</label>
+    </customValue>
+    <customValue>
+        <fullName>INVERSIONES DON ALBERTO Y CIA LTDA</fullName>
+        <default>false</default>
+        <label>INVERSIONES DON ALBERTO Y CIA LTDA</label>
+    </customValue>
+    <customValue>
+        <fullName>IRARRAZABAL</fullName>
+        <default>false</default>
+        <label>IRARRAZABAL</label>
+    </customValue>
+    <customValue>
+        <fullName>JESÚS PONS Y COMPAÑÍA</fullName>
+        <default>false</default>
+        <label>JESÚS PONS Y COMPAÑÍA</label>
+    </customValue>
+    <customValue>
+        <fullName>KENNEDY</fullName>
+        <default>false</default>
+        <label>KENNEDY</label>
+    </customValue>
+    <customValue>
+        <fullName>LABBE</fullName>
+        <default>false</default>
+        <label>LABBE</label>
+    </customValue>
+    <customValue>
+        <fullName>LADA CHILE</fullName>
+        <default>false</default>
+        <label>LADA CHILE</label>
+    </customValue>
+    <customValue>
+        <fullName>LA DEHESA</fullName>
+        <default>false</default>
+        <label>LA DEHESA</label>
+    </customValue>
+    <customValue>
+        <fullName>LAS CONDES</fullName>
+        <default>false</default>
+        <label>LAS CONDES</label>
+    </customValue>
+    <customValue>
+        <fullName>78</fullName>
+        <default>false</default>
+        <label>LIRA LARRAIN</label>
+    </customValue>
+    <customValue>
+        <fullName>M&amp;L</fullName>
+        <default>false</default>
+        <label>M&amp;L</label>
+    </customValue>
+    <customValue>
+        <fullName>MANASA</fullName>
+        <default>false</default>
+        <label>MANASA</label>
+    </customValue>
+    <customValue>
+        <fullName>MANMOTOS</fullName>
+        <default>false</default>
+        <label>MANMOTOS</label>
+    </customValue>
+    <customValue>
+        <fullName>MAQUINARIAS GILDEMEISTER</fullName>
+        <default>false</default>
+        <label>MAQUINARIAS GILDEMEISTER</label>
+    </customValue>
+    <customValue>
+        <fullName>MEDINA &amp; BALLART</fullName>
+        <default>false</default>
+        <label>MEDINA &amp; BALLART</label>
+    </customValue>
+    <customValue>
+        <fullName>MEGACENTER</fullName>
+        <default>false</default>
+        <label>MEGACENTER</label>
+    </customValue>
+    <customValue>
+        <fullName>MICHEL MARTABIT</fullName>
+        <default>false</default>
+        <label>MICHEL MARTABIT</label>
+    </customValue>
+    <customValue>
+        <fullName>MINI</fullName>
+        <default>false</default>
+        <label>MINI</label>
+    </customValue>
+    <customValue>
+        <fullName>MORGAN Y RECASENS</fullName>
+        <default>false</default>
+        <label>MORGAN Y RECASENS</label>
+    </customValue>
+    <customValue>
+        <fullName>MOTOSTAR</fullName>
+        <default>false</default>
+        <label>MOTOSTAR</label>
+    </customValue>
+    <customValue>
+        <fullName>MOTOSTILE (BARUK)</fullName>
+        <default>false</default>
+        <label>MOTOSTILE (BARUK)</label>
+    </customValue>
+    <customValue>
+        <fullName>MOTOSUR</fullName>
+        <default>false</default>
+        <label>MOTOSUR</label>
+    </customValue>
+    <customValue>
+        <fullName>MOVICENTER</fullName>
+        <default>false</default>
+        <label>MOVICENTER</label>
+    </customValue>
+    <customValue>
+        <fullName>MOVIL GROUP</fullName>
+        <default>false</default>
+        <label>MOVIL GROUP</label>
+    </customValue>
+    <customValue>
+        <fullName>NUEVOS S.A.</fullName>
+        <default>false</default>
+        <label>NUEVOS S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>OVALLE HNOS.</fullName>
+        <default>false</default>
+        <label>OVALLE HNOS.</label>
+    </customValue>
+    <customValue>
+        <fullName>PATRICIO HIDALGO</fullName>
+        <default>false</default>
+        <label>PATRICIO HIDALGO</label>
+    </customValue>
+    <customValue>
+        <fullName>PAULDAYS</fullName>
+        <default>false</default>
+        <label>PAULDAYS</label>
+    </customValue>
+    <customValue>
+        <fullName>PEDRO CUMSILLE</fullName>
+        <default>false</default>
+        <label>PEDRO CUMSILLE</label>
+    </customValue>
+    <customValue>
+        <fullName>PIAMONTE</fullName>
+        <default>false</default>
+        <label>PIAMONTE</label>
+    </customValue>
+    <customValue>
+        <fullName>PIRETTA</fullName>
+        <default>false</default>
+        <label>PIRETTA</label>
+    </customValue>
+    <customValue>
+        <fullName>PITS AUTOS</fullName>
+        <default>false</default>
+        <label>PITS AUTOS</label>
+    </customValue>
+    <customValue>
+        <fullName>PLAZA NORTE</fullName>
+        <default>false</default>
+        <label>PLAZA NORTE</label>
+    </customValue>
+    <customValue>
+        <fullName>PLAZA OESTE</fullName>
+        <default>false</default>
+        <label>PLAZA OESTE</label>
+    </customValue>
+    <customValue>
+        <fullName>PLAZA TOBALABA</fullName>
+        <default>false</default>
+        <label>PLAZA TOBALABA</label>
+    </customValue>
+    <customValue>
+        <fullName>PLAZA VESPUCIO</fullName>
+        <default>false</default>
+        <label>PLAZA VESPUCIO</label>
+    </customValue>
+    <customValue>
+        <fullName>PORTEZUELO</fullName>
+        <default>false</default>
+        <label>PORTEZUELO</label>
+    </customValue>
+    <customValue>
+        <fullName>PORTILLO</fullName>
+        <default>false</default>
+        <label>PORTILLO</label>
+    </customValue>
+    <customValue>
+        <fullName>PROMOTO</fullName>
+        <default>false</default>
+        <label>PROMOTO</label>
+    </customValue>
+    <customValue>
+        <fullName>QUILICURA</fullName>
+        <default>false</default>
+        <label>QUILICURA</label>
+    </customValue>
+    <customValue>
+        <fullName>RECASUR</fullName>
+        <default>false</default>
+        <label>RECASUR</label>
+    </customValue>
+    <customValue>
+        <fullName>RINOMOTOS</fullName>
+        <default>false</default>
+        <label>RINOMOTOS</label>
+    </customValue>
+    <customValue>
+        <fullName>ROSSELOT</fullName>
+        <default>false</default>
+        <label>ROSSELOT</label>
+    </customValue>
+    <customValue>
+        <fullName>R Y R PINTO LTDA</fullName>
+        <default>false</default>
+        <label>R Y R PINTO LTDA</label>
+    </customValue>
+    <customValue>
+        <fullName>SAINT GERMAIN</fullName>
+        <default>false</default>
+        <label>SAINT GERMAIN</label>
+    </customValue>
+    <customValue>
+        <fullName>SANTA ISABEL</fullName>
+        <default>false</default>
+        <label>SANTA ISABEL</label>
+    </customValue>
+    <customValue>
+        <fullName>SANTA MARIA</fullName>
+        <default>false</default>
+        <label>SANTA MARIA</label>
+    </customValue>
+    <customValue>
+        <fullName>SERGIO ESCOBAR</fullName>
+        <default>false</default>
+        <label>SERGIO ESCOBAR</label>
+    </customValue>
+    <customValue>
+        <fullName>SERMACO</fullName>
+        <default>false</default>
+        <label>SERMACO</label>
+    </customValue>
+    <customValue>
+        <fullName>SOCIEDAD REAL</fullName>
+        <default>false</default>
+        <label>SOCIEDAD REAL</label>
+    </customValue>
+    <customValue>
+        <fullName>SU AUTOMOVIL</fullName>
+        <default>false</default>
+        <label>SU AUTOMOVIL</label>
+    </customValue>
+    <customValue>
+        <fullName>SUZUVAL</fullName>
+        <default>false</default>
+        <label>SUZUVAL</label>
+    </customValue>
+    <customValue>
+        <fullName>TABANCURA</fullName>
+        <default>false</default>
+        <label>TABANCURA</label>
+    </customValue>
+    <customValue>
+        <fullName>TERREMOTO</fullName>
+        <default>false</default>
+        <label>TERREMOTO</label>
+    </customValue>
+    <customValue>
+        <fullName>TIERRA SUR</fullName>
+        <default>false</default>
+        <label>TIERRA SUR</label>
+    </customValue>
+    <customValue>
+        <fullName>TOCORNAL</fullName>
+        <default>false</default>
+        <label>TOCORNAL</label>
+    </customValue>
+    <customValue>
+        <fullName>TONINO</fullName>
+        <default>false</default>
+        <label>TONINO</label>
+    </customValue>
+    <customValue>
+        <fullName>TOVARIAS</fullName>
+        <default>false</default>
+        <label>TOVARIAS</label>
+    </customValue>
+    <customValue>
+        <fullName>TUPPER</fullName>
+        <default>false</default>
+        <label>TUPPER</label>
+    </customValue>
+    <customValue>
+        <fullName>USADOS TERCEROS</fullName>
+        <default>false</default>
+        <label>USADOS TERCEROS</label>
+    </customValue>
+    <customValue>
+        <fullName>VALENZUELA DELARZE</fullName>
+        <default>false</default>
+        <label>VALENZUELA DELARZE</label>
+    </customValue>
+    <customValue>
+        <fullName>VEGA ARTUS</fullName>
+        <default>false</default>
+        <label>VEGA ARTUS</label>
+    </customValue>
+    <customValue>
+        <fullName>VIRTUAL</fullName>
+        <default>false</default>
+        <label>VIRTUAL</label>
+    </customValue>
+    <masterLabel>Concesionario</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

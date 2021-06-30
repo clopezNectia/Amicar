@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssignmentRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assignmentRule>
+        <fullName>Leads Amicar</fullName>
+        <active>false</active>
+        <ruleEntry>
+            <assignedTo>luciana.gutierrez@amicar.cl</assignedTo>
+            <assignedToType>User</assignedToType>
+            <criteriaItems>
+                <field>Lead.channel__c</field>
+                <operation>contains</operation>
+                <value>amicar</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Lead.evaluationResult__c</field>
+                <operation>contains</operation>
+                <value>Equifax Aprueba</value>
+            </criteriaItems>
+        </ruleEntry>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>Leads Destacame</fullName>
+        <active>false</active>
+        <ruleEntry>
+            <assignedTo>luciana.gutierrez@amicar.cl</assignedTo>
+            <assignedToType>User</assignedToType>
+            <criteriaItems>
+                <field>Lead.channel__c</field>
+                <operation>contains</operation>
+                <value>Destacame</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Lead.evaluationResult__c</field>
+                <operation>contains</operation>
+                <value>Equifax Aprueba</value>
+            </criteriaItems>
+        </ruleEntry>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>Mercado Libre</fullName>
+        <active>true</active>
+        <ruleEntry>
+            <assignedTo>Leads_ML</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Lead.channel__c</field>
+                <operation>contains</operation>
+                <value>MERCADOLIBRE</value>
+            </criteriaItems>
+        </ruleEntry>
+    </assignmentRule>
+</AssignmentRules>

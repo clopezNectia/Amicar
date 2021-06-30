@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>999999018</fullName>
+        <default>false</default>
+        <label>AMICAR</label>
+    </customValue>
+    <customValue>
+        <fullName>79649140K</fullName>
+        <default>false</default>
+        <label>AUTOMOTORES GILDEMEISTER</label>
+    </customValue>
+    <customValue>
+        <fullName>829957000</fullName>
+        <default>false</default>
+        <label>DERCO S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>99999900K</fullName>
+        <default>false</default>
+        <label>AG MAQUINAS, BUSES Y CAMIONES PESADOS</label>
+    </customValue>
+    <customValue>
+        <fullName>965454500</fullName>
+        <default>false</default>
+        <label>DERCOMAQ (MAQUINAS, BUSES Y CAMIONES PESADOS)</label>
+    </customValue>
+    <customValue>
+        <fullName>999999999</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>CONCESIONARIO GENÉRICO</label>
+    </customValue>
+    <customValue>
+        <fullName>CANALES TERCEROS</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>CANALES TERCEROS</label>
+    </customValue>
+    <customValue>
+        <fullName>DERCOMOTOS</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>DERCOMOTOS</label>
+    </customValue>
+    <masterLabel>Importadores</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

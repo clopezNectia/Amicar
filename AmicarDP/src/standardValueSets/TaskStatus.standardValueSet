@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Abierta</fullName>
+        <default>true</default>
+        <label>Abierta</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Completada</fullName>
+        <default>false</default>
+        <label>Completada</label>
+        <closed>true</closed>
+    </standardValue>
+</StandardValueSet>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Lead</entityName>
+    <fieldName>Status</fieldName>
+    <masterLabel>Ruta de Candidato Web</masterLabel>
+    <pathAssistantSteps>
+        <fieldNames>Name</fieldNames>
+        <fieldNames>Email</fieldNames>
+        <fieldNames>Phone</fieldNames>
+        <picklistValueName>Contactabilidad</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>evaluationResult__c</fieldNames>
+        <fieldNames>respuesta_ef_credito__c</fieldNames>
+        <fieldNames>financiera_aprueba__c</fieldNames>
+        <fieldNames>estado_otorgamiento__c</fieldNames>
+        <picklistValueName>Evaluación</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Name</fieldNames>
+        <fieldNames>evaluationResult__c</fieldNames>
+        <fieldNames>channel__c</fieldNames>
+        <picklistValueName>Nuevo</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>estado_otorgamiento__c</fieldNames>
+        <picklistValueName>Otorgamiento</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>candidato_web</recordTypeName>
+</PathAssistant>

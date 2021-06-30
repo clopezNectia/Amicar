@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Mensaje de correo electrónico que recibe un usuario cuando intenta restablecer su contraseña, pero se le ha bloqueado debido a demasiados intentos de inicio de sesión fallidos.</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Comunidades: Mensaje de correo electrónico de bloqueo de usuario</name>
+    <style>none</style>
+    <subject>Se le ha bloqueado en {!Community_Name}</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

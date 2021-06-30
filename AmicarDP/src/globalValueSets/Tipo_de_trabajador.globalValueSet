@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>DE</fullName>
+        <default>false</default>
+        <label>Dependiente</label>
+    </customValue>
+    <customValue>
+        <fullName>IN</fullName>
+        <default>false</default>
+        <label>Independiente</label>
+    </customValue>
+    <masterLabel>Tipo de trabajador</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

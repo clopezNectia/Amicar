@@ -1,0 +1,2417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>AG_Propio_y_Tercero_Santiago_y_Rancagua</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>AG Propio y Tercero Santiago y Rancagua</label>
+        <sharedTo>
+            <group>AG_Propio_y_Tercero_Santiago_y_Rancagua</group>
+        </sharedTo>
+        <booleanFilter>1 OR 2 OR 3 OR 4 OR 5 OR 6 OR 7 OR 8 OR 9</booleanFilter>
+        <criteriaItems>
+            <field>Locales__c</field>
+            <operation>equals</operation>
+            <value>10 AG MALL PLAZA TOBALABA,12 AG MOVICENTER,5 AG CASA MATRIZ,1 AG ALAMEDA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Locales__c</field>
+            <operation>equals</operation>
+            <value>105 FORTALEZA ALAMEDA,74 AG VICUÑA MACKENNA,145 AG SUCURSAL LAS CONDES 11000,102 AG MINI,93 AG CERRILLOS</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Locales__c</field>
+            <operation>equals</operation>
+            <value>160 AG AUTOSHOPPING,112 FORTALEZA MALL PLAZA TOBALABA,118 FORTALEZA MOVICENTER,113 FORTALEZA MALL PLAZA VESPUCIO,109 FORTALEZA CERRILLOS</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Locales__c</field>
+            <operation>equals</operation>
+            <value>199 CURIFOR RANCAGUA,161 FORTALEZA AUTOSHOPPING,45 CURIFOR BUIN,205 FORTALEZA PORTUGAL,28 CURIFOR - VICUNA MACKENNA LA FLORIDA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Locales__c</field>
+            <operation>equals</operation>
+            <value>61 H MOTORES SA LONQUEN,37 VEGA ARTUS RANCAGUA,140 H MOTORES SA PLAZA OESTE,29 LIRA LARRAIN PROVIDENCIA,38 VEGA ARTUS SAN FERNANDO,195 H MOTORES PLAZA OESTE FORTALEZA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Locales__c</field>
+            <operation>equals</operation>
+            <value>69 GUILLERMO MORALES VITACURA,167 GUILLERMO MORALES PLAZA EGAÑA,211 H. MOTORES PLAZA ALAMEDA FORTALEZA,210 H. MOTORES PLAZA ALAMEDA HYUNDAI</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Locales__c</field>
+            <operation>equals</operation>
+            <value>201 BRUNO FRITSCH PLAZA SUR FORTALEZA,202 SAINT GERMAIN AUTOS,110 FORTALEZA MALL PLAZA NORTE,95 CIRCULO IRARRAZABAL,101 BRUNO FRITSCH GRAN AVENIDA,94 BRUNO FRITSCH PLAZA SUR,172 PORTILLO</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Locales__c</field>
+            <operation>equals</operation>
+            <value>8 AG MAIPU,70 AG MALL PLAZA ALAMEDA,138 TUPPER (FORTALEZA),92 CIRCULO MANUEL MONTT,9 AG MALL PLAZA NORTE,149 FORTALEZA CANTAGALLO,88 SIGLO XXI,7 AG LA DEHESA,198 FORTALEZA SAN FERNANDO,175 AG BILBAO 1</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Locales__c</field>
+            <operation>equals</operation>
+            <value>59 CARMEISTER MALL PLAZA OESTE</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>DERCO_PROPIO</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>DERCO PROPIO</label>
+        <sharedTo>
+            <group>Derco_Propio</group>
+        </sharedTo>
+        <booleanFilter>1 OR 2 OR 3 OR 4 OR 5</booleanFilter>
+        <criteriaItems>
+            <field>Locales__c</field>
+            <operation>equals</operation>
+            <value>150 DERCO AUTOSHOPPING,111 MOVICENTER (GEE-CHA-GWM),151 DERCO VITACURA,138 MOVICENTER (JAC),112 PLAZA VESPUCIO (GWM-GEE-JAC-CHA),132 PLAZA NORTE (GWM-MZD-RNT-SMG),10 CARRERA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Locales__c</field>
+            <operation>equals</operation>
+            <value>153 DERCOUSADOS VITACURA,167 DERCO AUTOSHOPPING USADOS,17 MEGACENTER (SUZUKI),154 PLAZA OESTE RENAULT,18 MOVICENTER USADOS,156 DERCO KENNEDY (MAZDA),157 DERCO TABANCURA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Locales__c</field>
+            <operation>equals</operation>
+            <value>19 MOVICENTER (MAZDA),20 MOVICENTER 4 (SUZUKI),183 VIRTUAL MOVICENTER,187 VIRTUAL MEGACENTER,188 VIRTUAL AUTOSHOPPING,189 VIRTUAL PLAZA OESTE</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Locales__c</field>
+            <operation>equals</operation>
+            <value>24 PLAZA OESTE MAZDA,27 PLAZA VESPUCIO SUZUKI,39 QUILICURA,26 PLAZA TOBALABA (SMG-SZK),25 PLAZA OESTE USADOS,23 PLAZA NORTE (SUZUKI),36 VIRTUAL</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Locales__c</field>
+            <operation>equals</operation>
+            <value>61 PLAZA OESTE SUZUKI,75 PLAZA OESTE (GWM-CHA-JAC-GEE),63 PLAZA VESPUCIO (MAZDA),83 MOVICENTER (RNT - SMG),90 PLAZA VESPUCIO ( RENAULT - SAMSUNG ),88 PLAZA TOBALABA (GWM-GEE-JAC-CHA),95 DEPARTAMENTAL USADOS</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>DERCO_TERCERO_SANTIAGO_RANCAGUA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>DERCO TERCERO SANTIAGO-RANCAGUA</label>
+        <sharedTo>
+            <group>DERCO_TERCERO_SANTIAGO_RANCAGUA</group>
+        </sharedTo>
+        <booleanFilter>1 OR 2 OR 3</booleanFilter>
+        <criteriaItems>
+            <field>Locales__c</field>
+            <operation>equals</operation>
+            <value>135 AUTOMOTORA BILBAO CHINOS IRARRAZABAL,1 ANFRUNS RANCAGUA,180 PROMOTORS MAIPU,108 NUEVOS SA,128 PRO MOTORS,42 ANSA,15 CARLOS DUMAY</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Locales__c</field>
+            <operation>equals</operation>
+            <value>139 AUTOMOTORA BILBAO MAZDA,2 ANFRUNS SANTIAGO,155 COMERCIAL ERRAZURIZ,16 GUSTAVO SAAVEDRA,41 P HIDALGO PAJARITOS,67 CUMSILLE SAN FERNADO,57 CUMSILLE CASA MATRIZ</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Locales__c</field>
+            <operation>equals</operation>
+            <value>21 OVALLE HERMANOS,11 CHAMY HNOS,182 AUTOMOTORA BILBAO RENAULT IRARRAZAVAL,202 SAINT GERMAIN AUTOS,93 DUMAY VITACURA</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Externos_AG</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Externos AG</label>
+        <sharedTo>
+            <group>Externos_AG</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>Importadora__c</field>
+            <operation>equals</operation>
+            <value>AUTOMOTORES GILDEMEISTER</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Externos_Derco</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Regla de colaboración para los externos de Derco que necesitan tener acceso a los locales.</description>
+        <label>Externos Derco</label>
+        <sharedTo>
+            <group>Externos_Derco</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>Importadora__c</field>
+            <operation>equals</operation>
+            <value>DERCO S.A.</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Jefe_Comercial_Zona_Sur_1</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Jefe Comercial Zona Sur 1</label>
+        <sharedTo>
+            <group>Jefe_Comercial_zona_sur_1</group>
+        </sharedTo>
+        <booleanFilter>1 OR 2 OR 3 OR 4 OR 5</booleanFilter>
+        <criteriaItems>
+            <field>Locales__c</field>
+            <operation>equals</operation>
+            <value>104 FORTALEZA MALL DEL TREBOL,116 FORTALEZA LOS ANGELES,118 SERGIO ESCOBAR CARRERA,142 SERGIO ESCOBAR PAICAVI CHINOS,134 SERGIO ESCOBAR CNT</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Locales__c</field>
+            <operation>equals</operation>
+            <value>185 CIRCULO LINARES (HYUNDAI),20 AG CONCEPCION (AUTOPISTA A TALCAHUANO),181 SERGIO ESCOBAR OHIGGINS,171 SERGIO ESCOBAR OSORNO,175 ARAUCO COLIN</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Locales__c</field>
+            <operation>equals</operation>
+            <value>48 SERGIO ESCOBAR PAICAVI (RENAULT-MAZDA),30 SERGIO ESCOBAR MALL,21 AG AUTOPLAZA MALL DEL TREBOL,3 ARAUCO TALCA,22 AG LOS ANGELES,47 JESUS PONS CURICO</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Locales__c</field>
+            <operation>equals</operation>
+            <value>51 CURIFOR CHILLÁN,52 BRUNO FRITSCH CONCEPCION,50 CURIFOR CURICÓ,51 SERGIO ESCOBAR CHILLÁN,50 SERGIO ESCOBAR LOS ANGELES</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Locales__c</field>
+            <operation>equals</operation>
+            <value>71 MEDITERRANEO AUTOMOTORES CIRCULO HYUNDAI TALCA,165 JESUS PONS - LINARES (DERCO),91 JESUS PONS LINARES,82 CAVAL TALCA</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>X175_AG_BILBAO_1_AG</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Regla creada por falta de ejecutivos dueño</description>
+        <label>175 AG BILBAO 1 (AG)</label>
+        <sharedTo>
+            <group>X175_AG_BILBAO_1_AG</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>Locales__c</field>
+            <operation>equals</operation>
+            <value>175 AG BILBAO 1</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>X198_FORTALEZA_SAN_FERNANDO</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>198 FORTALEZA SAN FERNANDO(AG)</label>
+        <sharedTo>
+            <group>X198_FORTALEZA_SAN_FERNANDO_AG</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>Locales__c</field>
+            <operation>equals</operation>
+            <value>198 FORTALEZA SAN FERNANDO</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>X59_CARMEISTER_MALL_PLAZA_OESTE</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>59 CARMEISTER MALL PLAZA OESTE</label>
+        <sharedTo>
+            <group>X59_CARMEISTER_MALL_PLAZA_OESTE_AG</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>Locales__c</field>
+            <operation>equals</operation>
+            <value>59 CARMEISTER MALL PLAZA OESTE</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>X70_AG_MALL_PLAZA_ALAMEDA_AG</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Regla de colaboración por ejecutivo dueño faltante</description>
+        <label>70 AG MALL PLAZA ALAMEDA(AG)</label>
+        <sharedTo>
+            <group>X70_AG_MALL_PLAZA_ALAMEDA</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>Locales__c</field>
+            <operation>equals</operation>
+            <value>70 AG MALL PLAZA ALAMEDA</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>X7_AG_LA_DEHESA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>7 AG LA DEHESA</label>
+        <sharedTo>
+            <group>X7_AG_LA_DEHESA</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>Locales__c</field>
+            <operation>equals</operation>
+            <value>7 AG LA DEHESA</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>X8_AG_MAIPU</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>8 AG MAIPU</label>
+        <sharedTo>
+            <group>X8_AG_MAIPU</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>Locales__c</field>
+            <operation>equals</operation>
+            <value>8 AG MAIPU</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Zona_Norte_1_Arica_a_Copiap</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Zona Norte 1 (Arica a Copiapó)</label>
+        <sharedTo>
+            <group>Zona_Norte_1_Arica_a_Copiap</group>
+        </sharedTo>
+        <booleanFilter>1 OR 2 OR 3 OR 4 OR 5</booleanFilter>
+        <criteriaItems>
+            <field>Locales__c</field>
+            <operation>equals</operation>
+            <value>156 AUTOMOTRIZ DEPETRIS DEFLORIAN HNOS LTDA,185 INVERSIONES YUSIC ARICA,6 AUTOCENTRO NICOLÁS,176 AUTOS YUSIC ARICA,96 AG MALL PLAZA CALAMA,98 FORTALEZA PLAZA CALAMA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Locales__c</field>
+            <operation>equals</operation>
+            <value>9 AUTOS YUSIC MALL ANTOFAGASTA,43 AUTOS YUSIC CALAMA,184 AUTOS YUSIC IQUIQUE,186 INVERSIONES YUSIC IQUIQUE,6 AUTOCENTRO NICOLÁS,92 AUTOS YUSIC COSTANERA,149 YUSIC JUMBO</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Locales__c</field>
+            <operation>equals</operation>
+            <value>32 CARMEISTER ANTOFAGASTA,89 CITYTIME MALL IQUIQUE,136 FORTALEZA CITYTIME ARICA,120 FORTALEZA CITYTIME MALL IQUIQUE,18 AG ANTOFAGASTA,91 FORTALEZA ANTOFAGASTA,97 CITYTIME ARICA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Locales__c</field>
+            <operation>equals</operation>
+            <value>156 AUTOMOTRIZ DEPETRIS DEFLORIAN HNOS LTDA,200 FORTALEZA IQUIQUE,19 AG AUTO PLAZA ANTOFAGASTA,99 FORTALEZA PLAZA ANTOFAGASTA,17 AG CALAMA,90 FORTALEZA CALAMA,162 CARMEISTER CALAMA,16 AG IQUIQUE</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Locales__c</field>
+            <operation>equals</operation>
+            <value>46 AUTOSTOP</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Zona_Norte_2_y_V_Regi_n</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Zona Norte 2 y V Región</label>
+        <sharedTo>
+            <group>Zona_Norte_2_y_V_Region</group>
+        </sharedTo>
+        <booleanFilter>1 OR 2 OR 3</booleanFilter>
+        <criteriaItems>
+            <field>Locales__c</field>
+            <operation>equals</operation>
+            <value>189 CURIFOR COQUIMBO,58 AG PLAZA LA SERENA,141 H MOTORES BELLOTO,187 CURIFOR OVALLE,143 CURIFOR PLACILLA,170 AG BALMACEDA (EX COVALSA),133 AG VIÑA DEL MAR MINI,103 H MOTORES SA LA CALERA,36 H MOTORES SA 15 NORTE,84 AG VIÑA DEL MAR</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Locales__c</field>
+            <operation>equals</operation>
+            <value>89 CITYTIME MALL IQUIQUE,159 ASPILLAGA Y HORNAUER COQUIMBO,12 COMERCIAL VALENTINI E HIJOS LTDA,45 SUZUVAL SAN ANTONIO,4 ASPILLAGA Y HORNAUER VIÑA DEL MAR,144 COMERCIAL VALENTINI MALL</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Locales__c</field>
+            <operation>equals</operation>
+            <value>152 ASPILLAGA Y HORNAUER QUILLOTA,191 ASPILLAGA Y HORNAUER BELLOTO,35 SUZUVAL VIÑA,34 SUZUVAL VALPARAISO,44 SUZUVAL LA CALERA,160 ASPILLAGA Y HORNAUER OVALLE,28 R Y R PINTO</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Zona_Sur_2_Temuco_hasta_Punta_Arenas</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Zona Sur 2 (Temuco hasta Punta Arenas)</label>
+        <sharedTo>
+            <group>Zona_Sur_2_Temuco_hasta_Punta_Arenas</group>
+        </sharedTo>
+        <booleanFilter>1 OR 2 OR 3</booleanFilter>
+        <criteriaItems>
+            <field>Locales__c</field>
+            <operation>equals</operation>
+            <value>23 AG TEMUCO,24 AG VALDIVIA,25 AG OSORNO,188 GUILLERMO MORALES PUERTO MONTT,111 FORTALEZA PUERTO MONTT,26 AG PUERTO MONTT,153 MEDINA &amp; BALLART HYUNDAI</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Locales__c</field>
+            <operation>equals</operation>
+            <value>115 FORTALEZA VALDIVIA,119 FORTALEZA TEMUCO SAN MARTIN,190 FORTALEZA PUERTO VARAS,203 AG PUNTA ARENAS,55 CHILOÉ MOTORES,196 AG PUERTO VARAS,150 MALL ZONA FRANCA HYUNDAI,114 FORTALEZA OSORNO</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Locales__c</field>
+            <operation>equals</operation>
+            <value>66 DECAR SA,141 DECAR HOSCHTETTER,14 EXEQUIEL BERRIOS Y CIA LTDA,174 DECAR VILLARRICA,52 EXEQUIEL BERRIOS CASTRO,53 EXEQUIEL BERRIOS VALDIVIA,55 RECASUR PUNTA ARENAS,121 RECASUR COYHAIQUE</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingOwnerRules>
+        <fullName>X101_BRUNO_FRITSCH_GRAN_AVENIDA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>101 BRUNO FRITSCH GRAN AVENIDA</label>
+        <sharedTo>
+            <group>X101_BRUNO_FRITSCH_GRAN_AVENIDA_AG</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X101_BRUNO_FRITSCH_GRAN_AVENIDA_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X102_AG_MINI</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>102 AG MINI</label>
+        <sharedTo>
+            <group>X102_AG_MINI_AG</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X102_AG_MINI_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X103_H_MOTORES_SA_LA_CALERA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>103 H MOTORES SA LA CALERA</label>
+        <sharedTo>
+            <group>X103_HERNANDEZ_MOTORES_LA_CALERA</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X103_H_MOTORES_SA_LA_CALERA_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X104_FORTALEZA_MALL_DEL_TREBOL</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>104 FORTALEZA MALL DEL TREBOL</label>
+        <sharedTo>
+            <group>X104_FORTALEZA_MALL_DEL_TREBOL_AG</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X104_FORTALEZA_MALL_DEL_TREBOL_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X105_FORTALEZA_ALAMEDA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>105 FORTALEZA ALAMEDA</label>
+        <sharedTo>
+            <group>X105_FORTALEZA_ALAMEDA_AG</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X105_FORTALEZA_ALAMEDA_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X106_FORTALEZA_BILBAO_1</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>106 FORTALEZA BILBAO 1</label>
+        <sharedTo>
+            <group>X106_FORTALEZA_BILBAO_1_AG</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X106_FORTALEZA_BILBAO_1_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X108_NUEVOS_S_A_Derco</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>108 NUEVOS S.A.(Derco)</label>
+        <sharedTo>
+            <group>X108_NUEVOS_S_A</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X108_NUEVOS_SA_Derco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X109_FORTALEZA_CERRILLOS</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>109 FORTALEZA CERRILLOS</label>
+        <sharedTo>
+            <group>X109_FORTALEZA_CERRILLOS</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X109_FORTALEZA_CERRILLOS_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X10_AG_MALL_PLAZA_TOBALABA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>10 AG MALL PLAZA TOBALABA</label>
+        <sharedTo>
+            <group>X10_AG_MALL_PLAZA_TOBALABA</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X10_AG_MALL_PLAZA_TOBALABA_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X10_CARRERA_DERCO</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>10 CARRERA (DERCO)</label>
+        <sharedTo>
+            <group>X10_CARRERA_DERCO</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X10_CARRERA_Derco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X110_FORTALEZA_MALL_PLAZA_NORTE</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>110 FORTALEZA MALL PLAZA NORTE</label>
+        <sharedTo>
+            <group>X110_FORTALEZA_MALL_PLAZA_NORTE_AG</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X110_FORTALEZA_MALL_PLAZA_NORTE_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X111_FORTALEZA_PUERTO_MONTT</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>111 FORTALEZA PUERTO MONTT</label>
+        <sharedTo>
+            <group>X111_FORTALEZA_PTO_MONTT_BAI_BRI_MAH_AG</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X111_FORTALEZA_PUERTO_MONTT_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X111_MOVICENTER_GEE_CHA_GWM</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>111 MOVICENTER (GEE-CHA-GWM)</label>
+        <sharedTo>
+            <group>X111_MOVICENTER_GEE_CHA_GWM_Derco</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X111_MOVICENTER_GEE_CHA_GWM_Derco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X112_FORTALEZA_MALL_PLAZA_TOBALABA_AG</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>112 FORTALEZA MALL PLAZA TOBALABA (AG)</label>
+        <sharedTo>
+            <group>X112_FORTALEZA_MALL_PLAZA_TOBALABA</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X112_FORTALEZA_MALL_PLAZA_TOBALABA_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X112_PLAZA_VESPUCIO_GWM_GEE_JAC_CHA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>112 PLAZA VESPUCIO (GWM-GEE-JAC-CHA)</label>
+        <sharedTo>
+            <group>X112_PLAZA_VESPUCIO_GWM_GEE_JAC_CHA_Derc</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X112_PLAZA_VESPUCIO_GWM_GEE_JAC_CHA_Derco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X113_FORTALEZA_MALL_PLAZA_VESPUCIO</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>113 FORTALEZA MALL PLAZA VESPUCIO</label>
+        <sharedTo>
+            <group>X113_FORTALEZA_MALL_PLAZA_VESPUCIO_AG</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X113_FORTALEZA_MALL_PLAZA_VESPUCIO_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X116_FORTALEZA_LOS_ANGELES_AG</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>116 FORTALEZA LOS ANGELES(AG)</label>
+        <sharedTo>
+            <group>X116_FORTALEZA_LOS_ANGELES_AG</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X116_FORTALEZA_LOS_ANGELES_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X118_SERGIO_ESCOBAR_CARRERA_DERCO</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>118 SERGIO ESCOBAR CARRERA DERCO</label>
+        <sharedTo>
+            <group>X118_SERGIO_ESCOBAR_CARRERA_DERCO</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X118_SERGIO_ESCOBAR_CARRERA_Derco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X119_FORTALEZA_TEMUCO_SAN_MARTIN_AG</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>119 FORTALEZA TEMUCO SAN MARTIN(AG)</label>
+        <sharedTo>
+            <group>X119_FORTALEZA_TEMUCO_SAN_MARTIN_AG</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X119_FORTALEZA_TEMUCO_SAN_MARTIN_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X11_AG_MALL_PLAZA_VESPUCIO</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>11 AG MALL PLAZA VESPUCIO</label>
+        <sharedTo>
+            <group>X11_AG_MALL_PLAZA_VESPUCIO_AG</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X11_AG_MALL_PLAZA_VESPUCIO_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X120_FORTALEZA_CITYTIME_MALL_IQUIQUE</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>120 FORTALEZA CITYTIME MALL IQUIQUE</label>
+        <sharedTo>
+            <group>X120_FORTALEZA_CITYTIME_MALL_IQUIQUE</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X120_FORTALEZA_CITYTIME_MALL_IQUIQUE_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X121_FORTALEZA_PLAZA_LA_SERENA_AG</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>121 FORTALEZA PLAZA LA SERENA (AG)</label>
+        <sharedTo>
+            <group>X121_FORTALEZA_PLAZA_LA_SERENA_AG</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X121_FORTALEZA_PLAZA_LA_SERENA_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X122_FORTALEZA_CASA_MATRIZ</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>122 FORTALEZA CASA MATRIZ</label>
+        <sharedTo>
+            <group>X122_FORTALEZA_CASA_MATRIZ</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>X122_FORTALEZA_CASA_MATRIZ</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X128_PRO_MOTORS_Derco</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>128 PRO MOTORS (Derco)</label>
+        <sharedTo>
+            <group>X128_PRO_MOTORS_Derco</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X128_PRO_MOTORS_Derco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X12_AG_MOVICENTER_AG</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>12 AG MOVICENTER(AG)</label>
+        <sharedTo>
+            <group>X12_AG_MOVICENTER</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X12_AG_MOVICENTER_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X12_COMERCIAL_VALENTINI_E_HIJOS_LTDA_Derco</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>12 COMERCIAL VALENTINI E HIJOS LTDA(Derco)</label>
+        <sharedTo>
+            <group>X12_COMERCIAL_VALENTINI_E_HIJOS_Derco</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X12_COMERCIAL_VALENTINI_E_HIJOS_LTDA_Derco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X131_SUZUVAL_BELLOTO</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>131 SUZUVAL BELLOTO</label>
+        <sharedTo>
+            <group>X131_SUZUVAL_BELLOTO_Derco</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X131_SUZUVAL_BELLOTO_Derco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X132_PLAZA_NORTE_GWM_MZD_RNT_SMG</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>132 PLAZA NORTE (GWM-MZD-RNT-SMG)</label>
+        <sharedTo>
+            <group>X132_PLAZA_NORTE_GWM_MZD_RNT_SMG</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X132_PLAZA_NORTE_GWM_MZD_RNT_SMG_Derco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X133_AG_VI_A_DEL_MAR_MINI</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>133 AG VIÑA DEL MAR MINI</label>
+        <sharedTo>
+            <group>X133_AG_VI_A_DEL_MAR_MINI</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X133_AG_VI_A_DEL_MAR_MINI_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X134_SERGIO_ESCOBAR_CNT_Derco</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>134 SERGIO ESCOBAR CNT(Derco)</label>
+        <sharedTo>
+            <group>X134_SERGIO_ESCOBAR_CNT_DERCO</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X134_SERGIO_ESCOBAR_CNT_Derco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X136_FORTALEZA_CITYTIME_ARICA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>136 FORTALEZA CITYTIME ARICA</label>
+        <sharedTo>
+            <group>X136_FORTALEZA_CITYTIME_ARICA</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X136_FORTALEZA_CITYTIME_ARICA_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X138_MOVICENTER_JAC_DERCO</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>138 MOVICENTER (JAC) (DERCO)</label>
+        <sharedTo>
+            <group>X138_MOVICENTER_JAC_DERCO</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X138_MOVICENTER_JAC_Derco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X139_AUTOMOTORA_BILBAO_MAZDA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>139 AUTOMOTORA BILBAO MAZDA</label>
+        <sharedTo>
+            <group>X139_AUTOMOTORA_BILBAO_MAZDA</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X139_AUTOMOTORA_BILBAO_MAZDA_Derco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X139_CARMEISTER_VI_A_DEL_MAR</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>139 CARMEISTER VIÑA DEL MAR</label>
+        <sharedTo>
+            <group>X139_CARMEISTER_VI_A_DEL_MAR_AG</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X139_CARMEISTER_VI_A_DEL_MAR_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X13_AG_PORTUGAL</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>13 AG PORTUGAL</label>
+        <sharedTo>
+            <group>X13_AG_PORTUGAL</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X13_AG_PORTUGAL_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X140_H_MOTORES_SA_PLAZA_OESTE_AG</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>140 H MOTORES SA PLAZA OESTE(AG)</label>
+        <sharedTo>
+            <group>X140_H_MOTORES_S_A_PLAZA_OESTE_AG</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X140_H_MOTORES_SA_PLAZA_OESTE_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X141_DECAR_HOSCHTETTER</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>141 DECAR HOSCHTETTER</label>
+        <sharedTo>
+            <group>X141_DECAR_HOSCHTETTER_Derco</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X141_DECAR_HOSCHTETTER_Derco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X141_H_MOTORES_BELLOTO</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>141 H MOTORES BELLOTO</label>
+        <sharedTo>
+            <group>X141_H_MOTORES_BELLOTO_AG</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X141_H_MOTORES_BELLOTO_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X142_SERGIO_ESCOBAR_PAICAVI_CHINOS</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>142 SERGIO ESCOBAR PAICAVI CHINOS</label>
+        <sharedTo>
+            <group>X142_SERGIO_ESCOBAR_PAICAVI_CHINOS_Derc</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X142_SERGIO_ESCOBAR_PAICAVI_CHINOS_Derco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X144_COMERCIAL_VALENTINI_MALL_Derco</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>144 COMERCIAL VALENTINI MALL (Derco)</label>
+        <sharedTo>
+            <group>X144_VALENTINI_PUERTAS_DEL_MAR</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X144_COMERCIAL_VALENTINI_MALL_Derco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X145_AG_SUCURSAL_LAS_CONDES_11000</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>145 AG SUCURSAL LAS CONDES 11000</label>
+        <sharedTo>
+            <group>X145_AG_SUCURSAL_LAS_CONDES_11000</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X145_AG_SUCURSAL_LAS_CONDES_11000_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X146_SERGIO_ESCOBAR_TUCAPEL_USADOS_DERCO</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>146 SERGIO ESCOBAR TUCAPEL USADOS DERCO</label>
+        <sharedTo>
+            <group>X146_SERGIO_ESCOBAR_TUCAPEL_USADOS_DERCO</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X146_SERGIO_ESCOBAR_TUCAPEL_USADOS_Derco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X147_SERGIO_ESCOBAR_PAICAVI_USADOS_Derco</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>147 SERGIO ESCOBAR PAICAVI USADOS(Derco)</label>
+        <sharedTo>
+            <group>X147_SERGIO_ESCOBAR_PAICAVI_USADOS_Derc</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X147_SERGIO_ESCOBAR_PAICAVI_USADOS_Derco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X149_YUSIC_JUMBO</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>149 YUSIC JUMBO</label>
+        <sharedTo>
+            <group>X149_YUSIC_JUMBO_Derco</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X149_YUSIC_JUMBO_Derco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X14_EXEQUIEL_BERRIOS_Y_CIA_LTDA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>14 EXEQUIEL BERRIOS Y CIA LTDA</label>
+        <sharedTo>
+            <group>X14_EXEQUIEL_BERRIOS_Y_CIA_LTDA_Derco</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X14_EXEQUIEL_BERRIOS_Y_CIA_LTDA_Derco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X150_DERCO_AUTOSHOPPING</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>150 DERCO AUTOSHOPPING</label>
+        <sharedTo>
+            <group>X150_DERCO_AUTOSHOPPING</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X150_DERCO_AUTOSHOPPING_Derco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X151_DERCO_VITACURA_Derco</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>151 DERCO VITACURA(Derco)</label>
+        <sharedTo>
+            <group>X151_DERCO_VITACURA</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X151_DERCO_VITACURA_Derco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X152_ASPILLAGA_Y_HORNAUER_QUILLOTA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>152 ASPILLAGA Y HORNAUER QUILLOTA</label>
+        <sharedTo>
+            <group>X152_ASPILLAGA_Y_HORNAUER_QUILLOTA_DERCO</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X152_ASPILLAGA_Y_HORNAUER_QUILLOTA</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X153_DERCOUSADOS_VITACURA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>153 DERCOUSADOS VITACURA</label>
+        <sharedTo>
+            <group>X153_DERCOUSADOS_VITACURA</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X153_DERCOUSADOS_VITACURA_Derco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X153_MEDINA_BALLART_HYUNDAI_AG</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>153 MEDINA &amp; BALLART HYUNDAI(AG)</label>
+        <sharedTo>
+            <group>X153_MEDINA_BALLART</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X153_MEDINA_BALLART_HYUNDAI</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X154_PLAZA_OESTE_RENAULT_Derco</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>154 PLAZA OESTE RENAULT(Derco)</label>
+        <sharedTo>
+            <group>X154_PLAZA_OESTE_RENAULT</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X154_PLAZA_OESTE_RENAULT_Derco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X155_COMERCIAL_ERRAZURIZ_Derco</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>155 COMERCIAL ERRAZURIZ (Derco)</label>
+        <sharedTo>
+            <group>X155_COMERCIAL_ERRAZURIZ_Derco</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X155_COMERCIAL_ERRAZURIZ_Derco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X156_AUTOMOTRIZ_DEPETRIS_DEFLORIAN_AG</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>156 AUTOMOTRIZ DEPETRIS DEFLORIAN (AG)</label>
+        <sharedTo>
+            <group>X156_AUTOMOTRIZ_DEPETRIS_DEFLORIAN_AG</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X156_AUTOMOTRIZ_DEPETRIS_DEFLORIAN_HNOS_LTDA_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X156_DERCO_KENNEDY_MAZDA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>156 DERCO KENNEDY (MAZDA)</label>
+        <sharedTo>
+            <group>X156_DERCO_KENNEDY_MAZDA</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X156_DERCO_KENNEDY_MAZDA_Derco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X157_DERCO_TABANCURA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>157 DERCO TABANCURA</label>
+        <sharedTo>
+            <group>X157_DERCO_TABANCURA</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X157_DERCO_TABANCURA_Derco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X159_ASPILLAGA_Y_HORNAUER_COQUIMBO_Derco</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>159 ASPILLAGA Y HORNAUER COQUIMBO(Derco)</label>
+        <sharedTo>
+            <group>X159_ASPILLAGA_Y_HORNAUER_COQUIMBO_Derc</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X159_ASPILLAGA_Y_HORNAUER_COQUIMBO_Derco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X160_AG_AUTOSHOPPING</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>160 AG AUTOSHOPPING</label>
+        <sharedTo>
+            <group>X160_AG_AUTOSHOPPING</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X160_AG_AUTOSHOPPING_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X160_ASPILLAGA_Y_HORNAUER_OVALLE_Derco</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>160 ASPILLAGA Y HORNAUER OVALLE(Derco)</label>
+        <sharedTo>
+            <group>X160_ASPILLAGA_Y_HORNAUER_OVALLE_Derco</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X160_ASPILLAGA_Y_HORNAUER_OVALLE_Derco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X161_FORTALEZA_AUTOSHOPPING</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>161 FORTALEZA AUTOSHOPPING</label>
+        <sharedTo>
+            <group>X161_FORTALEZA_AUTOSHOPPING_AG</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X161_FORTALEZA_AUTOSHOPPING_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X162_CARMEISTER_CALAMA_AG</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>162 CARMEISTER CALAMA(AG)</label>
+        <sharedTo>
+            <group>X162_CARMEISTER_CALAMA_AG</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X162_CARMEISTER_CALAMA_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X164_JESUS_PONS_CURICO_DERCO</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>164 JESUS PONS - CURICO (DERCO)</label>
+        <sharedTo>
+            <group>X164_JESUS_PONS_CURICO_DERCO</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X164_JESUS_PONS_CURICO_DERCO_Derco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X165_JESUS_PONS_LINARES_DERCO</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>165 JESUS PONS - LINARES (DERCO)</label>
+        <sharedTo>
+            <group>X165_JESUS_PONS_LINARES_DERCO</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X165_JESUS_PONS_LINARES_DERCO_Derco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X167_GUILLERMO_MORALES_PLAZA_EGA_A_AG</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>167 GUILLERMO MORALES PLAZA EGAÑA (AG)</label>
+        <sharedTo>
+            <group>X167_GUILLERMO_MORALES_PLAZA_EGA_A_AG</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X167_GUILLERMO_MORALES_PLAZA_EGA_A_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X168_CARMEISTER_LA_SERENA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>168 CARMEISTER LA SERENA</label>
+        <sharedTo>
+            <group>X168_CARMEISTER_LA_SERENA</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X168_CARMEISTER_LA_SERENA_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X16_AG_IQUIQUE</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>16 AG IQUIQUE</label>
+        <sharedTo>
+            <group>X16_AG_IQUIQUE</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X16_AG_IQUIQUE_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X16_GUSTAVO_SAAVEDRA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>16 GUSTAVO SAAVEDRA</label>
+        <sharedTo>
+            <group>X16_GUSTAVO_SAAVEDRA_Derco</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X16_GUSTAVO_SAAVEDRA_Derco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X170_AG_BALMACEDA_EX_COVALSA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>170 AG BALMACEDA (EX COVALSA)</label>
+        <sharedTo>
+            <group>X170_AG_BALMACEDA_EX_COVALSA</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X170_AG_BALMACEDA_EX_COVALSA_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X171_SERGIO_ESCOBAR_OSORNO</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>171 SERGIO ESCOBAR OSORNO</label>
+        <sharedTo>
+            <group>X171_SERGIO_ESCOBAR_OSORNO_DERCO</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X171_SERGIO_ESCOBAR_OSORNO_Derco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X172_AUTOMOTORA_BILBAO_CHINOS_MATRIZ</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>172 AUTOMOTORA BILBAO CHINOS MATRIZ</label>
+        <sharedTo>
+            <group>X172_AUTOMOTORA_BILBAO_CHINOS_MATRIZ</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X172_AUTOMOTORA_BILBAO_CHINOS_MATRIZ_Derco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X172_PORTILLO_AG</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>172 PORTILLO (AG)</label>
+        <sharedTo>
+            <group>X172_PORTILLO_AG</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X172_PORTILLO_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X174_DECAR_VILLARRICA_Derco</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>174 DECAR VILLARRICA(Derco)</label>
+        <sharedTo>
+            <group>X174_DECAR_VILLARRICA</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X174_DECAR_VILLARRICA_Derco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X175_ARAUCO_COLIN</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>175 ARAUCO COLIN</label>
+        <sharedTo>
+            <group>X175_ARAUCO_COLIN_DERCO</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X175_ARAUCO_COLIN_Derco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X176_AUTOS_YUSIC_ARICA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>176 AUTOS YUSIC ARICA</label>
+        <sharedTo>
+            <group>X176_AUTOS_YUSIC_ARICA_Derco</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X176_AUTOS_YUSIC_ARICA_Derco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X177_PORTILLO_VITACURA_HYUNDAI</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>177 PORTILLO VITACURA HYUNDAI</label>
+        <sharedTo>
+            <group>X177_PORTILLO_VITACURA_HYUNDAI</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X177_PORTILLO_VITACURA_HYUNDAI_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X179_SUZUVAL_ILLAPEL</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>179 SUZUVAL ILLAPEL</label>
+        <sharedTo>
+            <group>X179_SUZUVAL_ILLAPEL_Derco</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X179_SUZUVAL_ILLAPEL_Derco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X17_AG_CALAMA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>17 AG CALAMA</label>
+        <sharedTo>
+            <group>X17_AG_CALAMA</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X17_AG_CALAMA_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X17_MEGACENTER_SUZUKI</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>17 MEGACENTER (SUZUKI)</label>
+        <sharedTo>
+            <group>X17_MEGACENTER_SUZUKI_Derco</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X17_MEGACENTER_SUZUKI_Derco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X180_CARMEISTER_CERRILLOS</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>180 CARMEISTER CERRILLOS</label>
+        <sharedTo>
+            <group>X180_CARMEISTER_CERRILLOS</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X180_CARMEISTER_CERRILLOS_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X180_PROMOTORS_MAIPU</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>180 PROMOTORS MAIPU</label>
+        <sharedTo>
+            <group>X180_PROMOTORS_MAIPU_Derco</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X180_PROMOTORS_MAIPU_Derco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X181_CARMEISTER_MALL_PLAZA_LA_SERENA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>181 CARMEISTER MALL PLAZA LA SERENA</label>
+        <sharedTo>
+            <group>X181_CARMEISTER_MALL_PLAZA_LA_SERENA</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X181_CARMEISTER_MALL_PLAZA_LA_SERENA_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X181_SERGIO_ESCOBAR_O_HIGGINS_Derco</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>181 SERGIO ESCOBAR O&apos;HIGGINS(Derco)</label>
+        <sharedTo>
+            <group>X181_SERGIO_ESCOBAR_O_HIGGINS</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X181_SERGIO_ESCOBAR_OHIGGINS_Derco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X183_VIRTUAL_MOVICENTER_Derco</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>183 VIRTUAL MOVICENTER(Derco)</label>
+        <sharedTo>
+            <group>X183_VIRTUAL_MOVICENTER_Derco</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X183_VIRTUAL_MOVICENTER_Derco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X185_CIRCULO_LINARES_HYUNDAI</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>185 CIRCULO LINARES (HYUNDAI)</label>
+        <sharedTo>
+            <group>X185_CIRCULO_LINARES_HYUNDAI_AG</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X185_CIRCULO_LINARES_HYUNDAI_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X185_INVERSIONES_YUSIC_ARICA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>185 INVERSIONES YUSIC ARICA</label>
+        <sharedTo>
+            <group>X185_INVERSIONES_YUSIC_ARICA_Derco</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X185_INVERSIONES_YUSIC_ARICA_Derco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X186_CARMEISTER_AUTOSHOPPING_AG2</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>186 CARMEISTER AUTOSHOPPING (AG)</label>
+        <sharedTo>
+            <group>X184_AUTOS_YUSIC_IQUIQUE_Derco</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X184_AUTOS_YUSIC_IQUIQUE_186_INVERSIONES_YUSIC_IQUIQUE</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X187_CURIFOR_OVALLE</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>187 CURIFOR OVALLE</label>
+        <sharedTo>
+            <group>X187_CURIFOR_OVALLE</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X187_CURIFOR_OVALLE_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X187_VIRTUAL_MEGACENTER_Derco</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>187 VIRTUAL MEGACENTER(Derco)</label>
+        <sharedTo>
+            <group>X187_VIRTUAL_MEGACENTER_Derco</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X187_VIRTUAL_MEGACENTER_Derco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X188_GUILLERMO_MORALES_PUERTO_MONTT_AG</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>188 GUILLERMO MORALES PUERTO MONTT (AG)</label>
+        <sharedTo>
+            <group>X188_GUILLERMO_MORALES_PUERTO_MONTT_AG</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X188_GUILLERMO_MORALES_PUERTO_MONTT_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X189_CURIFOR_COQUIMBO</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>189 CURIFOR COQUIMBO</label>
+        <sharedTo>
+            <group>X189_CURIFOR_COQUIMBO_AG</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X189_CURIFOR_COQUIMBO_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X189_VIRTUAL_PLAZA_OESTE_DERCO</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>189 VIRTUAL PLAZA OESTE (DERCO)</label>
+        <sharedTo>
+            <group>X189_VIRTUAL_PLAZA_OESTE_DERCO</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X189_VIRTUAL_PLAZA_OESTE_Derco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X18_AG_ANTOFAGASTA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>18 AG ANTOFAGASTA</label>
+        <sharedTo>
+            <group>X18_AG_ANTOFAGASTA</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X18_AG_ANTOFAGASTA_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X18_MOVICENTER_USADOS_Derco</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>18 MOVICENTER USADOS(Derco)</label>
+        <sharedTo>
+            <group>X18_MOVICENTER_USADOS</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X18_MOVICENTER_USADOS_Derco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X190_FORTALEZA_PUERTO_VARAS</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>190 FORTALEZA PUERTO VARAS</label>
+        <sharedTo>
+            <group>X190_FORTALEZA_PUERTO_VARAS_AG</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X190_FORTALEZA_PUERTO_VARAS_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X191_ASPILLAGA_Y_HORNAUER_BELLOTO</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>191 ASPILLAGA Y HORNAUER BELLOTO DERCO</label>
+        <sharedTo>
+            <group>X191_ASPILLAGA_Y_HORNAUER_BELLOTO_DERCO</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X191_ASPILLAGA_Y_HORNAUER_BELLOTO_Derco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X192_MEDINA_BALLART_FORTALEZA_AG</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>192 MEDINA &amp; BALLART FORTALEZA(AG)</label>
+        <sharedTo>
+            <group>X192_MEDINA_BALLART_FORTALEZA_AG</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X192_MEDINA_BALLART_FORTALEZA_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X195_H_MOTORES_PLAZA_OESTE_FORTALEZA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>195 H MOTORES PLAZA OESTE FORTALEZA</label>
+        <sharedTo>
+            <group>X195_H_MOTORES_PLAZA_OESTE_FORTALEZA_AG</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X195_H_MOTORES_PLAZA_OESTE_FORTALEZA_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X196_AG_PUERTO_VARAS</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>196 AG PUERTO VARAS</label>
+        <sharedTo>
+            <group>X196_AG_PUERTO_VARAS</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X196_AG_PUERTO_VARAS_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X199_CURIFOR_RANCAGUA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>199 CURIFOR RANCAGUA</label>
+        <sharedTo>
+            <group>X199_CURIFOR_RANCAGUA_AG</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X199_CURIFOR_RANCAGUA_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X19_AG_AUTO_PLAZA_ANTOFAGASTA_AG</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>19 AG AUTO PLAZA ANTOFAGASTA (AG)</label>
+        <sharedTo>
+            <group>X19_AG_AUTO_PLAZA_ANTOFAGASTA</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X19_AG_AUTO_PLAZA_ANTOFAGASTA_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X19_MOVICENTER_MAZDA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>19 MOVICENTER (MAZDA)</label>
+        <sharedTo>
+            <group>X19_MOVICENTER_MAZDA</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X19_MOVICENTER_MAZDA_Derco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X1_AG_ALAMEDA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>1 AG ALAMEDA</label>
+        <sharedTo>
+            <group>X1_AG_ALAMEDA_AG</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X1_AG_ALAMEDA_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X1_ANFRUNS_RANCAGUA_Derco</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>1 ANFRUNS RANCAGUA(Derco)</label>
+        <sharedTo>
+            <group>X1_ANFRUNS_RANCAGUA</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X1_ANFRUNS_RANCAGUA_Derco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X200_FORTALEZA_IQUIQUE_AG</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>200 FORTALEZA IQUIQUE (AG)</label>
+        <sharedTo>
+            <group>X200_FORTALEZA_IQUIQUE_AG</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X200_FORTALEZA_IQUIQUE_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X201_BRUNO_FRITSCH_PLAZA_SUR_FORTALEZA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>201 BRUNO FRITSCH PLAZA SUR FORTALEZA</label>
+        <sharedTo>
+            <group>X201_BRUNO_FRITSCH_PLAZA_SUR_FORTALEZA</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X201_BRUNO_FRITSCH_PLAZA_SUR_FORTALEZA_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X202_AUTOMOTORA_BILBAO_PLAZA_EGA_A_Derco</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>202 AUTOMOTORA BILBAO PLAZA EGAÑA (Derco)</label>
+        <sharedTo>
+            <group>X202_AUTOMOTORA_BILBAO_PLAZA_EGA_A_Derco</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X202_AUTOMOTORA_BILBAO_PLAZA_EGA_A</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X202_SAINT_GERMAIN_AUTOS</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>202 SAINT GERMAIN AUTOS</label>
+        <sharedTo>
+            <group>X202_SAINT_GERMAIN_AUTOS</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X202_SAINT_GERMAIN_AUTOS_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X203_AG_PUNTA_ARENAS</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>203 AG PUNTA ARENAS</label>
+        <sharedTo>
+            <group>X203_AG_PUNTA_ARENAS</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X203_AG_PUNTA_ARENAS_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X205_FORTALEZA_PORTUGAL</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>205 FORTALEZA PORTUGAL</label>
+        <sharedTo>
+            <group>X205_FORTALEZA_PORTUGAL_AG</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X205_FORTALEZA_PORTUGAL_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X20_AG_CONCEPCION_AUTOPISTA_A_TALCAHUANO</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>20 AG CONCEPCION (AUTOPISTA A TALCAHUANO)</label>
+        <sharedTo>
+            <group>X20_AG_CONCEPCION_AUTOPISTA_A_TALCAHUANO</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X20_AG_CONCEPCION_AUTOPISTA_A_TALCAHUANO_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X20_MOVICENTER_4_SUZUKI_Derco</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>20 MOVICENTER 4 (SUZUKI)(Derco)</label>
+        <sharedTo>
+            <group>X20_MOVICENTER_4_SUZUKI_DERCO</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X20_MOVICENTER_4_SUZUKI_Derco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X21_AG_AUTOPLAZA_MALL_DEL_TREBOL</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>21 AG AUTOPLAZA MALL DEL TREBOL</label>
+        <sharedTo>
+            <group>X21_AG_AUTOPLAZA_MALL_DEL_TREBOL</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X21_AG_AUTOPLAZA_MALL_DEL_TREBOL_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X21_OVALLE_HERMANOS_Derco</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>21 OVALLE HERMANOS(Derco)</label>
+        <sharedTo>
+            <group>X21_OVALLE_HERMANOS_Derco</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X21_OVALLE_HERMANOS_Derco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X220_FORTALEZA_PUNTA_ARENAS</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>220 FORTALEZA PUNTA ARENAS</label>
+        <sharedTo>
+            <group>X220_FORTALEZA_PUNTA_ARENAS_AG</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X220_FORTALEZA_PUNTA_ARENAS_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X22_AG_LOS_ANGELES</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>22 AG LOS ANGELES</label>
+        <sharedTo>
+            <group>X22_AG_LOS_ANGELES</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X22_AG_LOS_ANGELES_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X23_AG_TEMUCO_AG</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>23 AG TEMUCO(AG)</label>
+        <sharedTo>
+            <group>X23_AG_TEMUCO</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X23_AG_TEMUCO_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X23_PLAZA_NORTE_SUZUKI_Derco</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>23 PLAZA NORTE (SUZUKI)(Derco)</label>
+        <sharedTo>
+            <group>X23_PLAZA_NORTE_SUZUKI_DERCO</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X23_PLAZA_NORTE_SUZUKI_Derco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X24_AG_VALDIVIA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>24 AG VALDIVIA</label>
+        <sharedTo>
+            <group>X24_AG_VALDIVIA_AG</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X24_AG_VALDIVIA_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X24_PLAZA_OESTE_MAZDA_Derco</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>24 PLAZA OESTE MAZDA (Derco)</label>
+        <sharedTo>
+            <group>X24_PLAZA_OESTE_MAZDA_Derco</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X24_PLAZA_OESTE_MAZDA_Derco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X25_PLAZA_OESTE_USADOS</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>25 PLAZA OESTE USADOS</label>
+        <sharedTo>
+            <group>X25_PLAZA_OESTE_USADOS</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X25_PLAZA_OESTE_USADOS_Derco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X26_AG_PUERTO_MONTT_AG</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>26 AG PUERTO MONTT(AG)</label>
+        <sharedTo>
+            <group>X26_AG_PUERTO_MONTT_AG</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X26_AG_PUERTO_MONTT_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X26_PLAZA_TOBALABA_SMG_SZK_Derco</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>26 PLAZA TOBALABA (SMG-SZK)(Derco)</label>
+        <sharedTo>
+            <group>X26_PLAZA_TOBALABA_SMG_SZK_Derco</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X26_PLAZA_TOBALABA_SMG_SZK_Derco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X27_PLAZA_VESPUCIO_SUZUKI_Derco</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>27 PLAZA VESPUCIO SUZUKI(Derco)</label>
+        <sharedTo>
+            <group>X27_PLAZA_VESPUCIO_SUZUKI_Derco</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X27_PLAZA_VESPUCIO_SUZUKI_Derco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X28_CURIFOR_VICUNA_MACKENNA_LA_FLORIDA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>28 CURIFOR - VICUNA MACKENNA LA FLORIDA</label>
+        <sharedTo>
+            <group>X28_CURIFOR_VICUNA_MACKENNA_AG</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X28_CURIFOR_VICUNA_MACKENNA_LA_FLORIDA_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X29_LIRA_LARRAIN_PROVIDENCIA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>29 LIRA LARRAIN PROVIDENCIA</label>
+        <sharedTo>
+            <group>X29_LIRA_LARRAIN_PROVIDENCIA_AG</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X29_LIRA_LARRAIN_PROVIDENCIA_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X30_SERGIO_ESCOBAR_MALL</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>30 SERGIO ESCOBAR MALL</label>
+        <sharedTo>
+            <group>X30_SERGIO_ESCOBAR_MALL</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X30_SERGIO_ESCOBAR_MALL_Derco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X32_SERMACO_Derco</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>32 SERMACO (Derco)</label>
+        <sharedTo>
+            <group>X32_SERMACO</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X32_SERMACO_Derco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X34_SUZUVAL_VALPARAISO</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>34 SUZUVAL VALPARAISO</label>
+        <sharedTo>
+            <group>X34_SUZUVAL_VALPARAISO_Derco</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X34_SUZUVAL_VALPARAISO_Derco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X35_SUZUVAL_VI_A</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>35 SUZUVAL VIÑA</label>
+        <sharedTo>
+            <group>X35_SUZUVAL_VI_A_Derco</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X35_SUZUVAL_VI_A_Derco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X36_H_MOTORES_SA_15_NORTE</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>36 H MOTORES SA 15 NORTE</label>
+        <sharedTo>
+            <group>X36_H_MOTORES_SA_15_NORTE_AG</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X36_H_MOTORES_SA_15_NORTE_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X36_VIRTUAL</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>36 VIRTUAL</label>
+        <sharedTo>
+            <group>X36_VIRTUAL_Derco</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X36_VIRTUAL_Derco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X39_QUILICURA_Derco</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>39 QUILICURA (Derco)</label>
+        <sharedTo>
+            <group>X39_QUILICURA_Derco</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X39_QUILICURA_Derco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X3_ARAUCO_TALCA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>3 ARAUCO TALCA</label>
+        <sharedTo>
+            <group>X3_ARAUCO_TALCA_DERCO</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X3_ARAUCO_TALCA_Derco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X41_P_HIDALGO_PAJARITOS</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>41 P HIDALGO PAJARITOS</label>
+        <sharedTo>
+            <group>X41_P_HIDALGO_PAJARITOS_Derco</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X41_P_HIDALGO_PAJARITOS_Derco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X42_ANSA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>42 ANSA</label>
+        <sharedTo>
+            <group>X42_ANSA_DERCO</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X42_ANSA_Derco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X43_AUTOS_YUSIC_CALAMA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>43 AUTOS YUSIC CALAMA</label>
+        <sharedTo>
+            <group>X43_AUTOS_YUSIC_CALAMA_Derco</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X43_AUTOS_YUSIC_CALAMA_Derco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X44_SUZUVAL_LA_CALERA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>44 SUZUVAL LA CALERA</label>
+        <sharedTo>
+            <group>X44_SUZUVAL_LA_CALERA_DERCO</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X44_SUZUVAL_LA_CALERA_Derco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X45_CURIFOR_BUIN_AG</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>45 CURIFOR BUIN(AG)</label>
+        <sharedTo>
+            <group>X45_CURIFOR_BUIN</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X45_CURIFOR_BUIN_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X45_SUZUVAL_SAN_ANTONIO</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>45 SUZUVAL SAN ANTONIO</label>
+        <sharedTo>
+            <group>X45_SUZUVAL_SAN_ANTONIO</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X45_SUZUVAL_SAN_ANTONIODerco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X46_AUTOSTOP</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>46 AUTOSTOP</label>
+        <sharedTo>
+            <group>X46_AUTOSTOP_Derco</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X46_AUTOSTOP_Derco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X47_JESUS_PONS_CURICO_Derco</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>47 JESUS PONS CURICO(Derco)</label>
+        <sharedTo>
+            <group>X47_JESUS_PONS_CURICO_DERCO</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X47_JESUS_PONS_CURICO_Derco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X48_SERGIO_ESCOBAR_PAICAVI_RENAULT_MAZDA_Derco</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>48 SERGIO ESCOBAR PAICAVI (RENAULT-MAZDA)(Derco)</label>
+        <sharedTo>
+            <group>X48_SERGIO_ESCOBAR_PAICAVI</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X48_SERGIO_ESCOBAR_PAICAVI_RENAULT_MAZDA_Derco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X49_H_MOTORES_SA_VALPARA_SO</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>49 H MOTORES SA VALPARAÍSO</label>
+        <sharedTo>
+            <group>X49_H_MOTORES_SA_VALPARA_SO_AG</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X49_H_MOTORES_SA_VALPARA_SO_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X4_ASPILLAGA_Y_HORNAUER_VI_A_DEL_MAR</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>4 ASPILLAGA Y HORNAUER, VIÑA DEL MAR</label>
+        <sharedTo>
+            <group>X4_ASPILLAGA_Y_HORNAUER_VI_A_DELMAR_Derc</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X4_ASPILLAGA_Y_HORNAUER_VINA_DELMAR_Derco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X50_CURIFOR_CURICO</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>50 CURIFOR CURICÓ</label>
+        <sharedTo>
+            <group>X50_CURIFOR_CURICO_AG</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X50_CURIFOR_CURIC_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X50_SERGIO_ESCOBAR_LOS_ANGELES</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>50 SERGIO ESCOBAR LOS ANGELES</label>
+        <sharedTo>
+            <group>X50_SERGIO_ESCOBAR_LOS_ANGELES_Derco</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X50_SERGIO_ESCOBAR_LOS_ANGELES_Derco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X51_CURIFOR_CHILL_N_AG</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>51 CURIFOR CHILLÁN (AG)</label>
+        <sharedTo>
+            <group>X51_CURIFOR_CHILL_N_AG</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X51_CURIFOR_CHILL_N_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X51_SERGIO_ESCOBAR_CHILL_N_Derco</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>51 SERGIO ESCOBAR CHILLÁN</label>
+        <sharedTo>
+            <group>X51_SERGIO_ESCOBAR_CHILL_N</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X51_SERGIO_ESCOBAR_CHILL_N_Derco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X52_BRUNO_FRITSCH_CONCEPCION_AG</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>52 BRUNO FRITSCH CONCEPCION(AG)</label>
+        <sharedTo>
+            <group>X52_BRUNO_FRITSCH_CONCEPCION</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X52_BRUNO_FRITSCH_CONCEPCION_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X52_EXEQUIEL_BERRIOS_CASTRO</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>52 EXEQUIEL BERRIOS CASTRO</label>
+        <sharedTo>
+            <group>X52_EXEQUIEL_BERRIOS_CASTRO</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X52_EXEQUIEL_BERRIOS_CASTRO_Derco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X53_EXEQUIEL_BERRIOS_VALDIVIA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>53 EXEQUIEL BERRIOS VALDIVIA</label>
+        <sharedTo>
+            <group>X53_EXEQUIEL_BERRIOS_VALDIVIA_Derco</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X53_EXEQUIEL_BERRIOS_VALDIVIA_Derco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X55_CHILO_MOTORES_AG</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>55 CHILOÉ MOTORES (AG)</label>
+        <sharedTo>
+            <group>X55_CHILO_MOTORES_AG</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X55_CHILO_MOTORES_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X55_RECASUR_PUNTA_ARENAS</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>55 RECASUR PUNTA ARENAS</label>
+        <sharedTo>
+            <group>X55_RECASUR_PUNTA_ARENAS_DERCO</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X55_RECASUR_PUNTA_ARENAS_Derco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X56_TOVARIAS_AG</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>56 TOVARIAS(AG)</label>
+        <sharedTo>
+            <group>X56_TOVARIAS_AG</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X56_TOVARIAS_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X57_CUMSILLE_CASA_MATRIZ</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>57 CUMSILLE CASA MATRIZ</label>
+        <sharedTo>
+            <group>X57_CUMSILLE_CASA_MATRIZ_Derco</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X57_CUMSILLE_CASA_MATRIZ_Derco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X58_AG_PLAZA_LA_SERENA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>58 AG PLAZA LA SERENA</label>
+        <sharedTo>
+            <group>X58_AG_PLAZA_LA_SERENA</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X58_AG_PLAZA_LA_SERENA_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X5_AG_CASA_MATRIZ</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>5 AG CASA MATRIZ</label>
+        <sharedTo>
+            <group>X5_AG_CASA_MATRIZ</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X5_AG_CASA_MATRIZ_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X60_CARMEISTER_MOVICENTER_AG</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>60 CARMEISTER MOVICENTER(AG)</label>
+        <sharedTo>
+            <group>X60_CARMEISTER_MOVICENTER</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X60_CARMEISTER_MOVICENTERAG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X61_H_MOTORES_SA_LONQUEN</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>61 H MOTORES SA LONQUEN</label>
+        <sharedTo>
+            <group>X61_H_MOTORES_SA_LONQUEN_AG</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X61_H_MOTORES_SA_LONQUEN_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X61_PLAZA_OESTE_SUZUKI_Derco</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>61 PLAZA OESTE SUZUKI(Derco)</label>
+        <sharedTo>
+            <group>X61_PLAZA_OESTE_SUZUKI</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X61_PLAZA_OESTE_SUZUKIDerco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X63_PLAZA_VESPUCIO_MAZDA_Derco</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>63 PLAZA VESPUCIO (MAZDA) (Derco)</label>
+        <sharedTo>
+            <group>X63_PLAZA_VESPUCIO_MAZDA_Derco</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X63_PLAZA_VESPUCIO_MAZDA_Derco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X64_CARMEISTER_CASA_MATRIZ</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>64 CARMEISTER CASA MATRIZ</label>
+        <sharedTo>
+            <group>X64_CARMEISTER_CASA_MATRIZ_AG</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X64_CARMEISTER_CASA_MATRIZ_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X66_DECAR_SA_Derco</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>66 DECAR SA(Derco)</label>
+        <sharedTo>
+            <group>X66_DECAR_S_A</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X66_DECAR_SA_Derco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X67_CUMSILLE_SAN_FERNADO</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>67 CUMSILLE SAN FERNADO</label>
+        <sharedTo>
+            <group>X67_CUMSILLE_SAN_FERNADO_Derco</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X67_CUMSILLE_SAN_FERNADO_Derco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X69_GUILLERMO_MORALES_VITACURA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>69 GUILLERMO MORALES VITACURA</label>
+        <sharedTo>
+            <group>X69_GUILLERMO_MORALES_VITACURA_AG</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X69_GUILLERMO_MORALES_VITACURAAG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X6_AUTOCENTRO_NICOL_S</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>6 AUTOCENTRO NICOLÁS</label>
+        <sharedTo>
+            <group>X6_AUTOCENTRO_NICOL_S_Dero</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X6_AUTOCENTRO_NICOL_S_Derco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X71_MEDITERRANEO_AUTOMOTORES_CIRCULO_HYUNDAI_TALCA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>71 MEDITERRANEO AUTOMOTORES CIRCULO HYUNDAI TALCA</label>
+        <sharedTo>
+            <group>X71_MEDITERRANEO_AUTOMOTORES_CIRCULO_AG</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X71_MEDITERRANEO_AUTOMOTORES_CIRCULO_HYUNDAI_TALCA_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X74_AG_VICU_A_MACKENNA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>74 AG VICUÑA MACKENNA</label>
+        <sharedTo>
+            <group>X74_AG_VICU_A_MACKENNA</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X74_AG_VICU_A_MACKENNA_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X75_PLAZA_OESTE_GWM_CHA_JAC_GEE_Derco</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>75 PLAZA OESTE (GWM-CHA-JAC-GEE)(Derco)</label>
+        <sharedTo>
+            <group>X75_PLAZA_OESTE_GWM_CHA_JAC_GEE</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X75_PLAZA_OESTE_GWM_CHA_JAC_GEE_Derco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X7_AUTOMOTORA_BILBAO</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>7 AUTOMOTORA BILBAO</label>
+        <sharedTo>
+            <group>X7_AUTOMOTORA_BILBAO_DERCO</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X7_AUTOMOTORA_BILBAO_Derco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X82_CAVAL_TALCA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>82 CAVAL TALCA</label>
+        <sharedTo>
+            <group>X82_CAVAL_TALCA_AG</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X82_CAVAL_TALCA_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X83_MOVICENTER_RNT_SMG</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>83 MOVICENTER (RNT - SMG)</label>
+        <sharedTo>
+            <group>X83_MOVICENTER_RNT_SMG_Derco</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X83_MOVICENTER_RNT_SMG_Derco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X84_AG_VI_A_DEL_MAR_AG</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>84 AG VIÑA DEL MAR(AG)</label>
+        <sharedTo>
+            <group>X84_AG_VI_A_DEL_MAR</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X84_AG_VI_A_DEL_MAR_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X86_DISTRIBUIDORA_ROSSELOT_LTDA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>86 DISTRIBUIDORA ROSSELOT LTDA</label>
+        <sharedTo>
+            <group>X86_DISTRIBUIDORA_ROSSELOT_LTDA_AG</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X86_DISTRIBUIDORA_ROSSELOT_LTDA_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X88_PLAZA_TOBALABA_GWM_GEE_JAC_CHA_Derco</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>88 PLAZA TOBALABA (GWM-GEE-JAC-CHA)Derco</label>
+        <sharedTo>
+            <group>X88_PLAZA_TOBALABA_GWM_GEE_JAC_CHA_Derco</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X88_PLAZA_TOBALABA_GWM_GEE_JAC_CHA_Derco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X89_CITYTIME_MALL_IQUIQUE</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>89 CITYTIME MALL IQUIQUE</label>
+        <sharedTo>
+            <group>X89_CITYTIME_MALL_IQUIQUE_AG</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X89_CITYTIME_MALL_IQUIQUE_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X90_FORTALEZA_CALAMA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>90 FORTALEZA CALAMA</label>
+        <sharedTo>
+            <group>X90_FORTALEZA_CALAMA_AG</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X90_FORTALEZA_CALAMA_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X90_PLAZA_VESPUCIO_RENAULT_SAMSUNG_Derco</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>90 PLAZA VESPUCIO (RENAULT-SAMSUNG )Derco</label>
+        <sharedTo>
+            <group>X90_PLAZA_VESPUCIO_RENAULT_SAMSUNG_Derco</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X90_PLAZA_VESPUCIO_RENAULT_SAMSUNG_Derco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X91_FORTALEZA_ANTOFAGASTA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>91 FORTALEZA ANTOFAGASTA</label>
+        <sharedTo>
+            <group>X91_FORTALEZA_ANTOFAGASTA_AG</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X91_FORTALEZA_ANTOFAGASTA_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X91_JESUS_PONS_LINARES_DERCO</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>91 JESUS PONS LINARES (DERCO)</label>
+        <sharedTo>
+            <group>X91_JESUS_PONS_LINARES_DERCO</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X91_JESUS_PONS_LINARES_Derco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X92_AUTOS_YUSIC_COSTANERA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>92 AUTOS YUSIC COSTANERA</label>
+        <sharedTo>
+            <group>X92_AUTOS_YUSIC_COSTANERA_Derco</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X92_AUTOS_YUSIC_COSTANERA_Derco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X93_AG_CERRILLOS</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>93 AG CERRILLOS</label>
+        <sharedTo>
+            <group>X93_AG_CERRILLOS</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X93_AG_CERRILLOS_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X93_DUMAY_VITACURA_Derco</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>93 DUMAY VITACURA (Derco)</label>
+        <sharedTo>
+            <group>X93_DUMAY_VITACURA_Derco</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X93_DUMAY_VITACURA_Derco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X94_BRUNO_FRITSCH_PLAZA_SUR</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>94 BRUNO FRITSCH PLAZA SUR</label>
+        <sharedTo>
+            <group>X94_BRUNO_FRITSCH_PLAZA_SUR_AG</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X94_BRUNO_FRITSCH_PLAZA_SUR_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X95_CIRCULO_IRARRAZABAL_AG</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>95 CIRCULO IRARRAZABAL(AG)</label>
+        <sharedTo>
+            <group>X95_CIRCULO_IRARRAZABAL_AG</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X95_CIRCULO_IRARRAZABAL_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X97_CITYTIME_ARICA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>97 CITYTIME ARICA</label>
+        <sharedTo>
+            <group>X97_CITYTIME_ARICA</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X97_CITYTIME_ARICA_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X98_FORTALEZA_PLAZA_CALAMA_AG</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>98 FORTALEZA PLAZA CALAMA (AG)</label>
+        <sharedTo>
+            <group>X98_FORTALEZA_PLAZA_CALAMA_AG</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X98_FORTALEZA_PLAZA_CALAMA_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X99_FORTALEZA_PLAZA_ANTOFAGASTA_AG</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>99 FORTALEZA PLAZA ANTOFAGASTA(AG)</label>
+        <sharedTo>
+            <group>X99_FORTALEZA_PLAZA_ANTOFAGASTA_AG</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X99_FORTALEZA_PLAZA_ANTOFAGASTA_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X9_AG_MALL_PLAZA_NORTE</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>9 AG MALL PLAZA NORTE</label>
+        <sharedTo>
+            <group>X9_AG_MALL_PLAZA_NORTE</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X9_AG_MALL_PLAZA_NORTE_AG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>X9_AUTOS_YUSIC_MALL_ANTOFAGASTA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>9 AUTOS YUSIC MALL ANTOFAGASTA</label>
+        <sharedTo>
+            <group>X9_AUTOS_YUSIC_MALL_ANTOFAGASTA_Derco</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>X9_AUTOS_YUSIC_MALL_ANTOFAGASTA_Derco</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

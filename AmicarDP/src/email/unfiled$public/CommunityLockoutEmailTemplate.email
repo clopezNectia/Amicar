@@ -1,0 +1,13 @@
+Hola {!Receiving_User.FirstName},
+
+            Recibimos su solicitud para restablecer su contraseña de {!Community_Name}. No podemos restablecer su contraseña en estos momentos. Su cuenta está bloqueada tras demasiados intentos de inicio de sesión.
+
+            {!CASE(1,
+            IF(VALUE(PASSWORD_LOCK_TIME) > 0, 1, 0), "Inténtelo de nuevo en " + PASSWORD_LOCK_TIME + " minutos.",
+            IF(VALUE(PASSWORD_LOCK_TIME) < 0, 1, 0), "Póngase en contacto con su administrador de " + Community_Name + " para desbloquear su cuenta.",
+            "")}
+
+            Si no solicitó un restablecimiento de su contraseña o no ha intentado iniciar sesión en su cuenta recientemente, póngase en contacto con su administrador de {!Community_Name} o responda a este mensaje.
+
+            Gracias,
+            {!Community_Name}

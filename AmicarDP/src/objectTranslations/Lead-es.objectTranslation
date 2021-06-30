@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Comentario Llamado</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>description_lead</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Nombres</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>first_name_lead</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Apellido Paterno</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>last_name_lead</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Fono Celular</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>mobile_lead</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Fono Particular</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>phone_lead</name>
+    </fields>
+</CustomObjectTranslation>

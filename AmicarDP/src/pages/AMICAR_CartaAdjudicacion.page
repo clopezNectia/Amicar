@@ -1,0 +1,233 @@
+<apex:page showHeader="false" sidebar="false" standardStylesheets="false" docType="HTML-5.0" controller="AMICAR_CartaAdjudicacionController" action="{!cargaDatos}" renderAs="pdf" title="Carta de adjudicación">
+<html>
+    <head>
+        <style>
+            @page {
+                size: A4;
+            }
+        </style>
+    </head>
+
+    <body >
+        <table style="border-width:0px; border-style:solid; border-color:#000000; width:100%;">
+            <tr>
+                <td style="width:50%;">
+                    <apex:image url="{!$Resource.logo_amicar}" height="auto"/>
+                </td>
+                <td style="width:50%; text-align:right;">
+                    <apex:outputLabel style="text-align:right; width:100%; font-family:Verdana,Geneva,sans-serif; font-weight:bold; font-size:11px;">{!solicitudCarta[0].Id_Solicitud__c} 00{!solicitudCarta[0].ConteoCarta__c}<br/>{!fechaDia}</apex:outputLabel>
+                </td>
+            </tr>
+        </table>
+
+        <apex:pageBlock id="titulo">
+            <p style="font-family:Verdana,Geneva,sans-serif; font-weight:bold; font-size:11px; text-align:center; text-decoration:underline;">CARTA DE APROBACIÓN DE CRÉDITO</p>
+        </apex:pageBlock>
+
+        <apex:pageBlock id="saludo">
+            <div style="font-family:Verdana,Geneva,sans-serif;font-size:11px;">
+                Señores:<br/>
+                {!solicitudCarta[0].Importadora__c}<br/>
+                <!--{!solicitudCarta[0].Locales__c}<br/>-->
+                {!solicitudCarta[0].Local__r.Name}<br/>
+            </div>
+        </apex:pageBlock>
+        <br/>
+
+        <apex:pageBlock id="cuerpo">
+            <div style="font-family:Verdana,Geneva,sans-serif;font-size:11px; text-align:justify; width:100%;">
+                Informo a usted que con fecha <b>{!fechaDia}</b> la solicitud de financiamiento Nro. <b>{!solicitudCarta[0].Id_Solicitud__c} - 00{!solicitudCarta[0].ConteoCarta__c}</b> del (a) Sr.(a) <b>{!solicitudCarta[0].Account.Name}</b>, cédula de Identidad <b>{!solicitudCarta[0].Rut__c}</b> se encuentra aprobada por <b>{!solicitudRemate[0].Entidad_Financiera__c}</b>. Las características del financiamiento son las siguientes:
+            </div>
+
+            <p style="text-align:center; align-self:center; align-content:center;">
+                <table style="border-width:0px; border-style:solid; border-color:#000000; font-family:Verdana,Geneva,sans-serif;font-size:11px; width:100%; text-align:left;">
+                    <tr style="border-color:#000000; border-width:1px;">
+                        <td width="25%">&nbsp;</td>
+                        <td style="font-weight:bold;">Tipo de Vehículo</td>
+                        <td>{!solicitudCarta[0].Tipo_de_Veh_culo__c}</td>
+                        <td width="25%">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td style="font-weight:bold;">Cantidad de Cuotas</td>
+                        <td>{!solicitudCarta[0].Cuotas__c}</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td style="font-weight:bold;">Tasa de Interés</td>
+                        <td>{!solicitudCarta[0].Tasa__c} %</td>
+                        <td>&nbsp;</td>
+                    </tr>
+<!--                    <tr>
+                        <td>&nbsp;</td>
+                        <td style="font-weight:bold;">Producto Amicar</td>
+                        <td>XXX</td>
+                        <td>&nbsp;</td>
+                    </tr>-->
+                         
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td style="font-weight:bold;">Comisión Bruta Dealer</td>
+                        <td>$ 
+                            <apex:outputText value="{!IF(AND(NOT(ISBLANK(solicitudSimulacion[0].Comisi_n_dealer__c)),solicitudSimulacion[0].Comisi_n_dealer__c < 0), "-", "") & IF(AND(NOT(ISBLANK(solicitudSimulacion[0].Comisi_n_dealer__c)),ABS(solicitudSimulacion[0].Comisi_n_dealer__c) >= 1000000) , TEXT(FLOOR(ABS(solicitudSimulacion[0].Comisi_n_dealer__c) / 1000000)) & ".", "") & IF(AND(NOT(ISBLANK(solicitudSimulacion[0].Comisi_n_dealer__c)),(ABS(solicitudSimulacion[0].Comisi_n_dealer__c) >= 1000)), RIGHT(TEXT(FLOOR(ABS(solicitudSimulacion[0].Comisi_n_dealer__c) / 1000)), 3) & ".", "") & RIGHT(TEXT(FLOOR(ABS(solicitudSimulacion[0].Comisi_n_dealer__c))), 3)}" />    
+                            
+                        </td>
+                        <td>&nbsp;</td>
+                    </tr>
+                </table>
+            </p>
+      
+            <apex:outputLabel style="font-family:Verdana,Geneva,sans-serif;font-size:11px;" rendered="{!IF(AND(NOT(ISNULL(solicitudCompraPara)),solicitudCompraPara.size > 0), true, false)}">
+                Compra para:
+            </apex:outputLabel>
+            <br/>
+            <apex:pageBlock id="tablaCompraPara" rendered="{!IF(AND(NOT(ISNULL(solicitudCompraPara)),solicitudCompraPara.size > 0), true, false)}">
+            <p style="text-align:center; align-self:center; align-content:center;">
+                <table style="border-width:0px; border-style:solid; border-color:#000000; font-family:Verdana,Geneva,sans-serif;font-size:11px; width:100%; text-align:left;">
+                    <tr style="border-color:#000000; border-width:1px;">
+                        <td width="25%">&nbsp;</td>
+                        <td style="font-weight:bold;">Nombre</td>
+                        <td>{!solicitudCompraPara[0].Cuenta__r.Name}</td>
+                        <td width="25%">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td style="font-weight:bold;">RUT</td>
+                        <td>{!solicitudCompraPara[0].Cuenta__r.RUT__c}</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    
+                </table>
+            </p>
+            </apex:pageBlock>
+            <apex:outputLabel style="font-family:Verdana,Geneva,sans-serif;font-size:11px;">
+                Correspondientes a la compra del vehículo:
+            </apex:outputLabel>
+            <br/>
+
+            <apex:pageBlock id="tablaVehiculo">
+
+                <p>
+                    <table style="align-self:center; border-width:1px; border-style:solid; border-color:#000000; font-family:Verdana,Geneva,sans-serif;font-size:11px; width:100%; text-align:left; border-collapse:collapse;">
+                        <tr>
+                            <td width="25%">&nbsp;</td>
+                            <td style="font-weight:bold;">Marca</td>
+                            <td >{!solicitudCarta[0].Marca_vehiculo__c}</td>
+                            <td width="25%">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td width="25%">&nbsp;</td>
+                            <td style="font-weight:bold;">Modelo</td>
+                            <td >{!solicitudCarta[0].Modelo2__r.Name}&nbsp;{!solicitudCarta[0].Version__c}</td>
+                            <td width="25%">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td width="25%">&nbsp;</td>
+                            <td style="font-weight:bold;">Año</td>
+                            <td >{!solicitudCarta[0].A_o_Veh_culo__c}</td>
+                            <td width="25%">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td width="25%">&nbsp;</td>
+                            <td style="font-weight:bold;">Valor</td>
+                            <td >$ <apex:outputText value="{!IF(solicitudCarta[0].Precio_vehiculo__c < 0, "-", "") & IF(ABS(solicitudCarta[0].Precio_vehiculo__c) >= 1000000, TEXT(FLOOR(ABS(solicitudCarta[0].Precio_vehiculo__c) / 1000000)) & ".", "") & IF(ABS(solicitudCarta[0].Precio_vehiculo__c) >= 1000, RIGHT(TEXT(FLOOR(ABS(solicitudCarta[0].Precio_vehiculo__c) / 1000)), 3) & ".", "") & RIGHT(TEXT(FLOOR(ABS(solicitudCarta[0].Precio_vehiculo__c))), 3)}" /></td>
+                            <td width="25%">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td width="25%">&nbsp;</td>
+                            <td style="font-weight:bold;">Pie</td>
+                            <td >$ <apex:outputText value="{!IF(solicitudCarta[0].Pie__c < 0, "-", "") & IF(ABS(solicitudCarta[0].Pie__c) >= 1000000, TEXT(FLOOR(ABS(solicitudCarta[0].Pie__c) / 1000000)) & ".", "") & IF(ABS(solicitudCarta[0].Pie__c) >= 1000, RIGHT(TEXT(FLOOR(ABS(solicitudCarta[0].Pie__c) / 1000)), 3) & ".", "") & RIGHT(TEXT(FLOOR(ABS(solicitudCarta[0].Pie__c))), 3)}" /></td>
+                            <td width="25%">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td width="25%">&nbsp;</td>
+                            <td style="font-weight:bold;">Saldo Precio</td>
+                            <td >$ <apex:outputText value="{!IF(solicitudCarta[0].Saldo_precio__c < 0, "-", "") & IF(ABS(solicitudCarta[0].Saldo_precio__c) >= 1000000, TEXT(FLOOR(ABS(solicitudCarta[0].Saldo_precio__c) / 1000000)) & ".", "") & IF(ABS(solicitudCarta[0].Saldo_precio__c) >= 1000, RIGHT(TEXT(FLOOR(ABS(solicitudCarta[0].Saldo_precio__c) / 1000)), 3) & ".", "") & RIGHT(TEXT(FLOOR(ABS(solicitudCarta[0].Saldo_precio__c))), 3)}" /></td>
+                            <td width="25%">&nbsp;</td>
+                        </tr>
+                         
+                    </table>
+                </p>
+
+            </apex:pageBlock>
+
+            <apex:pageBlock id="titulo">
+                <p style="font-family:Verdana,Geneva,sans-serif; font-weight:bold; font-size:11px; text-align:center;">Condiciones Particulares:</p>
+            </apex:pageBlock>
+
+            <apex:pageBlock id="cuerpo">
+
+                <div style="font-family:Verdana,Geneva,sans-serif;font-size:11px; text-align:justify; width:100%; margin-bottom:5px;">
+                    1. Amicar no responderá por el pago del Saldo de Precio si dentro de los 15 días siguientes a la fecha de emisión de la Carta
+                    de Aprobación Amicar la Entidad Financiera no ha recibido conforme la documentación del vehículo (Factura, Solicitud de
+                    Primera Inscripción, Nota de Venta y Formulario 88 SII).<br/>
+                </div>
+
+                <div style="font-family:Verdana,Geneva,sans-serif;font-size:11px; text-align:justify; width:100%; margin-bottom:5px;">
+                    2. El envío y recepción de la documentación del vehículo indicada en punto anterior deberá efectuarse en un plazo máximo
+                    de 5 días desde fecha de solicitud de primera inscripción y no debe encontrarse rechazada por el Registro Nacional de
+                    Vehículos Motorizados, en caso contrario el saldo precio se pagará contra la constitución efectiva de la prenda del vehículo.
+                    Vencido este plazo, Amicar no asumirá responsabilidad alguna por el saldo de precio de la operación, no pudiendo el Dealer
+                    hacer reclamo alguno en este sentido a Amicar.<br/>
+                </div>
+
+                <div style="font-family:Verdana,Geneva,sans-serif;font-size:11px; text-align:justify; width:100%; margin-bottom:5px;">
+                    3. El pago de Saldo de precio será efectuado por la Entidad Financiera en un tiempo estimado de 48 horas hábiles una vez
+                    enviada y recibida la documentación del vehículo señalada anteriormente<br/>
+                </div>
+
+                <div style="font-family:Verdana,Geneva,sans-serif;font-size:11px; text-align:justify; width:100%; margin-bottom:5px;">
+                    4. La recepción de esta carta de aprobación compromete al Dealer a concretar la venta del vehículo con financiamiento. En
+                    caso de anulación del crédito por causa asociada a la venta o disponibilidad del vehículo, la documentación que dé cuenta de
+                    tal anulación deberá ser firmada expresamente por el cliente, junto con el pago de los costos de anulación si los hubiere. De
+                    no cumplirse con lo anterior, por cualquier causa, el Dealer faculta desde ya a Amicar para descontar dichos costos de la
+                    cartola mensual de comisiones.<br/>
+                </div>
+
+                <div style="font-family:Verdana,Geneva,sans-serif;font-size:11px; text-align:justify; width:100%; margin-bottom:5px;">
+                    5. Amicar no se hace responsable bajo ninguna circunstancia por la entrega del vehículo sin la correspondiente Carta de
+                    Aprobación Amicar.<br/>
+                </div>
+
+                <div style="font-family:Verdana,Geneva,sans-serif;font-size:11px; text-align:justify; width:100%;">
+                    6. Se deja expresa constancia que Amicar sólo es responsable por hechos u actos imputables a su responsabilidad o la de su
+                    personal, en ningún caso a actuaciones de terceros.
+                </div>
+
+            </apex:pageBlock>
+        </apex:pageBlock>
+        <br/>
+
+        <apex:pageBlock id="condiciones">
+
+            <div style="font-family:Verdana,Geneva,sans-serif;font-size:11px; text-align:justify; border-style:solid; border-width:1px; border-color:#000000; align-self:center;">
+                <br/>
+                Declaro conocer y aceptar las condiciones de financiamiento y comisión correspondientes a la solicitud mencionada en la presente carta.
+                <br/>
+            </div>
+
+        </apex:pageBlock>
+
+
+        <apex:pageBlock id="firma">
+            <div style="font-family:Verdana,Geneva,sans-serif;font-size:11px;">
+                <br/>
+                <br/>
+                Nombre y Firma Representante CES&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fecha Recepción Carta <br/>
+                <br/>
+                <br/>
+            </div>
+        </apex:pageBlock>
+
+        <apex:pageBlock id="firmaAmicar">
+            <div style="font-family:Verdana,Geneva,sans-serif;font-size:11px;">
+                <br/>
+                <b>{!solicitudUsuario[0].Name}</b><br/>
+                Firma y Timbre Ejecutivo de Negocios AMICAR.<br/>
+                G:{!solicitudCarta[0].ConteoCarta__c}
+            </div>
+        </apex:pageBlock>
+    </body>
+</html>
+</apex:page>

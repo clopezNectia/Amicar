@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Teléfono fijo</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>home_phone_contact</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Dirección personal</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>mailing_address_contact</name>
+    </fields>
+</CustomObjectTranslation>

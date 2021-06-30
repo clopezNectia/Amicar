@@ -1,0 +1,10 @@
+<apex:page standardController="Desarrollo__c" extensions="AMICAR_MultipleEditDesarrollosController" showQuickActionVfHeader="true" showHeader="false" sidebar="false" recordSetVar="desarrollos" docType="HTML-5.0" lightningStylesheets="true">
+    <apex:slds />
+    <apex:form >
+    <apex:outputlabel for="nuevoMontoField">Nuevo Monto $: </apex:outputlabel> 
+    <apex:input type="number" value="{!nuevoMonto}" id="nuevoMontoField" />
+    <BR /><BR /><BR />
+    
+    <apex:commandButton value="Guardar" action="{!guardaMontoNuevo}"/>
+    </apex:form>
+</apex:page>

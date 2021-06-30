@@ -1,0 +1,2245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>100 MOTOSTAR AG</fullName>
+        <default>false</default>
+        <label>100 MOTOSTAR AG</label>
+    </customValue>
+    <customValue>
+        <fullName>100 PROMOTO VITACURA</fullName>
+        <default>false</default>
+        <label>100 PROMOTO VITACURA</label>
+    </customValue>
+    <customValue>
+        <fullName>101 BRUNO FRITSCH GRAN AVENIDA</fullName>
+        <default>false</default>
+        <label>101 BRUNO FRITSCH GRAN AVENIDA</label>
+    </customValue>
+    <customValue>
+        <fullName>102 AG MINI</fullName>
+        <default>false</default>
+        <label>102 AG MINI</label>
+    </customValue>
+    <customValue>
+        <fullName>102 MOTOSTAR DERCO</fullName>
+        <default>false</default>
+        <label>102 MOTOSTAR DERCO</label>
+    </customValue>
+    <customValue>
+        <fullName>103 H MOTORES SA LA CALERA</fullName>
+        <default>false</default>
+        <label>103 H MOTORES SA LA CALERA</label>
+    </customValue>
+    <customValue>
+        <fullName>103 PUIG LTDA</fullName>
+        <default>false</default>
+        <label>103 PUIG LTDA</label>
+    </customValue>
+    <customValue>
+        <fullName>104 FORTALEZA MALL DEL TREBOL</fullName>
+        <default>false</default>
+        <label>104 FORTALEZA MALL DEL TREBOL</label>
+    </customValue>
+    <customValue>
+        <fullName>104 SERGIO ESCOBAR CATALUÑA</fullName>
+        <default>false</default>
+        <label>104 SERGIO ESCOBAR CATALUÑA</label>
+    </customValue>
+    <customValue>
+        <fullName>105 FORTALEZA ALAMEDA</fullName>
+        <default>false</default>
+        <label>105 FORTALEZA ALAMEDA</label>
+    </customValue>
+    <customValue>
+        <fullName>105 TONINO MOTOS</fullName>
+        <default>false</default>
+        <label>105 TONINO MOTOS</label>
+    </customValue>
+    <customValue>
+        <fullName>106 FORTALEZA BILBAO 1</fullName>
+        <default>false</default>
+        <label>106 FORTALEZA BILBAO 1</label>
+    </customValue>
+    <customValue>
+        <fullName>106 TERREMOTO</fullName>
+        <default>false</default>
+        <label>106 TERREMOTO</label>
+    </customValue>
+    <customValue>
+        <fullName>107 FORTALEZA MALL PLAZA ALAMEDA</fullName>
+        <default>false</default>
+        <label>107 FORTALEZA MALL PLAZA ALAMEDA</label>
+    </customValue>
+    <customValue>
+        <fullName>107 MOTOS CORDERO</fullName>
+        <default>false</default>
+        <label>107 MOTOS CORDERO</label>
+    </customValue>
+    <customValue>
+        <fullName>108 FORTALEZA LAS CONDES 2 (EX ALTRA)</fullName>
+        <default>false</default>
+        <label>108 FORTALEZA LAS CONDES 2 (EX ALTRA)</label>
+    </customValue>
+    <customValue>
+        <fullName>108 NUEVOS SA</fullName>
+        <default>false</default>
+        <label>108 NUEVOS SA</label>
+    </customValue>
+    <customValue>
+        <fullName>109 DERCO SA (PROVISORIO)</fullName>
+        <default>false</default>
+        <label>109 DERCO SA (PROVISORIO)</label>
+    </customValue>
+    <customValue>
+        <fullName>109 FORTALEZA CERRILLOS</fullName>
+        <default>false</default>
+        <label>109 FORTALEZA CERRILLOS</label>
+    </customValue>
+    <customValue>
+        <fullName>10 AG MALL PLAZA TOBALABA</fullName>
+        <default>false</default>
+        <label>10 AG MALL PLAZA TOBALABA</label>
+    </customValue>
+    <customValue>
+        <fullName>10 CARRERA</fullName>
+        <default>false</default>
+        <label>10 CARRERA</label>
+    </customValue>
+    <customValue>
+        <fullName>10 DERCOMAQ LA SERENA</fullName>
+        <default>false</default>
+        <label>10 DERCOMAQ LA SERENA</label>
+    </customValue>
+    <customValue>
+        <fullName>110 FORTALEZA MALL PLAZA NORTE</fullName>
+        <default>false</default>
+        <label>110 FORTALEZA MALL PLAZA NORTE</label>
+    </customValue>
+    <customValue>
+        <fullName>110 MANMOTOS EIRL</fullName>
+        <default>false</default>
+        <label>110 MANMOTOS EIRL</label>
+    </customValue>
+    <customValue>
+        <fullName>111 FORTALEZA PUERTO MONTT</fullName>
+        <default>false</default>
+        <label>111 FORTALEZA PUERTO MONTT</label>
+    </customValue>
+    <customValue>
+        <fullName>111 MOVICENTER (GEE-CHA-GWM)</fullName>
+        <default>false</default>
+        <label>111 MOVICENTER (GEE-CHA-GWM)</label>
+    </customValue>
+    <customValue>
+        <fullName>112 FORTALEZA MALL PLAZA TOBALABA</fullName>
+        <default>false</default>
+        <label>112 FORTALEZA MALL PLAZA TOBALABA</label>
+    </customValue>
+    <customValue>
+        <fullName>112 PLAZA VESPUCIO (GWM-GEE-JAC-CHA)</fullName>
+        <default>false</default>
+        <label>112 PLAZA VESPUCIO (GWM-GEE-JAC-CHA)</label>
+    </customValue>
+    <customValue>
+        <fullName>113 FORTALEZA MALL PLAZA VESPUCIO</fullName>
+        <default>false</default>
+        <label>113 FORTALEZA MALL PLAZA VESPUCIO</label>
+    </customValue>
+    <customValue>
+        <fullName>114 FORTALEZA OSORNO</fullName>
+        <default>false</default>
+        <label>114 FORTALEZA OSORNO</label>
+    </customValue>
+    <customValue>
+        <fullName>115 FORTALEZA VALDIVIA</fullName>
+        <default>false</default>
+        <label>115 FORTALEZA VALDIVIA</label>
+    </customValue>
+    <customValue>
+        <fullName>116 FORTALEZA LOS ANGELES</fullName>
+        <default>false</default>
+        <label>116 FORTALEZA LOS ANGELES</label>
+    </customValue>
+    <customValue>
+        <fullName>117 FORTALEZA CONCEPCION (AUTOPISTA A TALCAHUANO)</fullName>
+        <default>false</default>
+        <label>117 FORTALEZA CONCEPCION (AUTOPISTA A TALCAHUANO)</label>
+    </customValue>
+    <customValue>
+        <fullName>117 SEMINARIO</fullName>
+        <default>false</default>
+        <label>117 SEMINARIO</label>
+    </customValue>
+    <customValue>
+        <fullName>118 FORTALEZA MOVICENTER</fullName>
+        <default>false</default>
+        <label>118 FORTALEZA MOVICENTER</label>
+    </customValue>
+    <customValue>
+        <fullName>118 SERGIO ESCOBAR CARRERA</fullName>
+        <default>false</default>
+        <label>118 SERGIO ESCOBAR CARRERA</label>
+    </customValue>
+    <customValue>
+        <fullName>119 CARLOS DUMAY (GWM-GEE)</fullName>
+        <default>false</default>
+        <label>119 CARLOS DUMAY (GWM-GEE)</label>
+    </customValue>
+    <customValue>
+        <fullName>119 FORTALEZA TEMUCO SAN MARTIN</fullName>
+        <default>false</default>
+        <label>119 FORTALEZA TEMUCO SAN MARTIN</label>
+    </customValue>
+    <customValue>
+        <fullName>11 AG MALL PLAZA VESPUCIO</fullName>
+        <default>false</default>
+        <label>11 AG MALL PLAZA VESPUCIO</label>
+    </customValue>
+    <customValue>
+        <fullName>11 CHAMY HNOS</fullName>
+        <default>false</default>
+        <label>11 CHAMY HNOS</label>
+    </customValue>
+    <customValue>
+        <fullName>11 DERCOMAQ COMERCIAL ERRAZURIZ</fullName>
+        <default>false</default>
+        <label>11 DERCOMAQ COMERCIAL ERRAZURIZ</label>
+    </customValue>
+    <customValue>
+        <fullName>11 VIRTUAL AMICAR</fullName>
+        <default>false</default>
+        <label>11 VIRTUAL AMICAR</label>
+    </customValue>
+    <customValue>
+        <fullName>120 FORTALEZA CITYTIME MALL IQUIQUE</fullName>
+        <default>false</default>
+        <label>120 FORTALEZA CITYTIME MALL IQUIQUE</label>
+    </customValue>
+    <customValue>
+        <fullName>121 FORTALEZA PLAZA LA SERENA</fullName>
+        <default>false</default>
+        <label>121 FORTALEZA PLAZA LA SERENA</label>
+    </customValue>
+    <customValue>
+        <fullName>121 RECASUR COYHAIQUE</fullName>
+        <default>false</default>
+        <label>121 RECASUR COYHAIQUE</label>
+    </customValue>
+    <customValue>
+        <fullName>122 FORTALEZA CASA MATRIZ</fullName>
+        <default>false</default>
+        <label>122 FORTALEZA CASA MATRIZ</label>
+    </customValue>
+    <customValue>
+        <fullName>123 RINOMOTOS</fullName>
+        <default>false</default>
+        <label>123 RINOMOTOS</label>
+    </customValue>
+    <customValue>
+        <fullName>124 PORTEZUELO MOVICENTER - PIRAMIDE</fullName>
+        <default>false</default>
+        <label>124 PORTEZUELO MOVICENTER - PIRAMIDE</label>
+    </customValue>
+    <customValue>
+        <fullName>125 AG PLAZA LA SERENA MINI</fullName>
+        <default>false</default>
+        <label>125 AG PLAZA LA SERENA MINI</label>
+    </customValue>
+    <customValue>
+        <fullName>125 DECAR MOTORS ( USADOS)</fullName>
+        <default>false</default>
+        <label>125 DECAR MOTORS ( USADOS)</label>
+    </customValue>
+    <customValue>
+        <fullName>126 FORTALEZA VICUÑA MACKENNA</fullName>
+        <default>false</default>
+        <label>126 FORTALEZA VICUÑA MACKENNA</label>
+    </customValue>
+    <customValue>
+        <fullName>126 SERGIO ESCOBAR LOS ANGELES USADOS</fullName>
+        <default>false</default>
+        <label>126 SERGIO ESCOBAR LOS ANGELES USADOS</label>
+    </customValue>
+    <customValue>
+        <fullName>128 FORTALEZA MALL PLAZA ALAMEDA</fullName>
+        <default>false</default>
+        <label>128 FORTALEZA MALL PLAZA ALAMEDA</label>
+    </customValue>
+    <customValue>
+        <fullName>128 PRO MOTORS</fullName>
+        <default>false</default>
+        <label>128 PRO MOTORS</label>
+    </customValue>
+    <customValue>
+        <fullName>129 MEGACENTER (MAZDA)</fullName>
+        <default>false</default>
+        <label>129 MEGACENTER (MAZDA)</label>
+    </customValue>
+    <customValue>
+        <fullName>12 AG MOVICENTER</fullName>
+        <default>false</default>
+        <label>12 AG MOVICENTER</label>
+    </customValue>
+    <customValue>
+        <fullName>12 COMERCIAL VALENTINI E HIJOS LTDA</fullName>
+        <default>false</default>
+        <label>12 COMERCIAL VALENTINI E HIJOS LTDA</label>
+    </customValue>
+    <customValue>
+        <fullName>12 DERCOMAQ ARAUCO TALCA</fullName>
+        <default>false</default>
+        <label>12 DERCOMAQ ARAUCO TALCA</label>
+    </customValue>
+    <customValue>
+        <fullName>130 AG PORTUGAL MOTOS</fullName>
+        <default>false</default>
+        <label>130 AG PORTUGAL MOTOS</label>
+    </customValue>
+    <customValue>
+        <fullName>130 MEGACENTER (RNT-SMG)</fullName>
+        <default>false</default>
+        <label>130 MEGACENTER (RNT-SMG)</label>
+    </customValue>
+    <customValue>
+        <fullName>131 AG VITACURA MINI</fullName>
+        <default>false</default>
+        <label>131 AG VITACURA MINI</label>
+    </customValue>
+    <customValue>
+        <fullName>131 SUZUVAL BELLOTO</fullName>
+        <default>false</default>
+        <label>131 SUZUVAL BELLOTO</label>
+    </customValue>
+    <customValue>
+        <fullName>132 FORTALEZA VIÑA DEL MAR</fullName>
+        <default>false</default>
+        <label>132 FORTALEZA VIÑA DEL MAR</label>
+    </customValue>
+    <customValue>
+        <fullName>132 PLAZA NORTE (GWM-MZD-RNT-SMG)</fullName>
+        <default>false</default>
+        <label>132 PLAZA NORTE (GWM-MZD-RNT-SMG)</label>
+    </customValue>
+    <customValue>
+        <fullName>133 AG VIÑA DEL MAR MINI</fullName>
+        <default>false</default>
+        <label>133 AG VIÑA DEL MAR MINI</label>
+    </customValue>
+    <customValue>
+        <fullName>133 CARRERA (MZD-RNT-GEE-GWM)</fullName>
+        <default>false</default>
+        <label>133 CARRERA (MZD-RNT-GEE-GWM)</label>
+    </customValue>
+    <customValue>
+        <fullName>134 SERGIO ESCOBAR CNT</fullName>
+        <default>false</default>
+        <label>134 SERGIO ESCOBAR CNT</label>
+    </customValue>
+    <customValue>
+        <fullName>134 SOC REAL PUNTA ARENAS</fullName>
+        <default>false</default>
+        <label>134 SOC REAL PUNTA ARENAS</label>
+    </customValue>
+    <customValue>
+        <fullName>135 AUTOMOTORA BILBAO CHINOS IRARRAZABAL</fullName>
+        <default>false</default>
+        <label>135 AUTOMOTORA BILBAO CHINOS IRARRAZABAL</label>
+    </customValue>
+    <customValue>
+        <fullName>135 INVERSIONES TIERRA SUR</fullName>
+        <default>false</default>
+        <label>135 INVERSIONES TIERRA SUR</label>
+    </customValue>
+    <customValue>
+        <fullName>136 FORTALEZA CITYTIME ARICA</fullName>
+        <default>false</default>
+        <label>136 FORTALEZA CITYTIME ARICA</label>
+    </customValue>
+    <customValue>
+        <fullName>137 MALL ZONA FRANCA</fullName>
+        <default>false</default>
+        <label>137 MALL ZONA FRANCA</label>
+    </customValue>
+    <customValue>
+        <fullName>137 VESPUCIO MULTIMARCA</fullName>
+        <default>false</default>
+        <label>137 VESPUCIO MULTIMARCA</label>
+    </customValue>
+    <customValue>
+        <fullName>138 MOVICENTER (JAC)</fullName>
+        <default>false</default>
+        <label>138 MOVICENTER (JAC)</label>
+    </customValue>
+    <customValue>
+        <fullName>138 TUPPER (FORTALEZA)</fullName>
+        <default>false</default>
+        <label>138 TUPPER (FORTALEZA)</label>
+    </customValue>
+    <customValue>
+        <fullName>139 AUTOMOTORA BILBAO MAZDA</fullName>
+        <default>false</default>
+        <label>139 AUTOMOTORA BILBAO MAZDA</label>
+    </customValue>
+    <customValue>
+        <fullName>139 CARMEISTER VIÑA DEL MAR</fullName>
+        <default>false</default>
+        <label>139 CARMEISTER VIÑA DEL MAR</label>
+    </customValue>
+    <customValue>
+        <fullName>13 AG PORTUGAL</fullName>
+        <default>false</default>
+        <label>13 AG PORTUGAL</label>
+    </customValue>
+    <customValue>
+        <fullName>13 CITROEN BELLAVISTA</fullName>
+        <default>false</default>
+        <label>13 CITROEN BELLAVISTA</label>
+    </customValue>
+    <customValue>
+        <fullName>13 COVALSA OVALLE</fullName>
+        <default>false</default>
+        <label>13 COVALSA OVALLE</label>
+    </customValue>
+    <customValue>
+        <fullName>13 DERCOMAQ SERGIO ESCOBAR PAICAVI</fullName>
+        <default>false</default>
+        <label>13 DERCOMAQ SERGIO ESCOBAR PAICAVI</label>
+    </customValue>
+    <customValue>
+        <fullName>140 H MOTORES SA PLAZA OESTE</fullName>
+        <default>false</default>
+        <label>140 H MOTORES SA PLAZA OESTE</label>
+    </customValue>
+    <customValue>
+        <fullName>141 DECAR HOSCHTETTER</fullName>
+        <default>false</default>
+        <label>141 DECAR HOSCHTETTER</label>
+    </customValue>
+    <customValue>
+        <fullName>141 H MOTORES BELLOTO</fullName>
+        <default>false</default>
+        <label>141 H MOTORES BELLOTO</label>
+    </customValue>
+    <customValue>
+        <fullName>142 CARMEISTER DEPARTAMENTAL</fullName>
+        <default>false</default>
+        <label>142 CARMEISTER DEPARTAMENTAL</label>
+    </customValue>
+    <customValue>
+        <fullName>142 SERGIO ESCOBAR PAICAVI CHINOS</fullName>
+        <default>false</default>
+        <label>142 SERGIO ESCOBAR PAICAVI CHINOS</label>
+    </customValue>
+    <customValue>
+        <fullName>143 CURIFOR PLACILLA</fullName>
+        <default>false</default>
+        <label>143 CURIFOR PLACILLA</label>
+    </customValue>
+    <customValue>
+        <fullName>143 LA DEHESA</fullName>
+        <default>false</default>
+        <label>143 LA DEHESA</label>
+    </customValue>
+    <customValue>
+        <fullName>144 COMERCIAL VALENTINI MALL</fullName>
+        <default>false</default>
+        <label>144 COMERCIAL VALENTINI MALL</label>
+    </customValue>
+    <customValue>
+        <fullName>144 MINI STORE PARQUE ARAUCO</fullName>
+        <default>false</default>
+        <label>144 MINI STORE PARQUE ARAUCO</label>
+    </customValue>
+    <customValue>
+        <fullName>145 AG SUCURSAL LAS CONDES 11000</fullName>
+        <default>false</default>
+        <label>145 AG SUCURSAL LAS CONDES 11000</label>
+    </customValue>
+    <customValue>
+        <fullName>145 MEGACENTER (GWM - JAC - GEE - CHA)</fullName>
+        <default>false</default>
+        <label>145 MEGACENTER (GWM - JAC - GEE - CHA)</label>
+    </customValue>
+    <customValue>
+        <fullName>146 AG SUCURSAL LAS CONDES 11000 PREMIUM</fullName>
+        <default>false</default>
+        <label>146 AG SUCURSAL LAS CONDES 11000 PREMIUM</label>
+    </customValue>
+    <customValue>
+        <fullName>146 SERGIO ESCOBAR TUCAPEL USADOS</fullName>
+        <default>false</default>
+        <label>146 SERGIO ESCOBAR TUCAPEL USADOS</label>
+    </customValue>
+    <customValue>
+        <fullName>147 SERGIO ESCOBAR PAICAVI USADOS</fullName>
+        <default>false</default>
+        <label>147 SERGIO ESCOBAR PAICAVI USADOS</label>
+    </customValue>
+    <customValue>
+        <fullName>148 DERCO IRARRAZAVAL</fullName>
+        <default>false</default>
+        <label>148 DERCO IRARRAZAVAL</label>
+    </customValue>
+    <customValue>
+        <fullName>148 FORTALEZA VITACURA</fullName>
+        <default>false</default>
+        <label>148 FORTALEZA VITACURA</label>
+    </customValue>
+    <customValue>
+        <fullName>149 FORTALEZA CANTAGALLO</fullName>
+        <default>false</default>
+        <label>149 FORTALEZA CANTAGALLO</label>
+    </customValue>
+    <customValue>
+        <fullName>149 YUSIC JUMBO</fullName>
+        <default>false</default>
+        <label>149 YUSIC JUMBO</label>
+    </customValue>
+    <customValue>
+        <fullName>14 AG VITACURA</fullName>
+        <default>false</default>
+        <label>14 AG VITACURA</label>
+    </customValue>
+    <customValue>
+        <fullName>14 ASPILLAGA &amp; HORNAUER</fullName>
+        <default>false</default>
+        <label>14 ASPILLAGA &amp; HORNAUER</label>
+    </customValue>
+    <customValue>
+        <fullName>14 EXEQUIEL BERRIOS Y CIA LTDA</fullName>
+        <default>false</default>
+        <label>14 EXEQUIEL BERRIOS Y CIA LTDA</label>
+    </customValue>
+    <customValue>
+        <fullName>150 DERCO AUTOSHOPPING</fullName>
+        <default>false</default>
+        <label>150 DERCO AUTOSHOPPING</label>
+    </customValue>
+    <customValue>
+        <fullName>150 MALL ZONA FRANCA HYUNDAI</fullName>
+        <default>false</default>
+        <label>150 MALL ZONA FRANCA HYUNDAI</label>
+    </customValue>
+    <customValue>
+        <fullName>151 DERCO VITACURA</fullName>
+        <default>false</default>
+        <label>151 DERCO VITACURA</label>
+    </customValue>
+    <customValue>
+        <fullName>151 FORTALEZA MALL PLAZA MIRADOR BIO BIO</fullName>
+        <default>false</default>
+        <label>151 FORTALEZA MALL PLAZA MIRADOR BIO BIO</label>
+    </customValue>
+    <customValue>
+        <fullName>152 ASPILLAGA Y HORNAUER QUILLOTA</fullName>
+        <default>false</default>
+        <label>152 ASPILLAGA Y HORNAUER QUILLOTA</label>
+    </customValue>
+    <customValue>
+        <fullName>152 CARMEISTER MINI NEXT LA DEHESA</fullName>
+        <default>false</default>
+        <label>152 CARMEISTER MINI NEXT LA DEHESA</label>
+    </customValue>
+    <customValue>
+        <fullName>153 DERCOUSADOS VITACURA</fullName>
+        <default>false</default>
+        <label>153 DERCOUSADOS VITACURA</label>
+    </customValue>
+    <customValue>
+        <fullName>153 MEDINA &amp; BALLART HYUNDAI</fullName>
+        <default>false</default>
+        <label>153 MEDINA &amp; BALLART HYUNDAI</label>
+    </customValue>
+    <customValue>
+        <fullName>154 BELLAVISTA SIGLO XXI</fullName>
+        <default>false</default>
+        <label>154 BELLAVISTA SIGLO XXI</label>
+    </customValue>
+    <customValue>
+        <fullName>154 PLAZA OESTE RENAULT</fullName>
+        <default>false</default>
+        <label>154 PLAZA OESTE RENAULT</label>
+    </customValue>
+    <customValue>
+        <fullName>155 COMERCIAL ERRAZURIZ</fullName>
+        <default>false</default>
+        <label>155 COMERCIAL ERRAZURIZ</label>
+    </customValue>
+    <customValue>
+        <fullName>155 IRARRAZABAL VALENZUELA DELARZE</fullName>
+        <default>false</default>
+        <label>155 IRARRAZABAL VALENZUELA DELARZE</label>
+    </customValue>
+    <customValue>
+        <fullName>156 AUTOMOTRIZ DEPETRIS DEFLORIAN HNOS LTDA</fullName>
+        <default>false</default>
+        <label>156 AUTOMOTRIZ DEPETRIS DEFLORIAN HNOS LTDA</label>
+    </customValue>
+    <customValue>
+        <fullName>156 DERCO KENNEDY (MAZDA)</fullName>
+        <default>false</default>
+        <label>156 DERCO KENNEDY (MAZDA)</label>
+    </customValue>
+    <customValue>
+        <fullName>157 DERCO TABANCURA</fullName>
+        <default>false</default>
+        <label>157 DERCO TABANCURA</label>
+    </customValue>
+    <customValue>
+        <fullName>158 CARMONA USADOS</fullName>
+        <default>false</default>
+        <label>158 CARMONA USADOS</label>
+    </customValue>
+    <customValue>
+        <fullName>158 MEGACENTER MULTIMARCA</fullName>
+        <default>false</default>
+        <label>158 MEGACENTER MULTIMARCA</label>
+    </customValue>
+    <customValue>
+        <fullName>159 ASPILLAGA Y HORNAUER COQUIMBO</fullName>
+        <default>false</default>
+        <label>159 ASPILLAGA Y HORNAUER COQUIMBO</label>
+    </customValue>
+    <customValue>
+        <fullName>15 CARLOS DUMAY</fullName>
+        <default>false</default>
+        <label>15 CARLOS DUMAY</label>
+    </customValue>
+    <customValue>
+        <fullName>15 VITACURA FLEET SALES</fullName>
+        <default>false</default>
+        <label>15 VITACURA FLEET SALES</label>
+    </customValue>
+    <customValue>
+        <fullName>160 AG AUTOSHOPPING</fullName>
+        <default>false</default>
+        <label>160 AG AUTOSHOPPING</label>
+    </customValue>
+    <customValue>
+        <fullName>160 ASPILLAGA Y HORNAUER OVALLE</fullName>
+        <default>false</default>
+        <label>160 ASPILLAGA Y HORNAUER OVALLE</label>
+    </customValue>
+    <customValue>
+        <fullName>161 FORTALEZA AUTOSHOPPING</fullName>
+        <default>false</default>
+        <label>161 FORTALEZA AUTOSHOPPING</label>
+    </customValue>
+    <customValue>
+        <fullName>161 VALENTINI USADOS</fullName>
+        <default>false</default>
+        <label>161 VALENTINI USADOS</label>
+    </customValue>
+    <customValue>
+        <fullName>162 CARMEISTER CALAMA</fullName>
+        <default>false</default>
+        <label>162 CARMEISTER CALAMA</label>
+    </customValue>
+    <customValue>
+        <fullName>162 R Y R PINTO LOS ANDES</fullName>
+        <default>false</default>
+        <label>162 R Y R PINTO LOS ANDES</label>
+    </customValue>
+    <customValue>
+        <fullName>163 CARMEISTER LOS ANGELES</fullName>
+        <default>false</default>
+        <label>163 CARMEISTER LOS ANGELES</label>
+    </customValue>
+    <customValue>
+        <fullName>163 PRO MOTORS IRARRAZAVAL</fullName>
+        <default>false</default>
+        <label>163 PRO MOTORS IRARRAZAVAL</label>
+    </customValue>
+    <customValue>
+        <fullName>164 CARMEISTER CONCEPCION</fullName>
+        <default>false</default>
+        <label>164 CARMEISTER CONCEPCION</label>
+    </customValue>
+    <customValue>
+        <fullName>164 JESUS PONS - CURICO (DERCO)</fullName>
+        <default>false</default>
+        <label>164 JESUS PONS - CURICO (DERCO)</label>
+    </customValue>
+    <customValue>
+        <fullName>165 FORTALEZA COZ STRANGE</fullName>
+        <default>false</default>
+        <label>165 FORTALEZA COZ STRANGE</label>
+    </customValue>
+    <customValue>
+        <fullName>165 JESUS PONS - LINARES (DERCO)</fullName>
+        <default>false</default>
+        <label>165 JESUS PONS - LINARES (DERCO)</label>
+    </customValue>
+    <customValue>
+        <fullName>166 BRUNO FRTISCH FORTALEZA CONCEPCION</fullName>
+        <default>false</default>
+        <label>166 BRUNO FRTISCH FORTALEZA CONCEPCION</label>
+    </customValue>
+    <customValue>
+        <fullName>166 YUSIC PRAT USADO</fullName>
+        <default>false</default>
+        <label>166 YUSIC PRAT USADO</label>
+    </customValue>
+    <customValue>
+        <fullName>167 DERCO AUTOSHOPPING USADOS</fullName>
+        <default>false</default>
+        <label>167 DERCO AUTOSHOPPING USADOS</label>
+    </customValue>
+    <customValue>
+        <fullName>167 GUILLERMO MORALES PLAZA EGAÑA</fullName>
+        <default>false</default>
+        <label>167 GUILLERMO MORALES PLAZA EGAÑA</label>
+    </customValue>
+    <customValue>
+        <fullName>168 CARMEISTER LA SERENA</fullName>
+        <default>false</default>
+        <label>168 CARMEISTER LA SERENA</label>
+    </customValue>
+    <customValue>
+        <fullName>168 RECASUR USADOS</fullName>
+        <default>false</default>
+        <label>168 RECASUR USADOS</label>
+    </customValue>
+    <customValue>
+        <fullName>169 AG MALL PLAZA BIO BIO</fullName>
+        <default>false</default>
+        <label>169 AG MALL PLAZA BIO BIO</label>
+    </customValue>
+    <customValue>
+        <fullName>169 DERCOMAQ CONCEPCION</fullName>
+        <default>false</default>
+        <label>169 DERCOMAQ CONCEPCION</label>
+    </customValue>
+    <customValue>
+        <fullName>16 AG IQUIQUE</fullName>
+        <default>false</default>
+        <label>16 AG IQUIQUE</label>
+    </customValue>
+    <customValue>
+        <fullName>16 GUSTAVO SAAVEDRA</fullName>
+        <default>false</default>
+        <label>16 GUSTAVO SAAVEDRA</label>
+    </customValue>
+    <customValue>
+        <fullName>170 AG BALMACEDA (EX COVALSA)</fullName>
+        <default>false</default>
+        <label>170 AG BALMACEDA (EX COVALSA)</label>
+    </customValue>
+    <customValue>
+        <fullName>171 SERGIO ESCOBAR OSORNO</fullName>
+        <default>false</default>
+        <label>171 SERGIO ESCOBAR OSORNO</label>
+    </customValue>
+    <customValue>
+        <fullName>172 AUTOMOTORA BILBAO CHINOS MATRIZ</fullName>
+        <default>false</default>
+        <label>172 AUTOMOTORA BILBAO CHINOS MATRIZ</label>
+    </customValue>
+    <customValue>
+        <fullName>172 PORTILLO</fullName>
+        <default>false</default>
+        <label>172 PORTILLO</label>
+    </customValue>
+    <customValue>
+        <fullName>173 AUTOMOTORA PUIG FORTALEZA VICUÑA MACKENNA</fullName>
+        <default>false</default>
+        <label>173 AUTOMOTORA PUIG FORTALEZA VICUÑA MACKENNA</label>
+    </customValue>
+    <customValue>
+        <fullName>174 AUTOMOTORA PUIG HYUNDAI MAIPU</fullName>
+        <default>false</default>
+        <label>174 AUTOMOTORA PUIG HYUNDAI MAIPU</label>
+    </customValue>
+    <customValue>
+        <fullName>174 DECAR VILLARRICA</fullName>
+        <default>false</default>
+        <label>174 DECAR VILLARRICA</label>
+    </customValue>
+    <customValue>
+        <fullName>175 AG BILBAO 1</fullName>
+        <default>false</default>
+        <label>175 AG BILBAO 1</label>
+    </customValue>
+    <customValue>
+        <fullName>175 ARAUCO COLIN</fullName>
+        <default>false</default>
+        <label>175 ARAUCO COLIN</label>
+    </customValue>
+    <customValue>
+        <fullName>176 AUTOMOTORA PUIG FORTALEZA CANTAGALLO</fullName>
+        <default>false</default>
+        <label>176 AUTOMOTORA PUIG FORTALEZA CANTAGALLO</label>
+    </customValue>
+    <customValue>
+        <fullName>176 AUTOS YUSIC ARICA</fullName>
+        <default>false</default>
+        <label>176 AUTOS YUSIC ARICA</label>
+    </customValue>
+    <customValue>
+        <fullName>177 EXEQUIEL BERRIOS USADOS</fullName>
+        <default>false</default>
+        <label>177 EXEQUIEL BERRIOS USADOS</label>
+    </customValue>
+    <customValue>
+        <fullName>177 PORTILLO VITACURA HYUNDAI</fullName>
+        <default>false</default>
+        <label>177 PORTILLO VITACURA HYUNDAI</label>
+    </customValue>
+    <customValue>
+        <fullName>178 CARMEISTER ALAMEDA</fullName>
+        <default>false</default>
+        <label>178 CARMEISTER ALAMEDA</label>
+    </customValue>
+    <customValue>
+        <fullName>178 DERCO FLOTA S.A</fullName>
+        <default>false</default>
+        <label>178 DERCO FLOTA S.A</label>
+    </customValue>
+    <customValue>
+        <fullName>179 CARMEISTER VITACURA</fullName>
+        <default>false</default>
+        <label>179 CARMEISTER VITACURA</label>
+    </customValue>
+    <customValue>
+        <fullName>179 SUZUVAL ILLAPEL</fullName>
+        <default>false</default>
+        <label>179 SUZUVAL ILLAPEL</label>
+    </customValue>
+    <customValue>
+        <fullName>17 AG CALAMA</fullName>
+        <default>false</default>
+        <label>17 AG CALAMA</label>
+    </customValue>
+    <customValue>
+        <fullName>17 MEGACENTER (SUZUKI)</fullName>
+        <default>false</default>
+        <label>17 MEGACENTER (SUZUKI)</label>
+    </customValue>
+    <customValue>
+        <fullName>180 CARMEISTER CERRILLOS</fullName>
+        <default>false</default>
+        <label>180 CARMEISTER CERRILLOS</label>
+    </customValue>
+    <customValue>
+        <fullName>180 PROMOTORS MAIPU</fullName>
+        <default>false</default>
+        <label>180 PROMOTORS MAIPU</label>
+    </customValue>
+    <customValue>
+        <fullName>181 CARMEISTER MALL PLAZA LA SERENA</fullName>
+        <default>false</default>
+        <label>181 CARMEISTER MALL PLAZA LA SERENA</label>
+    </customValue>
+    <customValue>
+        <fullName>181 SERGIO ESCOBAR OHIGGINS</fullName>
+        <default>false</default>
+        <label>181 SERGIO ESCOBAR OHIGGINS</label>
+    </customValue>
+    <customValue>
+        <fullName>182 AUTOMOTORA BILBAO RENAULT IRARRAZAVAL</fullName>
+        <default>false</default>
+        <label>182 AUTOMOTORA BILBAO RENAULT IRARRAZAVAL</label>
+    </customValue>
+    <customValue>
+        <fullName>182 CARMEISTER PUERTO MONTT</fullName>
+        <default>false</default>
+        <label>182 CARMEISTER PUERTO MONTT</label>
+    </customValue>
+    <customValue>
+        <fullName>183 CARMEISTER OSORNO</fullName>
+        <default>false</default>
+        <label>183 CARMEISTER OSORNO</label>
+    </customValue>
+    <customValue>
+        <fullName>183 VIRTUAL MOVICENTER</fullName>
+        <default>false</default>
+        <label>183 VIRTUAL MOVICENTER</label>
+    </customValue>
+    <customValue>
+        <fullName>184 AUTOS YUSIC IQUIQUE</fullName>
+        <default>false</default>
+        <label>184 AUTOS YUSIC IQUIQUE</label>
+    </customValue>
+    <customValue>
+        <fullName>184 CARMEISTER CANTAGALLO</fullName>
+        <default>false</default>
+        <label>184 CARMEISTER CANTAGALLO</label>
+    </customValue>
+    <customValue>
+        <fullName>185 CIRCULO LINARES (HYUNDAI)</fullName>
+        <default>false</default>
+        <label>185 CIRCULO LINARES (HYUNDAI)</label>
+    </customValue>
+    <customValue>
+        <fullName>185 INVERSIONES YUSIC ARICA</fullName>
+        <default>false</default>
+        <label>185 INVERSIONES YUSIC ARICA</label>
+    </customValue>
+    <customValue>
+        <fullName>186 CARMEISTER AUTOSHOPPING</fullName>
+        <default>false</default>
+        <label>186 CARMEISTER AUTOSHOPPING</label>
+    </customValue>
+    <customValue>
+        <fullName>186 INVERSIONES YUSIC IQUIQUE</fullName>
+        <default>false</default>
+        <label>186 INVERSIONES YUSIC IQUIQUE</label>
+    </customValue>
+    <customValue>
+        <fullName>187 CURIFOR OVALLE</fullName>
+        <default>false</default>
+        <label>187 CURIFOR OVALLE</label>
+    </customValue>
+    <customValue>
+        <fullName>187 VIRTUAL MEGACENTER</fullName>
+        <default>false</default>
+        <label>187 VIRTUAL MEGACENTER</label>
+    </customValue>
+    <customValue>
+        <fullName>188 GUILLERMO MORALES PUERTO MONTT</fullName>
+        <default>false</default>
+        <label>188 GUILLERMO MORALES PUERTO MONTT</label>
+    </customValue>
+    <customValue>
+        <fullName>188 VIRTUAL AUTOSHOPPING</fullName>
+        <default>false</default>
+        <label>188 VIRTUAL AUTOSHOPPING</label>
+    </customValue>
+    <customValue>
+        <fullName>189 CURIFOR COQUIMBO</fullName>
+        <default>false</default>
+        <label>189 CURIFOR COQUIMBO</label>
+    </customValue>
+    <customValue>
+        <fullName>189 VIRTUAL PLAZA OESTE</fullName>
+        <default>false</default>
+        <label>189 VIRTUAL PLAZA OESTE</label>
+    </customValue>
+    <customValue>
+        <fullName>18 AG ANTOFAGASTA</fullName>
+        <default>false</default>
+        <label>18 AG ANTOFAGASTA</label>
+    </customValue>
+    <customValue>
+        <fullName>18 MOVICENTER USADOS</fullName>
+        <default>false</default>
+        <label>18 MOVICENTER USADOS</label>
+    </customValue>
+    <customValue>
+        <fullName>190 FORTALEZA PUERTO VARAS</fullName>
+        <default>false</default>
+        <label>190 FORTALEZA PUERTO VARAS</label>
+    </customValue>
+    <customValue>
+        <fullName>190 PROMOTORS MAIPU USADOS</fullName>
+        <default>false</default>
+        <label>190 PROMOTORS MAIPU USADOS</label>
+    </customValue>
+    <customValue>
+        <fullName>191 ASPILLAGA Y HORNAUER BELLOTO</fullName>
+        <default>false</default>
+        <label>191 ASPILLAGA Y HORNAUER BELLOTO</label>
+    </customValue>
+    <customValue>
+        <fullName>191 BRUNO FRITSCH USADOS TALCAHUANO</fullName>
+        <default>false</default>
+        <label>191 BRUNO FRITSCH USADOS TALCAHUANO</label>
+    </customValue>
+    <customValue>
+        <fullName>192 ARAUCO CONSTITUCION</fullName>
+        <default>false</default>
+        <label>192 ARAUCO CONSTITUCION</label>
+    </customValue>
+    <customValue>
+        <fullName>192 MEDINA &amp; BALLART FORTALEZA</fullName>
+        <default>false</default>
+        <label>192 MEDINA &amp; BALLART FORTALEZA</label>
+    </customValue>
+    <customValue>
+        <fullName>193 AUTOPIA DERCOUSADOS LA FLORIDA</fullName>
+        <default>false</default>
+        <label>193 AUTOPIA DERCOUSADOS LA FLORIDA</label>
+    </customValue>
+    <customValue>
+        <fullName>193 CARMEISTER TEMUCO</fullName>
+        <default>false</default>
+        <label>193 CARMEISTER TEMUCO</label>
+    </customValue>
+    <customValue>
+        <fullName>194 AUTOPIA DERCOUSADOS MACUL</fullName>
+        <default>false</default>
+        <label>194 AUTOPIA DERCOUSADOS MACUL</label>
+    </customValue>
+    <customValue>
+        <fullName>194 CARMEISTER VICUÑA MACKENNA</fullName>
+        <default>false</default>
+        <label>194 CARMEISTER VICUÑA MACKENNA</label>
+    </customValue>
+    <customValue>
+        <fullName>195 AUTOPIA DERCOUSADOS HUECHURABA-MOVICENTER</fullName>
+        <default>false</default>
+        <label>195 AUTOPIA DERCOUSADOS HUECHURABA-MOVICENTER</label>
+    </customValue>
+    <customValue>
+        <fullName>195 H MOTORES PLAZA OESTE FORTALEZA</fullName>
+        <default>false</default>
+        <label>195 H MOTORES PLAZA OESTE FORTALEZA</label>
+    </customValue>
+    <customValue>
+        <fullName>196 AG PUERTO VARAS</fullName>
+        <default>false</default>
+        <label>196 AG PUERTO VARAS</label>
+    </customValue>
+    <customValue>
+        <fullName>196 AUTOPIA DERCOUSADOS CERRILLOS PLAZA OESTE</fullName>
+        <default>false</default>
+        <label>196 AUTOPIA DERCOUSADOS CERRILLOS PLAZA OESTE</label>
+    </customValue>
+    <customValue>
+        <fullName>197 AUTOPIA DERCOUSADOS VITACURA</fullName>
+        <default>false</default>
+        <label>197 AUTOPIA DERCOUSADOS VITACURA</label>
+    </customValue>
+    <customValue>
+        <fullName>197 CARMEISTER PUERTO VARAS</fullName>
+        <default>false</default>
+        <label>197 CARMEISTER PUERTO VARAS</label>
+    </customValue>
+    <customValue>
+        <fullName>198 FORTALEZA SAN FERNANDO</fullName>
+        <default>false</default>
+        <label>198 FORTALEZA SAN FERNANDO</label>
+    </customValue>
+    <customValue>
+        <fullName>199 CURIFOR RANCAGUA</fullName>
+        <default>false</default>
+        <label>199 CURIFOR RANCAGUA</label>
+    </customValue>
+    <customValue>
+        <fullName>19 AG AUTO PLAZA ANTOFAGASTA</fullName>
+        <default>false</default>
+        <label>19 AG AUTO PLAZA ANTOFAGASTA</label>
+    </customValue>
+    <customValue>
+        <fullName>19 MOVICENTER (MAZDA)</fullName>
+        <default>false</default>
+        <label>19 MOVICENTER (MAZDA)</label>
+    </customValue>
+    <customValue>
+        <fullName>1 AG ALAMEDA</fullName>
+        <default>false</default>
+        <label>1 AG ALAMEDA</label>
+    </customValue>
+    <customValue>
+        <fullName>1 ANFRUNS RANCAGUA</fullName>
+        <default>false</default>
+        <label>1 ANFRUNS RANCAGUA</label>
+    </customValue>
+    <customValue>
+        <fullName>1 BUSES FORTALEZA PUDAHUEL</fullName>
+        <default>false</default>
+        <label>1 BUSES FORTALEZA PUDAHUEL</label>
+    </customValue>
+    <customValue>
+        <fullName>1 DERCOMAQ MATRIZ</fullName>
+        <default>false</default>
+        <label>1 DERCOMAQ MATRIZ</label>
+    </customValue>
+    <customValue>
+        <fullName>200 FORTALEZA IQUIQUE</fullName>
+        <default>false</default>
+        <label>200 FORTALEZA IQUIQUE</label>
+    </customValue>
+    <customValue>
+        <fullName>201 BRUNO FRITSCH PLAZA SUR FORTALEZA</fullName>
+        <default>false</default>
+        <label>201 BRUNO FRITSCH PLAZA SUR FORTALEZA</label>
+    </customValue>
+    <customValue>
+        <fullName>202 SAINT GERMAIN AUTOS</fullName>
+        <default>false</default>
+        <label>202 SAINT GERMAIN AUTOS</label>
+    </customValue>
+    <customValue>
+        <fullName>203 AG PUNTA ARENAS</fullName>
+        <default>false</default>
+        <label>203 AG PUNTA ARENAS</label>
+    </customValue>
+    <customValue>
+        <fullName>205 FORTALEZA PORTUGAL</fullName>
+        <default>false</default>
+        <label>205 FORTALEZA PORTUGAL</label>
+    </customValue>
+    <customValue>
+        <fullName>208 CARMEISTER PUNTA ARENAS</fullName>
+        <default>false</default>
+        <label>208 CARMEISTER PUNTA ARENAS</label>
+    </customValue>
+    <customValue>
+        <fullName>209 MINI MOVICENTER</fullName>
+        <default>false</default>
+        <label>209 MINI MOVICENTER</label>
+    </customValue>
+    <customValue>
+        <fullName>20 AG CONCEPCION (AUTOPISTA A TALCAHUANO)</fullName>
+        <default>false</default>
+        <label>20 AG CONCEPCION (AUTOPISTA A TALCAHUANO)</label>
+    </customValue>
+    <customValue>
+        <fullName>20 MOVICENTER 4 (SUZUKI)</fullName>
+        <default>false</default>
+        <label>20 MOVICENTER 4 (SUZUKI)</label>
+    </customValue>
+    <customValue>
+        <fullName>210 H. MOTORES PLAZA ALAMEDA HYUNDAI</fullName>
+        <default>false</default>
+        <label>210 H. MOTORES PLAZA ALAMEDA HYUNDAI</label>
+    </customValue>
+    <customValue>
+        <fullName>211 H. MOTORES PLAZA ALAMEDA FORTALEZA</fullName>
+        <default>false</default>
+        <label>211 H. MOTORES PLAZA ALAMEDA FORTALEZA</label>
+    </customValue>
+    <customValue>
+        <fullName>21 AG AUTOPLAZA MALL DEL TREBOL</fullName>
+        <default>false</default>
+        <label>21 AG AUTOPLAZA MALL DEL TREBOL</label>
+    </customValue>
+    <customValue>
+        <fullName>21 OVALLE HERMANOS</fullName>
+        <default>false</default>
+        <label>21 OVALLE HERMANOS</label>
+    </customValue>
+    <customValue>
+        <fullName>22 AG LOS ANGELES</fullName>
+        <default>false</default>
+        <label>22 AG LOS ANGELES</label>
+    </customValue>
+    <customValue>
+        <fullName>23 AG TEMUCO</fullName>
+        <default>false</default>
+        <label>23 AG TEMUCO</label>
+    </customValue>
+    <customValue>
+        <fullName>23 PLAZA NORTE (SUZUKI)</fullName>
+        <default>false</default>
+        <label>23 PLAZA NORTE (SUZUKI)</label>
+    </customValue>
+    <customValue>
+        <fullName>24 AG VALDIVIA</fullName>
+        <default>false</default>
+        <label>24 AG VALDIVIA</label>
+    </customValue>
+    <customValue>
+        <fullName>24 PLAZA OESTE MAZDA</fullName>
+        <default>false</default>
+        <label>24 PLAZA OESTE MAZDA</label>
+    </customValue>
+    <customValue>
+        <fullName>25 AG OSORNO</fullName>
+        <default>false</default>
+        <label>25 AG OSORNO</label>
+    </customValue>
+    <customValue>
+        <fullName>25 PLAZA OESTE USADOS</fullName>
+        <default>false</default>
+        <label>25 PLAZA OESTE USADOS</label>
+    </customValue>
+    <customValue>
+        <fullName>26 AG PUERTO MONTT</fullName>
+        <default>false</default>
+        <label>26 AG PUERTO MONTT</label>
+    </customValue>
+    <customValue>
+        <fullName>26 PLAZA TOBALABA (SMG-SZK)</fullName>
+        <default>false</default>
+        <label>26 PLAZA TOBALABA (SMG-SZK)</label>
+    </customValue>
+    <customValue>
+        <fullName>27 CARMEISTER LAS CONDES</fullName>
+        <default>false</default>
+        <label>27 CARMEISTER LAS CONDES</label>
+    </customValue>
+    <customValue>
+        <fullName>27 PLAZA VESPUCIO SUZUKI</fullName>
+        <default>false</default>
+        <label>27 PLAZA VESPUCIO SUZUKI</label>
+    </customValue>
+    <customValue>
+        <fullName>28 CURIFOR - VICUNA MACKENNA LA FLORIDA</fullName>
+        <default>false</default>
+        <label>28 CURIFOR - VICUNA MACKENNA LA FLORIDA</label>
+    </customValue>
+    <customValue>
+        <fullName>28 R Y R PINTO</fullName>
+        <default>false</default>
+        <label>28 R Y R PINTO</label>
+    </customValue>
+    <customValue>
+        <fullName>29 LIRA LARRAIN PROVIDENCIA</fullName>
+        <default>false</default>
+        <label>29 LIRA LARRAIN PROVIDENCIA</label>
+    </customValue>
+    <customValue>
+        <fullName>29 SANTA MARÍA</fullName>
+        <default>false</default>
+        <label>29 SANTA MARÍA</label>
+    </customValue>
+    <customValue>
+        <fullName>2 AG BILBAO 2</fullName>
+        <default>false</default>
+        <label>2 AG BILBAO 2</label>
+    </customValue>
+    <customValue>
+        <fullName>2 ANFRUNS SANTIAGO</fullName>
+        <default>false</default>
+        <label>2 ANFRUNS SANTIAGO</label>
+    </customValue>
+    <customValue>
+        <fullName>2 DERCOMAQ  COPIAPO</fullName>
+        <default>false</default>
+        <label>2 DERCOMAQ  COPIAPO</label>
+    </customValue>
+    <customValue>
+        <fullName>2 FORTALEZA CAMIONES PUDAHUEL</fullName>
+        <default>false</default>
+        <label>2 FORTALEZA CAMIONES PUDAHUEL</label>
+    </customValue>
+    <customValue>
+        <fullName>2 PIRETTA SA</fullName>
+        <default>false</default>
+        <label>2 PIRETTA SA</label>
+    </customValue>
+    <customValue>
+        <fullName>30 PITS AUTOS PROVIDENCIA</fullName>
+        <default>false</default>
+        <label>30 PITS AUTOS PROVIDENCIA</label>
+    </customValue>
+    <customValue>
+        <fullName>30 SERGIO ESCOBAR MALL</fullName>
+        <default>false</default>
+        <label>30 SERGIO ESCOBAR MALL</label>
+    </customValue>
+    <customValue>
+        <fullName>31 MORGAN Y RECASENS MACUL</fullName>
+        <default>false</default>
+        <label>31 MORGAN Y RECASENS MACUL</label>
+    </customValue>
+    <customValue>
+        <fullName>31 SERGIO ESCOBAR Y CIA LTDA</fullName>
+        <default>false</default>
+        <label>31 SERGIO ESCOBAR Y CIA LTDA</label>
+    </customValue>
+    <customValue>
+        <fullName>32 CARMEISTER ANTOFAGASTA</fullName>
+        <default>false</default>
+        <label>32 CARMEISTER ANTOFAGASTA</label>
+    </customValue>
+    <customValue>
+        <fullName>32 SERMACO</fullName>
+        <default>false</default>
+        <label>32 SERMACO</label>
+    </customValue>
+    <customValue>
+        <fullName>33 MANASA AUTO PLAZA ANTOFAGASTA</fullName>
+        <default>false</default>
+        <label>33 MANASA AUTO PLAZA ANTOFAGASTA</label>
+    </customValue>
+    <customValue>
+        <fullName>34 COVALSA LA SERENA</fullName>
+        <default>false</default>
+        <label>34 COVALSA LA SERENA</label>
+    </customValue>
+    <customValue>
+        <fullName>34 SUZUVAL VALPARAISO</fullName>
+        <default>false</default>
+        <label>34 SUZUVAL VALPARAISO</label>
+    </customValue>
+    <customValue>
+        <fullName>35 COVALSA OVALLE</fullName>
+        <default>false</default>
+        <label>35 COVALSA OVALLE</label>
+    </customValue>
+    <customValue>
+        <fullName>35 SUZUVAL VIÑA</fullName>
+        <default>false</default>
+        <label>35 SUZUVAL VIÑA</label>
+    </customValue>
+    <customValue>
+        <fullName>36 H MOTORES SA 15 NORTE</fullName>
+        <default>false</default>
+        <label>36 H MOTORES SA 15 NORTE</label>
+    </customValue>
+    <customValue>
+        <fullName>36 VIRTUAL</fullName>
+        <default>false</default>
+        <label>36 VIRTUAL</label>
+    </customValue>
+    <customValue>
+        <fullName>37 MEGACENTER USADOS</fullName>
+        <default>false</default>
+        <label>37 MEGACENTER USADOS</label>
+    </customValue>
+    <customValue>
+        <fullName>37 VEGA ARTUS RANCAGUA</fullName>
+        <default>false</default>
+        <label>37 VEGA ARTUS RANCAGUA</label>
+    </customValue>
+    <customValue>
+        <fullName>38 LAS CONDES</fullName>
+        <default>false</default>
+        <label>38 LAS CONDES</label>
+    </customValue>
+    <customValue>
+        <fullName>38 VEGA ARTUS SAN FERNANDO</fullName>
+        <default>false</default>
+        <label>38 VEGA ARTUS SAN FERNANDO</label>
+    </customValue>
+    <customValue>
+        <fullName>39 BAUER CONCEPCION</fullName>
+        <default>false</default>
+        <label>39 BAUER CONCEPCION</label>
+    </customValue>
+    <customValue>
+        <fullName>39 QUILICURA</fullName>
+        <default>false</default>
+        <label>39 QUILICURA</label>
+    </customValue>
+    <customValue>
+        <fullName>3 AG BILBAO 2</fullName>
+        <default>false</default>
+        <label>3 AG BILBAO 2</label>
+    </customValue>
+    <customValue>
+        <fullName>3 ARAUCO TALCA</fullName>
+        <default>false</default>
+        <label>3 ARAUCO TALCA</label>
+    </customValue>
+    <customValue>
+        <fullName>3 DERCOMAQ  ANTOFAGASTA</fullName>
+        <default>false</default>
+        <label>3 DERCOMAQ  ANTOFAGASTA</label>
+    </customValue>
+    <customValue>
+        <fullName>3 MAQUINARIAS GILDEMEISTER HUECHURABA</fullName>
+        <default>false</default>
+        <label>3 MAQUINARIAS GILDEMEISTER HUECHURABA</label>
+    </customValue>
+    <customValue>
+        <fullName>40 AUTOMOTORA FRANCIA</fullName>
+        <default>false</default>
+        <label>40 AUTOMOTORA FRANCIA</label>
+    </customValue>
+    <customValue>
+        <fullName>40 ELECTRO DIESEL TEMUCO</fullName>
+        <default>false</default>
+        <label>40 ELECTRO DIESEL TEMUCO</label>
+    </customValue>
+    <customValue>
+        <fullName>41 P HIDALGO PAJARITOS</fullName>
+        <default>false</default>
+        <label>41 P HIDALGO PAJARITOS</label>
+    </customValue>
+    <customValue>
+        <fullName>42 ANSA</fullName>
+        <default>false</default>
+        <label>42 ANSA</label>
+    </customValue>
+    <customValue>
+        <fullName>43 AUTOS YUSIC CALAMA</fullName>
+        <default>false</default>
+        <label>43 AUTOS YUSIC CALAMA</label>
+    </customValue>
+    <customValue>
+        <fullName>44 GUILLERMO MORALES BILBAO ( OTROS )</fullName>
+        <default>false</default>
+        <label>44 GUILLERMO MORALES BILBAO ( OTROS )</label>
+    </customValue>
+    <customValue>
+        <fullName>44 SUZUVAL LA CALERA</fullName>
+        <default>false</default>
+        <label>44 SUZUVAL LA CALERA</label>
+    </customValue>
+    <customValue>
+        <fullName>45 CURIFOR BUIN</fullName>
+        <default>false</default>
+        <label>45 CURIFOR BUIN</label>
+    </customValue>
+    <customValue>
+        <fullName>45 SUZUVAL SAN ANTONIO</fullName>
+        <default>false</default>
+        <label>45 SUZUVAL SAN ANTONIO</label>
+    </customValue>
+    <customValue>
+        <fullName>46 AUTOSTOP</fullName>
+        <default>false</default>
+        <label>46 AUTOSTOP</label>
+    </customValue>
+    <customValue>
+        <fullName>47 JESUS PONS CURICO</fullName>
+        <default>false</default>
+        <label>47 JESUS PONS CURICO</label>
+    </customValue>
+    <customValue>
+        <fullName>47 ROSSELOT</fullName>
+        <default>false</default>
+        <label>47 ROSSELOT</label>
+    </customValue>
+    <customValue>
+        <fullName>48 H MOTORES SA LIBERTAD</fullName>
+        <default>false</default>
+        <label>48 H MOTORES SA LIBERTAD</label>
+    </customValue>
+    <customValue>
+        <fullName>48 SERGIO ESCOBAR PAICAVI (RENAULT-MAZDA)</fullName>
+        <default>false</default>
+        <label>48 SERGIO ESCOBAR PAICAVI (RENAULT-MAZDA)</label>
+    </customValue>
+    <customValue>
+        <fullName>49 H MOTORES SA VALPARAÍSO</fullName>
+        <default>false</default>
+        <label>49 H MOTORES SA VALPARAÍSO</label>
+    </customValue>
+    <customValue>
+        <fullName>49 SERGIO ESCOBAR SAN PEDRO</fullName>
+        <default>false</default>
+        <label>49 SERGIO ESCOBAR SAN PEDRO</label>
+    </customValue>
+    <customValue>
+        <fullName>4 AG CANTAGALLO</fullName>
+        <default>false</default>
+        <label>4 AG CANTAGALLO</label>
+    </customValue>
+    <customValue>
+        <fullName>4 ASPILLAGA Y HORNAUER VIÑA DEL MAR</fullName>
+        <default>false</default>
+        <label>4 ASPILLAGA Y HORNAUER VIÑA DEL MAR</label>
+    </customValue>
+    <customValue>
+        <fullName>4 AUTOMOTRIZ LAS CONDES</fullName>
+        <default>false</default>
+        <label>4 AUTOMOTRIZ LAS CONDES</label>
+    </customValue>
+    <customValue>
+        <fullName>4 DERCOMAQ TEMUCO</fullName>
+        <default>false</default>
+        <label>4 DERCOMAQ TEMUCO</label>
+    </customValue>
+    <customValue>
+        <fullName>50 CURIFOR CURICÓ</fullName>
+        <default>false</default>
+        <label>50 CURIFOR CURICÓ</label>
+    </customValue>
+    <customValue>
+        <fullName>50 SERGIO ESCOBAR LOS ANGELES</fullName>
+        <default>false</default>
+        <label>50 SERGIO ESCOBAR LOS ANGELES</label>
+    </customValue>
+    <customValue>
+        <fullName>515 IRARRAZAVAL VALENZUELA DELARZE</fullName>
+        <default>false</default>
+        <label>515 IRARRAZAVAL VALENZUELA DELARZE</label>
+    </customValue>
+    <customValue>
+        <fullName>516 AUTOCORP</fullName>
+        <default>false</default>
+        <label>516 AUTOCORP</label>
+    </customValue>
+    <customValue>
+        <fullName>517 MOVIL GROUP</fullName>
+        <default>false</default>
+        <label>517 MOVIL GROUP</label>
+    </customValue>
+    <customValue>
+        <fullName>519 DEMOTORES</fullName>
+        <default>false</default>
+        <label>519 DEMOTORES</label>
+    </customValue>
+    <customValue>
+        <fullName>51 CURIFOR CHILLÁN</fullName>
+        <default>false</default>
+        <label>51 CURIFOR CHILLÁN</label>
+    </customValue>
+    <customValue>
+        <fullName>51 SERGIO ESCOBAR CHILLÁN</fullName>
+        <default>false</default>
+        <label>51 SERGIO ESCOBAR CHILLÁN</label>
+    </customValue>
+    <customValue>
+        <fullName>520 AUTOMOTRIZ ONLINE</fullName>
+        <default>false</default>
+        <label>520 AUTOMOTRIZ ONLINE</label>
+    </customValue>
+    <customValue>
+        <fullName>521 M&amp;L AUTOMOTORA</fullName>
+        <default>false</default>
+        <label>521 M&amp;L AUTOMOTORA</label>
+    </customValue>
+    <customValue>
+        <fullName>522 TOCORNAL SAN FELIPE O´HIGGINS</fullName>
+        <default>false</default>
+        <label>522 TOCORNAL SAN FELIPE O´HIGGINS</label>
+    </customValue>
+    <customValue>
+        <fullName>523 TOCORNAL SAN FELIPE SANTO DOMINGO</fullName>
+        <default>false</default>
+        <label>523 TOCORNAL SAN FELIPE SANTO DOMINGO</label>
+    </customValue>
+    <customValue>
+        <fullName>524 TOCORNAL LOS ANDES</fullName>
+        <default>false</default>
+        <label>524 TOCORNAL LOS ANDES</label>
+    </customValue>
+    <customValue>
+        <fullName>525 AUTOMOTRIZ COVEMA</fullName>
+        <default>false</default>
+        <label>525 AUTOMOTRIZ COVEMA</label>
+    </customValue>
+    <customValue>
+        <fullName>526 LABBE - SPORT</fullName>
+        <default>false</default>
+        <label>526 LABBE - SPORT</label>
+    </customValue>
+    <customValue>
+        <fullName>527 AUTOMOTORA SANTA ISABEL</fullName>
+        <default>false</default>
+        <label>527 AUTOMOTORA SANTA ISABEL</label>
+    </customValue>
+    <customValue>
+        <fullName>528 SU AUTOMOVIL</fullName>
+        <default>false</default>
+        <label>528 SU AUTOMOVIL</label>
+    </customValue>
+    <customValue>
+        <fullName>529 CIRCULO PLAZA OESTE CITROEN</fullName>
+        <default>false</default>
+        <label>529 CIRCULO PLAZA OESTE CITROEN</label>
+    </customValue>
+    <customValue>
+        <fullName>52 BRUNO FRITSCH CONCEPCION</fullName>
+        <default>false</default>
+        <label>52 BRUNO FRITSCH CONCEPCION</label>
+    </customValue>
+    <customValue>
+        <fullName>52 EXEQUIEL BERRIOS CASTRO</fullName>
+        <default>false</default>
+        <label>52 EXEQUIEL BERRIOS CASTRO</label>
+    </customValue>
+    <customValue>
+        <fullName>532 AUTOCARGO CERRILLOS</fullName>
+        <default>false</default>
+        <label>532 AUTOCARGO CERRILLOS</label>
+    </customValue>
+    <customValue>
+        <fullName>533 AUTOCARGO RANCAGUA</fullName>
+        <default>false</default>
+        <label>533 AUTOCARGO RANCAGUA</label>
+    </customValue>
+    <customValue>
+        <fullName>537 CIRCULO OTRAS MARCAS</fullName>
+        <default>false</default>
+        <label>537 CIRCULO OTRAS MARCAS</label>
+    </customValue>
+    <customValue>
+        <fullName>539 AUTOMOTORA SANTO TOMAS</fullName>
+        <default>false</default>
+        <label>539 AUTOMOTORA SANTO TOMAS</label>
+    </customValue>
+    <customValue>
+        <fullName>53 AUTOCASTILLO OSORNO</fullName>
+        <default>false</default>
+        <label>53 AUTOCASTILLO OSORNO</label>
+    </customValue>
+    <customValue>
+        <fullName>53 EXEQUIEL BERRIOS VALDIVIA</fullName>
+        <default>false</default>
+        <label>53 EXEQUIEL BERRIOS VALDIVIA</label>
+    </customValue>
+    <customValue>
+        <fullName>540 AUTOSHOPPING AUTOMOTRIZ OGAZ</fullName>
+        <default>false</default>
+        <label>540 AUTOSHOPPING AUTOMOTRIZ OGAZ</label>
+    </customValue>
+    <customValue>
+        <fullName>541 AUTOSHOPPING AUTOMOVIL LUIS JARA</fullName>
+        <default>false</default>
+        <label>541 AUTOSHOPPING AUTOMOVIL LUIS JARA</label>
+    </customValue>
+    <customValue>
+        <fullName>542 AUTOSHOPPING JMG</fullName>
+        <default>false</default>
+        <label>542 AUTOSHOPPING JMG</label>
+    </customValue>
+    <customValue>
+        <fullName>543 AUTOSHOPPING DYD AUTOMOVILES</fullName>
+        <default>false</default>
+        <label>543 AUTOSHOPPING DYD AUTOMOVILES</label>
+    </customValue>
+    <customValue>
+        <fullName>544 AUTOSHOPPING LAC SERVICE</fullName>
+        <default>false</default>
+        <label>544 AUTOSHOPPING LAC SERVICE</label>
+    </customValue>
+    <customValue>
+        <fullName>545 AUTOSHOPPING LAUCIRICA AUTOMOTRIZ</fullName>
+        <default>false</default>
+        <label>545 AUTOSHOPPING LAUCIRICA AUTOMOTRIZ</label>
+    </customValue>
+    <customValue>
+        <fullName>546 AUTOSHOPPING LINKCARS AUTOMOVIL</fullName>
+        <default>false</default>
+        <label>546 AUTOSHOPPING LINKCARS AUTOMOVIL</label>
+    </customValue>
+    <customValue>
+        <fullName>547 AUTOSHOPPING MOTO ACCION</fullName>
+        <default>false</default>
+        <label>547 AUTOSHOPPING MOTO ACCION</label>
+    </customValue>
+    <customValue>
+        <fullName>548 AUTOSHOPPING PATAGONIA MOTORS</fullName>
+        <default>false</default>
+        <label>548 AUTOSHOPPING PATAGONIA MOTORS</label>
+    </customValue>
+    <customValue>
+        <fullName>549 AUTOSHOPPING MCARS</fullName>
+        <default>false</default>
+        <label>549 AUTOSHOPPING MCARS</label>
+    </customValue>
+    <customValue>
+        <fullName>54 AUTOCASTILLO PUERTO MONTT</fullName>
+        <default>false</default>
+        <label>54 AUTOCASTILLO PUERTO MONTT</label>
+    </customValue>
+    <customValue>
+        <fullName>54 EXEQUIEL BERRIOS COYHAIQUE</fullName>
+        <default>false</default>
+        <label>54 EXEQUIEL BERRIOS COYHAIQUE</label>
+    </customValue>
+    <customValue>
+        <fullName>551 CIRCULO USADOS DEPARTAMENTAL (FORTUNER)</fullName>
+        <default>false</default>
+        <label>551 CIRCULO USADOS DEPARTAMENTAL (FORTUNER)</label>
+    </customValue>
+    <customValue>
+        <fullName>552 PAULDAYS MOTORS</fullName>
+        <default>false</default>
+        <label>552 PAULDAYS MOTORS</label>
+    </customValue>
+    <customValue>
+        <fullName>553 AUTOSHOPPING AUTOSOLUCIONES</fullName>
+        <default>false</default>
+        <label>553 AUTOSHOPPING AUTOSOLUCIONES</label>
+    </customValue>
+    <customValue>
+        <fullName>554 AUTOSHOPPING DEPELLI AUTOS</fullName>
+        <default>false</default>
+        <label>554 AUTOSHOPPING DEPELLI AUTOS</label>
+    </customValue>
+    <customValue>
+        <fullName>558 SAINT GERMAINBELLAVISTA (OTRAS MARCAS)</fullName>
+        <default>false</default>
+        <label>558 SAINT GERMAINBELLAVISTA (OTRAS MARCAS)</label>
+    </customValue>
+    <customValue>
+        <fullName>559 H MOTORES PLAZA OESTE (OTRAS MARCAS)</fullName>
+        <default>false</default>
+        <label>559 H MOTORES PLAZA OESTE (OTRAS MARCAS)</label>
+    </customValue>
+    <customValue>
+        <fullName>55 CHILOÉ MOTORES</fullName>
+        <default>false</default>
+        <label>55 CHILOÉ MOTORES</label>
+    </customValue>
+    <customValue>
+        <fullName>55 RECASUR PUNTA ARENAS</fullName>
+        <default>false</default>
+        <label>55 RECASUR PUNTA ARENAS</label>
+    </customValue>
+    <customValue>
+        <fullName>560 SAINT GERMAIN LAS CONDES (OTRAS MARCAS)</fullName>
+        <default>false</default>
+        <label>560 SAINT GERMAIN LAS CONDES (OTRAS MARCAS)</label>
+    </customValue>
+    <customValue>
+        <fullName>561 AUTO360.CL</fullName>
+        <default>false</default>
+        <label>561 AUTO360.CL</label>
+    </customValue>
+    <customValue>
+        <fullName>562 AUTOVIR</fullName>
+        <default>false</default>
+        <label>562 AUTOVIR</label>
+    </customValue>
+    <customValue>
+        <fullName>563 ANFRUNS RANCAGUA USADOS</fullName>
+        <default>false</default>
+        <label>563 ANFRUNS RANCAGUA USADOS</label>
+    </customValue>
+    <customValue>
+        <fullName>564 AUTOMOTORA JORGE PLAZA OLGUIN EIRL</fullName>
+        <default>false</default>
+        <label>564 AUTOMOTORA JORGE PLAZA OLGUIN EIRL</label>
+    </customValue>
+    <customValue>
+        <fullName>565 LADA CHILE</fullName>
+        <default>false</default>
+        <label>565 LADA CHILE</label>
+    </customValue>
+    <customValue>
+        <fullName>566 AUTOMARKET</fullName>
+        <default>false</default>
+        <label>566 AUTOMARKET</label>
+    </customValue>
+    <customValue>
+        <fullName>56 BILBAO AUTOS (MICHEL MARTABIT)</fullName>
+        <default>false</default>
+        <label>56 BILBAO AUTOS (MICHEL MARTABIT)</label>
+    </customValue>
+    <customValue>
+        <fullName>56 TOVARIAS</fullName>
+        <default>false</default>
+        <label>56 TOVARIAS</label>
+    </customValue>
+    <customValue>
+        <fullName>57 CUMSILLE CASA MATRIZ</fullName>
+        <default>false</default>
+        <label>57 CUMSILLE CASA MATRIZ</label>
+    </customValue>
+    <customValue>
+        <fullName>57 GCL SOTTA</fullName>
+        <default>false</default>
+        <label>57 GCL SOTTA</label>
+    </customValue>
+    <customValue>
+        <fullName>58 AG PLAZA LA SERENA</fullName>
+        <default>false</default>
+        <label>58 AG PLAZA LA SERENA</label>
+    </customValue>
+    <customValue>
+        <fullName>58 CENTRAL CAR</fullName>
+        <default>false</default>
+        <label>58 CENTRAL CAR</label>
+    </customValue>
+    <customValue>
+        <fullName>59 CARMEISTER MALL PLAZA OESTE</fullName>
+        <default>false</default>
+        <label>59 CARMEISTER MALL PLAZA OESTE</label>
+    </customValue>
+    <customValue>
+        <fullName>5 AG CASA MATRIZ</fullName>
+        <default>false</default>
+        <label>5 AG CASA MATRIZ</label>
+    </customValue>
+    <customValue>
+        <fullName>5 ATLANTIC MOTOR SANTIAGO</fullName>
+        <default>false</default>
+        <label>5 ATLANTIC MOTOR SANTIAGO</label>
+    </customValue>
+    <customValue>
+        <fullName>5 CURIFOR FORTALEZA</fullName>
+        <default>false</default>
+        <label>5 CURIFOR FORTALEZA</label>
+    </customValue>
+    <customValue>
+        <fullName>5 PIAMONTE IRARRAZAVAL 3400</fullName>
+        <default>false</default>
+        <label>5 PIAMONTE IRARRAZAVAL 3400</label>
+    </customValue>
+    <customValue>
+        <fullName>60 CARMEISTER MOVICENTER</fullName>
+        <default>false</default>
+        <label>60 CARMEISTER MOVICENTER</label>
+    </customValue>
+    <customValue>
+        <fullName>60 SUZUVAL VALPARAISO USADOS</fullName>
+        <default>false</default>
+        <label>60 SUZUVAL VALPARAISO USADOS</label>
+    </customValue>
+    <customValue>
+        <fullName>61 H MOTORES SA LONQUEN</fullName>
+        <default>false</default>
+        <label>61 H MOTORES SA LONQUEN</label>
+    </customValue>
+    <customValue>
+        <fullName>61 PLAZA OESTE SUZUKI</fullName>
+        <default>false</default>
+        <label>61 PLAZA OESTE SUZUKI</label>
+    </customValue>
+    <customValue>
+        <fullName>62 CARMEISTER BILBAO 1</fullName>
+        <default>false</default>
+        <label>62 CARMEISTER BILBAO 1</label>
+    </customValue>
+    <customValue>
+        <fullName>63 CARMEISTER LA FLORIDA</fullName>
+        <default>false</default>
+        <label>63 CARMEISTER LA FLORIDA</label>
+    </customValue>
+    <customValue>
+        <fullName>63 PLAZA VESPUCIO (MAZDA)</fullName>
+        <default>false</default>
+        <label>63 PLAZA VESPUCIO (MAZDA)</label>
+    </customValue>
+    <customValue>
+        <fullName>64 CARMEISTER CASA MATRIZ</fullName>
+        <default>false</default>
+        <label>64 CARMEISTER CASA MATRIZ</label>
+    </customValue>
+    <customValue>
+        <fullName>65 CARMEISTER PLAZA TOBALABA</fullName>
+        <default>false</default>
+        <label>65 CARMEISTER PLAZA TOBALABA</label>
+    </customValue>
+    <customValue>
+        <fullName>65 CASA MATRIZ DERCO MOTOS</fullName>
+        <default>false</default>
+        <label>65 CASA MATRIZ DERCO MOTOS</label>
+    </customValue>
+    <customValue>
+        <fullName>66 DECAR SA</fullName>
+        <default>false</default>
+        <label>66 DECAR SA</label>
+    </customValue>
+    <customValue>
+        <fullName>66 MANASA CANTAGALLO</fullName>
+        <default>false</default>
+        <label>66 MANASA CANTAGALLO</label>
+    </customValue>
+    <customValue>
+        <fullName>67 CUMSILLE SAN FERNADO</fullName>
+        <default>false</default>
+        <label>67 CUMSILLE SAN FERNADO</label>
+    </customValue>
+    <customValue>
+        <fullName>67 MANASA ANTOFAGASTA</fullName>
+        <default>false</default>
+        <label>67 MANASA ANTOFAGASTA</label>
+    </customValue>
+    <customValue>
+        <fullName>68 CUMSILLE SANTA CRUZ</fullName>
+        <default>false</default>
+        <label>68 CUMSILLE SANTA CRUZ</label>
+    </customValue>
+    <customValue>
+        <fullName>68 MANASA CALAMA</fullName>
+        <default>false</default>
+        <label>68 MANASA CALAMA</label>
+    </customValue>
+    <customValue>
+        <fullName>69 DERCOMAQ QUILICURA</fullName>
+        <default>false</default>
+        <label>69 DERCOMAQ QUILICURA</label>
+    </customValue>
+    <customValue>
+        <fullName>69 GUILLERMO MORALES VITACURA</fullName>
+        <default>false</default>
+        <label>69 GUILLERMO MORALES VITACURA</label>
+    </customValue>
+    <customValue>
+        <fullName>6 AUTOCENTRO NICOLÁS</fullName>
+        <default>false</default>
+        <label>6 AUTOCENTRO NICOLÁS</label>
+    </customValue>
+    <customValue>
+        <fullName>6 DERCOMAQ  PUERTO MONTT</fullName>
+        <default>false</default>
+        <label>6 DERCOMAQ  PUERTO MONTT</label>
+    </customValue>
+    <customValue>
+        <fullName>70 AG MALL PLAZA ALAMEDA</fullName>
+        <default>false</default>
+        <label>70 AG MALL PLAZA ALAMEDA</label>
+    </customValue>
+    <customValue>
+        <fullName>70 DERCOMAQ SUZUVAL</fullName>
+        <default>false</default>
+        <label>70 DERCOMAQ SUZUVAL</label>
+    </customValue>
+    <customValue>
+        <fullName>71 MEDITERRANEO AUTOMOTORES CIRCULO HYUNDAI TALCA</fullName>
+        <default>false</default>
+        <label>71 MEDITERRANEO AUTOMOTORES CIRCULO HYUNDAI TALCA</label>
+    </customValue>
+    <customValue>
+        <fullName>71 PROMOTO VITACURA</fullName>
+        <default>false</default>
+        <label>71 PROMOTO VITACURA</label>
+    </customValue>
+    <customValue>
+        <fullName>72 AG LAS CONDES 2 (ALTRA)</fullName>
+        <default>false</default>
+        <label>72 AG LAS CONDES 2 (ALTRA)</label>
+    </customValue>
+    <customValue>
+        <fullName>72 PROMOTO LIRA</fullName>
+        <default>false</default>
+        <label>72 PROMOTO LIRA</label>
+    </customValue>
+    <customValue>
+        <fullName>73 AUTOMOTRIZ BILBAO AUTOS</fullName>
+        <default>false</default>
+        <label>73 AUTOMOTRIZ BILBAO AUTOS</label>
+    </customValue>
+    <customValue>
+        <fullName>73 CHILOE MOTORES LTDA</fullName>
+        <default>false</default>
+        <label>73 CHILOE MOTORES LTDA</label>
+    </customValue>
+    <customValue>
+        <fullName>74 AG VICUÑA MACKENNA</fullName>
+        <default>false</default>
+        <label>74 AG VICUÑA MACKENNA</label>
+    </customValue>
+    <customValue>
+        <fullName>74 INVERSIONES DON ALBERTO Y CIA.LTDA</fullName>
+        <default>false</default>
+        <label>74 INVERSIONES DON ALBERTO Y CIA.LTDA</label>
+    </customValue>
+    <customValue>
+        <fullName>75 CARMEISTER DEPARTAMENTAL</fullName>
+        <default>false</default>
+        <label>75 CARMEISTER DEPARTAMENTAL</label>
+    </customValue>
+    <customValue>
+        <fullName>75 PLAZA OESTE (GWM-CHA-JAC-GEE)</fullName>
+        <default>false</default>
+        <label>75 PLAZA OESTE (GWM-CHA-JAC-GEE)</label>
+    </customValue>
+    <customValue>
+        <fullName>76 CARMEISTER LAS CONDES 2</fullName>
+        <default>false</default>
+        <label>76 CARMEISTER LAS CONDES 2</label>
+    </customValue>
+    <customValue>
+        <fullName>76 CICLOMOTO BILBAO</fullName>
+        <default>false</default>
+        <label>76 CICLOMOTO BILBAO</label>
+    </customValue>
+    <customValue>
+        <fullName>77 CIRCULO HYUNDAI</fullName>
+        <default>false</default>
+        <label>77 CIRCULO HYUNDAI</label>
+    </customValue>
+    <customValue>
+        <fullName>78 MOTOSTAR PLAZA OESTE</fullName>
+        <default>false</default>
+        <label>78 MOTOSTAR PLAZA OESTE</label>
+    </customValue>
+    <customValue>
+        <fullName>78 VITACURA MOTOS</fullName>
+        <default>false</default>
+        <label>78 VITACURA MOTOS</label>
+    </customValue>
+    <customValue>
+        <fullName>79 CARMONA</fullName>
+        <default>false</default>
+        <label>79 CARMONA</label>
+    </customValue>
+    <customValue>
+        <fullName>79 MOTOSTAR PLAZA NORTE</fullName>
+        <default>false</default>
+        <label>79 MOTOSTAR PLAZA NORTE</label>
+    </customValue>
+    <customValue>
+        <fullName>7 AG LA DEHESA</fullName>
+        <default>false</default>
+        <label>7 AG LA DEHESA</label>
+    </customValue>
+    <customValue>
+        <fullName>7 AUTOMOTORA BILBAO</fullName>
+        <default>false</default>
+        <label>7 AUTOMOTORA BILBAO</label>
+    </customValue>
+    <customValue>
+        <fullName>7 DERCOMAQ INDUSTRIAL</fullName>
+        <default>false</default>
+        <label>7 DERCOMAQ INDUSTRIAL</label>
+    </customValue>
+    <customValue>
+        <fullName>80 CARMEISTER PLAZA EL TREBOL CONCEPCION</fullName>
+        <default>false</default>
+        <label>80 CARMEISTER PLAZA EL TREBOL CONCEPCION</label>
+    </customValue>
+    <customValue>
+        <fullName>82 CAVAL TALCA</fullName>
+        <default>false</default>
+        <label>82 CAVAL TALCA</label>
+    </customValue>
+    <customValue>
+        <fullName>83 DEPETRIS</fullName>
+        <default>false</default>
+        <label>83 DEPETRIS</label>
+    </customValue>
+    <customValue>
+        <fullName>83 MOVICENTER (RNT - SMG)</fullName>
+        <default>false</default>
+        <label>83 MOVICENTER (RNT - SMG)</label>
+    </customValue>
+    <customValue>
+        <fullName>84 AG VIÑA DEL MAR</fullName>
+        <default>false</default>
+        <label>84 AG VIÑA DEL MAR</label>
+    </customValue>
+    <customValue>
+        <fullName>84 COVALSA COQUIMBO</fullName>
+        <default>false</default>
+        <label>84 COVALSA COQUIMBO</label>
+    </customValue>
+    <customValue>
+        <fullName>85 DOLOMITI</fullName>
+        <default>false</default>
+        <label>85 DOLOMITI</label>
+    </customValue>
+    <customValue>
+        <fullName>85 GUILLERMO MORALES USADOS</fullName>
+        <default>false</default>
+        <label>85 GUILLERMO MORALES USADOS</label>
+    </customValue>
+    <customValue>
+        <fullName>86 DISTRIBUIDORA ROSSELOT LTDA</fullName>
+        <default>false</default>
+        <label>86 DISTRIBUIDORA ROSSELOT LTDA</label>
+    </customValue>
+    <customValue>
+        <fullName>86 MOTOSTILE ( COMERCIAL BARUK )</fullName>
+        <default>false</default>
+        <label>86 MOTOSTILE ( COMERCIAL BARUK )</label>
+    </customValue>
+    <customValue>
+        <fullName>87 ALPINO AUTOS</fullName>
+        <default>false</default>
+        <label>87 ALPINO AUTOS</label>
+    </customValue>
+    <customValue>
+        <fullName>87 GIDI LINARES</fullName>
+        <default>false</default>
+        <label>87 GIDI LINARES</label>
+    </customValue>
+    <customValue>
+        <fullName>88 PLAZA TOBALABA (GWM-GEE-JAC-CHA)</fullName>
+        <default>false</default>
+        <label>88 PLAZA TOBALABA (GWM-GEE-JAC-CHA)</label>
+    </customValue>
+    <customValue>
+        <fullName>88 SIGLO XXI</fullName>
+        <default>false</default>
+        <label>88 SIGLO XXI</label>
+    </customValue>
+    <customValue>
+        <fullName>89 CITYTIME MALL IQUIQUE</fullName>
+        <default>false</default>
+        <label>89 CITYTIME MALL IQUIQUE</label>
+    </customValue>
+    <customValue>
+        <fullName>8 AG MAIPU</fullName>
+        <default>false</default>
+        <label>8 AG MAIPU</label>
+    </customValue>
+    <customValue>
+        <fullName>8 DERCOMAQ MELIPILLA</fullName>
+        <default>false</default>
+        <label>8 DERCOMAQ MELIPILLA</label>
+    </customValue>
+    <customValue>
+        <fullName>90 FORTALEZA CALAMA</fullName>
+        <default>false</default>
+        <label>90 FORTALEZA CALAMA</label>
+    </customValue>
+    <customValue>
+        <fullName>90 PLAZA VESPUCIO ( RENAULT - SAMSUNG )</fullName>
+        <default>false</default>
+        <label>90 PLAZA VESPUCIO ( RENAULT - SAMSUNG )</label>
+    </customValue>
+    <customValue>
+        <fullName>91 FORTALEZA ANTOFAGASTA</fullName>
+        <default>false</default>
+        <label>91 FORTALEZA ANTOFAGASTA</label>
+    </customValue>
+    <customValue>
+        <fullName>91 JESUS PONS LINARES</fullName>
+        <default>false</default>
+        <label>91 JESUS PONS LINARES</label>
+    </customValue>
+    <customValue>
+        <fullName>92 AUTOS YUSIC COSTANERA</fullName>
+        <default>false</default>
+        <label>92 AUTOS YUSIC COSTANERA</label>
+    </customValue>
+    <customValue>
+        <fullName>92 CIRCULO MANUEL MONTT</fullName>
+        <default>false</default>
+        <label>92 CIRCULO MANUEL MONTT</label>
+    </customValue>
+    <customValue>
+        <fullName>93 AG CERRILLOS</fullName>
+        <default>false</default>
+        <label>93 AG CERRILLOS</label>
+    </customValue>
+    <customValue>
+        <fullName>93 DUMAY VITACURA</fullName>
+        <default>false</default>
+        <label>93 DUMAY VITACURA</label>
+    </customValue>
+    <customValue>
+        <fullName>94 BRUNO FRITSCH PLAZA SUR</fullName>
+        <default>false</default>
+        <label>94 BRUNO FRITSCH PLAZA SUR</label>
+    </customValue>
+    <customValue>
+        <fullName>95 CIRCULO IRARRAZABAL</fullName>
+        <default>false</default>
+        <label>95 CIRCULO IRARRAZABAL</label>
+    </customValue>
+    <customValue>
+        <fullName>95 DEPARTAMENTAL USADOS</fullName>
+        <default>false</default>
+        <label>95 DEPARTAMENTAL USADOS</label>
+    </customValue>
+    <customValue>
+        <fullName>96 AG MALL PLAZA CALAMA</fullName>
+        <default>false</default>
+        <label>96 AG MALL PLAZA CALAMA</label>
+    </customValue>
+    <customValue>
+        <fullName>97 CITYTIME ARICA</fullName>
+        <default>false</default>
+        <label>97 CITYTIME ARICA</label>
+    </customValue>
+    <customValue>
+        <fullName>97 FULL MOTO</fullName>
+        <default>false</default>
+        <label>97 FULL MOTO</label>
+    </customValue>
+    <customValue>
+        <fullName>98 FORTALEZA PLAZA CALAMA</fullName>
+        <default>false</default>
+        <label>98 FORTALEZA PLAZA CALAMA</label>
+    </customValue>
+    <customValue>
+        <fullName>99 FORTALEZA PLAZA ANTOFAGASTA</fullName>
+        <default>false</default>
+        <label>99 FORTALEZA PLAZA ANTOFAGASTA</label>
+    </customValue>
+    <customValue>
+        <fullName>99 MOTOSUR</fullName>
+        <default>false</default>
+        <label>99 MOTOSUR</label>
+    </customValue>
+    <customValue>
+        <fullName>9 AG MALL PLAZA NORTE</fullName>
+        <default>false</default>
+        <label>9 AG MALL PLAZA NORTE</label>
+    </customValue>
+    <customValue>
+        <fullName>9 AUTOS YUSIC MALL ANTOFAGASTA</fullName>
+        <default>false</default>
+        <label>9 AUTOS YUSIC MALL ANTOFAGASTA</label>
+    </customValue>
+    <customValue>
+        <fullName>9 DERCOMAQ CALAMA</fullName>
+        <default>false</default>
+        <label>9 DERCOMAQ CALAMA</label>
+    </customValue>
+    <customValue>
+        <fullName>LOCAL GENERICO</fullName>
+        <default>false</default>
+        <label>LOCAL GENERICO</label>
+    </customValue>
+    <customValue>
+        <fullName>94 CARRERA USADOS</fullName>
+        <default>false</default>
+        <label>94 CARRERA USADOS</label>
+    </customValue>
+    <customValue>
+        <fullName>103 PUIG LTDA.</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>103 PUIG LTDA.</label>
+    </customValue>
+    <customValue>
+        <fullName>58 CENTRAL CAR - LINARES</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>58 CENTRAL CAR - LINARES</label>
+    </customValue>
+    <customValue>
+        <fullName>113 PORTEZUELO LA DEHESA</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>113 PORTEZUELO LA DEHESA</label>
+    </customValue>
+    <customValue>
+        <fullName>114 PORTEZUELO PADRE HURTADO</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>114 PORTEZUELO PADRE HURTADO</label>
+    </customValue>
+    <customValue>
+        <fullName>115 PORTEZUELO VITACURA 5555</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>115 PORTEZUELO VITACURA 5555</label>
+    </customValue>
+    <customValue>
+        <fullName>116 PORTEZUELO VITACURA 4877</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>116 PORTEZUELO VITACURA 4877</label>
+    </customValue>
+    <customValue>
+        <fullName>120 PORTEZUELO VIRTUAL</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>120 PORTEZUELO VIRTUAL</label>
+    </customValue>
+    <customValue>
+        <fullName>127 PORTEZUELO BILBAO - ASIA</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>127 PORTEZUELO BILBAO - ASIA</label>
+    </customValue>
+    <customValue>
+        <fullName>173 FORTALEZA AUTOMOTORA PUIG</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>173 FORTALEZA AUTOMOTORA PUIG</label>
+    </customValue>
+    <customValue>
+        <fullName>37 MEGACENTER (USADOS)</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>37 MEGACENTER (USADOS)</label>
+    </customValue>
+    <customValue>
+        <fullName>41 MANASA LAS CONDES</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>41 MANASA LAS CONDES</label>
+    </customValue>
+    <customValue>
+        <fullName>42 MANASA LA FLORIDA</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>42 MANASA LA FLORIDA</label>
+    </customValue>
+    <customValue>
+        <fullName>48 HERNÁNDEZ MOTORES LIBERTAD</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>48 HERNÁNDEZ MOTORES LIBERTAD</label>
+    </customValue>
+    <customValue>
+        <fullName>5 ATLANTIC MOTOR - SANTIAGO</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>5 ATLANTIC MOTOR - SANTIAGO</label>
+    </customValue>
+    <customValue>
+        <fullName>109 DERCO S.A. (PROVISORIO)</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>109 DERCO S.A. (PROVISORIO)</label>
+    </customValue>
+    <masterLabel>Locales</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

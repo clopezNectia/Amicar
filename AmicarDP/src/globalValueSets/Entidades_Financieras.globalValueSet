@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>ASTRA</fullName>
+        <default>false</default>
+        <label>ASTRA</label>
+    </customValue>
+    <customValue>
+        <fullName>761395068</fullName>
+        <default>false</default>
+        <label>AUTOFIN</label>
+    </customValue>
+    <customValue>
+        <fullName>BANCO BCI</fullName>
+        <default>false</default>
+        <label>BANCO BCI</label>
+    </customValue>
+    <customValue>
+        <fullName>BANCO DE CHILE</fullName>
+        <default>false</default>
+        <label>BANCO DE CHILE</label>
+    </customValue>
+    <customValue>
+        <fullName>BANCO DEL DESARROLLO</fullName>
+        <default>false</default>
+        <label>BANCO DEL DESARROLLO</label>
+    </customValue>
+    <customValue>
+        <fullName>965096604</fullName>
+        <default>false</default>
+        <label>BANCO FALABELLA</label>
+    </customValue>
+    <customValue>
+        <fullName>BCI AUTO</fullName>
+        <default>false</default>
+        <label>BCI AUTO</label>
+    </customValue>
+    <customValue>
+        <fullName>CMR FALABELLA</fullName>
+        <default>false</default>
+        <label>CMR FALABELLA</label>
+    </customValue>
+    <customValue>
+        <fullName>999999999</fullName>
+        <default>false</default>
+        <label>COTIZADOR AMICAR</label>
+    </customValue>
+    <customValue>
+        <fullName>968612808</fullName>
+        <default>false</default>
+        <label>EUROCAPITAL</label>
+    </customValue>
+    <customValue>
+        <fullName>FACTORLINE</fullName>
+        <default>false</default>
+        <label>FACTORLINE</label>
+    </customValue>
+    <customValue>
+        <fullName>FACTORLINE 2DA OPCION</fullName>
+        <default>false</default>
+        <label>FACTORLINE 2DA OPCION</label>
+    </customValue>
+    <customValue>
+        <fullName>FALABELLA</fullName>
+        <default>false</default>
+        <label>FALABELLA</label>
+    </customValue>
+    <customValue>
+        <fullName>FINANCIERA AMICAR</fullName>
+        <default>false</default>
+        <label>FINANCIERA AMICAR</label>
+    </customValue>
+    <customValue>
+        <fullName>966787902</fullName>
+        <default>false</default>
+        <label>FORUM</label>
+    </customValue>
+    <customValue>
+        <fullName>78624210K</fullName>
+        <default>false</default>
+        <label>MARUBENI CREDIT</label>
+    </customValue>
+    <customValue>
+        <fullName>MASFIN</fullName>
+        <default>false</default>
+        <label>MASFIN</label>
+    </customValue>
+    <customValue>
+        <fullName>79678590K</fullName>
+        <default>false</default>
+        <label>MITSUI</label>
+    </customValue>
+    <customValue>
+        <fullName>762249812</fullName>
+        <default>false</default>
+        <label>MUNDOCREDITO</label>
+    </customValue>
+    <customValue>
+        <fullName>762617897</fullName>
+        <default>false</default>
+        <label>NUEVO CAPITAL S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>PROGRESO S.A.</fullName>
+        <default>false</default>
+        <label>PROGRESO S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>PROGRESO S.A LEASING</fullName>
+        <default>false</default>
+        <label>PROGRESO S.A LEASING</label>
+    </customValue>
+    <customValue>
+        <fullName>PRO PYME</fullName>
+        <default>false</default>
+        <label>PRO PYME</label>
+    </customValue>
+    <customValue>
+        <fullName>PYMER - BANCO INTERNACIONAL</fullName>
+        <default>false</default>
+        <label>PYMER - BANCO INTERNACIONAL</label>
+    </customValue>
+    <customValue>
+        <fullName>760022934</fullName>
+        <default>false</default>
+        <label>SANTANDER CONSUMER</label>
+    </customValue>
+    <customValue>
+        <fullName>756245864</fullName>
+        <default>false</default>
+        <label>SCOTIABANK</label>
+    </customValue>
+    <customValue>
+        <fullName>966675608</fullName>
+        <default>false</default>
+        <label>TANNER</label>
+    </customValue>
+    <customValue>
+        <fullName>TANNER LEASING</fullName>
+        <default>false</default>
+        <label>TANNER LEASING</label>
+    </customValue>
+    <customValue>
+        <fullName>TEST AMICAR</fullName>
+        <default>false</default>
+        <label>TEST AMICAR</label>
+    </customValue>
+    <masterLabel>Entidades Financieras</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

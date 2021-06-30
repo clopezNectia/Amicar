@@ -1,0 +1,56 @@
+<apex:page doctype="html-5.0" standardController="trailheadapp__Trailmix__c" extensions="trailheadapp.AssignMultipleUsersController">   
+    <apex:sectionHeader title="{!trailmix.Name}" subtitle="{!$Label.trailheadapp__assign_users_subtitle}"/> 
+    <apex:form >
+
+        <apex:pageBlock mode="edit" id="block"> 
+            <apex:pageBlockButtons >
+                <apex:commandButton action="{!cancel}" value="{!$Label.trailheadapp__cancel_button}"/>
+                <apex:commandButton action="{!back}" value="{!$Label.trailheadapp__back_button}" rendered="{!NOT(showSearchUI)}"/>
+                <apex:commandButton action="{!submit}" value="{!$Label.trailheadapp__submit_button}" rendered="{!NOT(showSearchUI)}" disabled="{!ISNULL(selectedUsers)}"/>
+                <apex:commandButton action="{!next}" value="{!$Label.trailheadapp__next_button}"  rendered="{!showSearchUI}" disabled="{!ISNULL(searchResults)}"/>
+            </apex:pageBlockButtons>
+            <div style="margin:10px"><apex:pageMessages /></div>
+
+            <apex:panelGroup rendered="{!showSearchUI}">
+                <apex:pageBlockSection >
+                    <apex:pageBlockSectionItem >
+                        <apex:outputLabel for="searchText">{!$Label.trailheadapp__assign_users_search_users}</apex:outputLabel>
+                        <apex:panelGroup >
+                        <apex:inputText id="searchText" value="{!searchText}" size="30"/>
+                        <apex:commandButton value="{!$Label.trailheadapp__search_button}" action="{!search}" rerender="block" status="status"/>
+                        </apex:panelGroup>
+                    </apex:pageBlockSectionItem>
+                </apex:pageBlockSection>
+
+                <apex:pageBlockSection title="{!$Label.trailheadapp__assign_users_search_results}" id="selectedBlock" columns="1" rendered="{!NOT(ISNULL(searchResults))}">
+                    <apex:pageBlockTable value="{!searchResults}" var="c">
+                        <apex:column width="25px">
+                            <apex:inputCheckbox value="{!c.checked}"/>
+                        </apex:column>
+                        <apex:column value="{!c.user.Name}" headerValue="{!$Label.trailheadapp__user_name}"/>
+                        <apex:column value="{!c.user.Title}" headerValue="{!$Label.trailheadapp__user_title}"/>
+                    </apex:pageBlockTable>
+                </apex:pageBlockSection>
+            </apex:panelGroup>
+
+            <apex:panelGroup rendered="{!NOT(showSearchUI)}">
+                <apex:pageBlockSection >
+                    <apex:pageBlockSectionItem >
+                        {!$Label.trailheadapp__assign_users_select_due_date}
+                    </apex:pageBlockSectionItem>
+                    <apex:pageBlockSectionItem >
+                        <apex:input type="date" value="{!dueDate}"/> 
+                    </apex:pageBlockSectionItem>                
+                </apex:pageBlockSection> 
+
+                <apex:pageBlockSection title="{!$Label.trailheadapp__assign_users_selected_users}" id="resultsBlock" columns="1" rendered="{!NOT(ISNULL(searchResults))}">
+                    <apex:pageBlockTable value="{!selectedUsers}" var="c">
+                        <apex:column value="{!c.user.Name}" headerValue="{!$Label.trailheadapp__user_name}"/>
+                        <apex:column value="{!c.user.Title}" headerValue="{!$Label.trailheadapp__user_title}"/>
+                    </apex:pageBlockTable>
+                </apex:pageBlockSection>                
+            </apex:panelGroup>                    
+            
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

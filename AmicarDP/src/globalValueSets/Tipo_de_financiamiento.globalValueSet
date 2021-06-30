@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>CONVENTIONAL</fullName>
+        <default>false</default>
+        <label>Crédito Convencional</label>
+    </customValue>
+    <customValue>
+        <fullName>SMART</fullName>
+        <default>false</default>
+        <label>Crédito inteligente</label>
+    </customValue>
+    <customValue>
+        <fullName>RENEWAL</fullName>
+        <default>false</default>
+        <label>Renovación Convencional</label>
+    </customValue>
+    <customValue>
+        <fullName>SMART_RENEWAL</fullName>
+        <default>false</default>
+        <label>Renovación inteligente</label>
+    </customValue>
+    <customValue>
+        <fullName>REFINANCING</fullName>
+        <default>false</default>
+        <label>Refinanciamiento Convencional</label>
+    </customValue>
+    <customValue>
+        <fullName>SMART_REFINANCING</fullName>
+        <default>false</default>
+        <label>Refinanciamiento inteligente</label>
+    </customValue>
+    <customValue>
+        <fullName>CONSUMER</fullName>
+        <default>false</default>
+        <label>Consumo</label>
+    </customValue>
+    <customValue>
+        <fullName>LEASING</fullName>
+        <default>false</default>
+        <label>Leasing</label>
+    </customValue>
+    <masterLabel>Tipo de financiamiento</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

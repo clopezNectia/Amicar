@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>6</fullName>
+        <default>false</default>
+        <label>BANCO BICE</label>
+    </customValue>
+    <customValue>
+        <fullName>1</fullName>
+        <default>false</default>
+        <label>BANCO DE CHILE</label>
+    </customValue>
+    <customValue>
+        <fullName>4</fullName>
+        <default>false</default>
+        <label>BANCO DE CREDITO E INVERSIONES</label>
+    </customValue>
+    <customValue>
+        <fullName>18</fullName>
+        <default>false</default>
+        <label>BANCO FALABELLA</label>
+    </customValue>
+    <customValue>
+        <fullName>16</fullName>
+        <default>false</default>
+        <label>BANCO INTERNACIONAL</label>
+    </customValue>
+    <customValue>
+        <fullName>20</fullName>
+        <default>false</default>
+        <label>BANCO RIPLEY</label>
+    </customValue>
+    <customValue>
+        <fullName>9</fullName>
+        <default>false</default>
+        <label>BANCO SANTANDER-CHILE</label>
+    </customValue>
+    <customValue>
+        <fullName>13</fullName>
+        <default>false</default>
+        <label>BANCO SECURITY</label>
+    </customValue>
+    <customValue>
+        <fullName>17</fullName>
+        <default>false</default>
+        <label>HSBC BANK (CHILE)</label>
+    </customValue>
+    <customValue>
+        <fullName>11</fullName>
+        <default>false</default>
+        <label>ABN AMRO BANCK</label>
+    </customValue>
+    <customValue>
+        <fullName>10</fullName>
+        <default>false</default>
+        <label>BANCO BANKBOSTON</label>
+    </customValue>
+    <customValue>
+        <fullName>14</fullName>
+        <default>false</default>
+        <label>BANCO BBVA</label>
+    </customValue>
+    <customValue>
+        <fullName>8</fullName>
+        <default>false</default>
+        <label>BANCO CITIBANK</label>
+    </customValue>
+    <customValue>
+        <fullName>25</fullName>
+        <default>false</default>
+        <label>BANCO CONOSUR</label>
+    </customValue>
+    <customValue>
+        <fullName>5</fullName>
+        <default>false</default>
+        <label>BANCO CORPBANCA</label>
+    </customValue>
+    <customValue>
+        <fullName>28</fullName>
+        <default>false</default>
+        <label>BANCO DE LA NACION ARGENTINA</label>
+    </customValue>
+    <customValue>
+        <fullName>12</fullName>
+        <default>false</default>
+        <label>BANCO DEL DESARROLLO</label>
+    </customValue>
+    <customValue>
+        <fullName>26</fullName>
+        <default>false</default>
+        <label>BANCO DO BRASIL S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>2</fullName>
+        <default>false</default>
+        <label>BANCO ESTADO</label>
+    </customValue>
+    <customValue>
+        <fullName>22</fullName>
+        <default>false</default>
+        <label>BANCO MONEX</label>
+    </customValue>
+    <customValue>
+        <fullName>24</fullName>
+        <default>false</default>
+        <label>BANCO PARIS</label>
+    </customValue>
+    <customValue>
+        <fullName>23</fullName>
+        <default>false</default>
+        <label>BANCO PENTA</label>
+    </customValue>
+    <customValue>
+        <fullName>3</fullName>
+        <default>false</default>
+        <label>BANCO SCOTIABANK</label>
+    </customValue>
+    <customValue>
+        <fullName>19</fullName>
+        <default>false</default>
+        <label>DEUTSCHE BANK(CHILE)</label>
+    </customValue>
+    <customValue>
+        <fullName>21</fullName>
+        <default>false</default>
+        <label>HNS BANCO</label>
+    </customValue>
+    <customValue>
+        <fullName>27</fullName>
+        <default>false</default>
+        <label>JP MORGAN CHASE BANK, NATIONAL ASSOCIATION</label>
+    </customValue>
+    <customValue>
+        <fullName>15</fullName>
+        <default>false</default>
+        <label>OTRAS INSTITUCIONES</label>
+    </customValue>
+    <customValue>
+        <fullName>29</fullName>
+        <default>false</default>
+        <label>THE BANK OF TOKYO - MITSUBISHI, LTD</label>
+    </customValue>
+    <customValue>
+        <fullName>BANCO BTG PACTUAL CHILE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BANCO BTG PACTUAL CHILE</label>
+    </customValue>
+    <customValue>
+        <fullName>ITAÚ CORPBANCA</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ITAÚ CORPBANCA</label>
+    </customValue>
+    <customValue>
+        <fullName>SCOTIABANK AZUL</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SCOTIABANK AZUL</label>
+    </customValue>
+    <customValue>
+        <fullName>SCOTIABANK CHILE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SCOTIABANK CHILE</label>
+    </customValue>
+    <customValue>
+        <fullName>BANCO CONSORCIO</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BANCO CONSORCIO</label>
+    </customValue>
+    <masterLabel>Banco</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>trailheadapp__Trailhead_User_Data__c.trailheadapp__User__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>trailheadapp__Trailhead_User_Data__c.trailheadapp__Total_Points__c</field>
+    </columns>
+    <columns>
+        <field>trailheadapp__Trailhead_User_Data__c.trailheadapp__Profile_URL__c</field>
+    </columns>
+    <description>View your Trailhead user&apos;s ranks, total points, and other key user data.</description>
+    <format>Summary</format>
+    <groupingsDown>
+        <aggregateType>Sum</aggregateType>
+        <dateGranularity>Day</dateGranularity>
+        <field>trailheadapp__Trailhead_User_Data__c.trailheadapp__Rank__c</field>
+        <sortByName>trailheadapp__Trailhead_User_Data__c.trailheadapp__Total_Points__c</sortByName>
+        <sortOrder>Desc</sortOrder>
+        <sortType>Aggregate</sortType>
+    </groupingsDown>
+    <name>Trailhead Leaderboard</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$trailheadapp__Trailhead_User_Data__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>trailheadapp__Trailhead_User_Data__c.trailheadapp__Total_Points__c</sortColumn>
+    <sortOrder>Desc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>CUST_CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Simulación</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Simulaciones</value>
+    </caseValues>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Divisa de simulación</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>quote_currency</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>División de simulación</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>quote_division</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Término Vigencia</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>quote_expirationdate</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Campo de simulación</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Campos de simulación</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>quote_field</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Id. de simulación</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>quote_id</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Información de simulación</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>quote_information</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Nombre de simulación</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>quote_name</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Número de simulación</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>quote_number</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Propietario de simulación</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>quote_owner</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Simulación para</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>quote_quoteto_address</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Ciudad de simulación</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>quote_quoteto_city</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>País de simulación</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>quote_quoteto_country</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Código de país para simulación</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>quote_quoteto_country_code</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Precisión de geocódigo de Simulación para</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>quote_quoteto_geocode_accuracy</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Latitud de simulación</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>quote_quoteto_latitude</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Longitud de simulación</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>quote_quoteto_longitude</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Estado/provincia de simulación</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>quote_quoteto_state</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Código de estado/provincia para simulación</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>quote_quoteto_state_code</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Calle de simulación</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>quote_quoteto_street</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Código postal de simulación</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>quote_quoteto_zip</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Tipo de registro de simulación</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Tipos de registros de simulación</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>quote_record_type</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Informe de simulación</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Informes de simulaciones</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>quote_report</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Precio Vehiculo</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>quote_totalprice</name>
+    </fields>
+    <gender>Feminine</gender>
+</CustomObjectTranslation>

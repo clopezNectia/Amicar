@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>picklist</bucketType>
+        <developerName>BucketField_79987607</developerName>
+        <masterLabel>Responsable Local</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <otherBucketLabel>Otros</otherBucketLabel>
+        <sourceColumnName>Lead.Locales__c</sourceColumnName>
+        <useOther>true</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>95 CIRCULO IRARRAZABAL</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>94 BRUNO FRITSCH PLAZA SUR</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>74 AG VICUÑA MACKENNA</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>69 GUILLERMO MORALES VITACURA</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>61 H MOTORES SA LONQUEN</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>60 CARMEISTER MOVICENTER</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>5 AG CASA MATRIZ</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>45 CURIFOR BUIN</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>101 BRUNO FRITSCH GRAN AVENIDA</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>11 AG MALL PLAZA VESPUCIO</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>118 FORTALEZA MOVICENTER</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>12 AG MOVICENTER</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>140 H MOTORES SA PLAZA OESTE</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>160 AG AUTOSHOPPING</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>167 GUILLERMO MORALES PLAZA EGAÑA</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>186 CARMEISTER AUTOSHOPPING</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>28 CURIFOR - VICUNA MACKENNA LA FLORIDA</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>29 LIRA LARRAIN PROVIDENCIA</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>211 H. MOTORES PLAZA ALAMEDA FORTALEZA</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>113 FORTALEZA MALL PLAZA VESPUCIO</sourceValue>
+            </sourceValues>
+            <value>Jimena Huerta</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>116 FORTALEZA LOS ANGELES</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>134 SERGIO ESCOBAR CNT</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>142 SERGIO ESCOBAR PAICAVI CHINOS</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>50 CURIFOR CURICÓ</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>50 SERGIO ESCOBAR LOS ANGELES</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>51 CURIFOR CHILLÁN</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>51 SERGIO ESCOBAR CHILLÁN</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>52 BRUNO FRITSCH CONCEPCION</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>56 BILBAO AUTOS (MICHEL MARTABIT)</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>71 MEDITERRANEO AUTOMOTORES CIRCULO HYUNDAI TALCA</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>175 ARAUCO COLIN</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>181 SERGIO ESCOBAR OHIGGINS</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>185 CIRCULO LINARES (HYUNDAI)</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>20 AG CONCEPCION (AUTOPISTA A TALCAHUANO)</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>3 ARAUCO TALCA</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>47 JESUS PONS CURICO</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>48 SERGIO ESCOBAR PAICAVI (RENAULT-MAZDA)</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>171 SERGIO ESCOBAR OSORNO</sourceValue>
+            </sourceValues>
+            <value>Carolina Figueroa</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>111 FORTALEZA PUERTO MONTT</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>119 FORTALEZA TEMUCO SAN MARTIN</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>121 RECASUR COYHAIQUE</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>125 DECAR MOTORS ( USADOS)</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>14 EXEQUIEL BERRIOS Y CIA LTDA</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>23 AG TEMUCO</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>25 AG OSORNO</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>26 AG PUERTO MONTT</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>52 EXEQUIEL BERRIOS CASTRO</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>66 DECAR SA</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>141 DECAR HOSCHTETTER</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>53 EXEQUIEL BERRIOS VALDIVIA</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>196 AG PUERTO VARAS</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>115 FORTALEZA VALDIVIA</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>24 AG VALDIVIA</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>153 MEDINA &amp; BALLART HYUNDAI</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>55 RECASUR PUNTA ARENAS</sourceValue>
+            </sourceValues>
+            <value>Daniel Roa</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>149 YUSIC JUMBO</sourceValue>
+            </sourceValues>
+            <value>David Peralta</value>
+        </values>
+    </buckets>
+    <chart>
+        <backgroundColor1>#FFFFFF</backgroundColor1>
+        <backgroundColor2>#FFFFFF</backgroundColor2>
+        <backgroundFadeDir>Diagonal</backgroundFadeDir>
+        <chartSummaries>
+            <axisBinding>y</axisBinding>
+            <column>RowCount</column>
+        </chartSummaries>
+        <chartType>Line</chartType>
+        <enableHoverLabels>false</enableHoverLabels>
+        <expandOthers>true</expandOthers>
+        <groupingColumn>CREATED_DATE</groupingColumn>
+        <location>CHART_BOTTOM</location>
+        <showAxisLabels>false</showAxisLabels>
+        <showPercentage>false</showPercentage>
+        <showTotal>false</showTotal>
+        <showValues>false</showValues>
+        <size>Medium</size>
+        <summaryAxisRange>Auto</summaryAxisRange>
+        <textColor>#000000</textColor>
+        <textSize>12</textSize>
+        <titleColor>#000000</titleColor>
+        <titleSize>18</titleSize>
+    </chart>
+    <columns>
+        <field>BucketField_79987607</field>
+    </columns>
+    <columns>
+        <field>FIRST_NAME</field>
+    </columns>
+    <columns>
+        <field>LAST_NAME</field>
+    </columns>
+    <columns>
+        <field>EMAIL</field>
+    </columns>
+    <columns>
+        <field>Lead.id_credito_portal__c</field>
+    </columns>
+    <columns>
+        <field>Lead.financiera_aprueba__c</field>
+    </columns>
+    <columns>
+        <field>Lead.Locales__c</field>
+    </columns>
+    <columns>
+        <field>DESCRIPTION</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>EMAIL</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notContain</operator>
+            <value>macarena.mercado@amicar.cl</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>FIRST_NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notContain</operator>
+            <value>prueba</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>LAST_NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notContain</operator>
+            <value>prueba</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Lead.motherLastName__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notContain</operator>
+            <value>prueba</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Lead.segundo_formulario_ok__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>1</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Lead.status__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Agendamiento Cita en Local,Derivado a Local</value>
+        </criteriaItems>
+    </filter>
+    <format>Matrix</format>
+    <groupingsAcross>
+        <field>CREATED_DATE</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsAcross>
+    <groupingsAcross>
+        <dateGranularity>Day</dateGranularity>
+        <field>Lead.channel__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsAcross>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>STATUS</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>#Leads Derivados</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>LeadList</reportType>
+    <scope>org</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

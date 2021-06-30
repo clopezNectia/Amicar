@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Procesa el contenido de redes sociales entrante automáticamente y ejecute la Apex del servicio de cliente de redes sociales. No cambie el nombre de API del conjunto de permisos.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Auntomatización entrante del Servicio al cliente de redes sociales</label>
+</PermissionSet>

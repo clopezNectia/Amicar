@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Lead.salesChannel__c</field>
+    </columns>
+    <columns>
+        <field>Lead.Locales__c</field>
+    </columns>
+    <columns>
+        <field>Lead.region_cliente__c</field>
+    </columns>
+    <columns>
+        <field>Lead.comuna_cliente__c</field>
+    </columns>
+    <columns>
+        <field>Lead.rut__c</field>
+    </columns>
+    <columns>
+        <field>Lead.id_credito_portal__c</field>
+    </columns>
+    <columns>
+        <field>FIRST_NAME</field>
+    </columns>
+    <columns>
+        <field>LAST_NAME</field>
+    </columns>
+    <columns>
+        <field>DESCRIPTION</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>Lead.financiera_aprueba__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>TANNER,BANCO FALABELLA,SCOTIABANK,FORUM,MARUBENI CREDIT,AUTOFIN,COTIZADOR AMICAR,MITSUI,SANTANDER CONSUMER,EUROCAPITAL,MUNDO CRÉDITO,NUEVO CAPITAL</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Lead.status__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Derivado a Local</value>
+        </criteriaItems>
+    </filter>
+    <format>Tabular</format>
+    <name>Detalle Prospectos en Asignación</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>LeadList</reportType>
+    <scope>org</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>false</showSubTotals>
+    <sortColumn>Lead.region_cliente__c</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATE</dateColumn>
+        <interval>INTERVAL_LAST120</interval>
+    </timeFrameFilter>
+</Report>

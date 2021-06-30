@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Crédito</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Créditos</value>
+    </caseValues>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Acceso a crédito</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>asset_access</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Nivel de acceso a crédito</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>asset_access_level</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Cuenta del crédito</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>asset_account</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Contacto del crédito</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>asset_contact</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Divisa del crédito</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>asset_currency</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Campo personalizado de crédito</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Campos personalizados de crédito</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>asset_custom_field</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Datos del crédito</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>asset_data</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Descripción del crédito</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>asset_description</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Vínculo de detalle del crédito</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>asset_detail_link</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>División del crédito</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>asset_division</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Edición de créditos</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>asset_edit</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Campo del crédito</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Campos del crédito</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>asset_field</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Historial del crédito</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Historiales de activos</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>asset_history</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Id. de historial de crédito</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>asset_history_id</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Id. del crédito</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>asset_id</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Información del crédito</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>asset_information</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Fecha de instalación del crédito</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>asset_installdate</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>El crédito es producto del competidor</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>asset_iscompetitorproduct</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Crédito interno</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>asset_isinternal</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Nivel de crédito</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>asset_level</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Nombre de crédito</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Nombres de crédito</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>asset_name</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Propietario de crédito</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Propietarios de créditos</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>asset_owner</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Alias de propietario de crédito</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>asset_owner_alias</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Crédito principal</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>asset_parent</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Id. de crédito principal</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>asset_parent_id</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Precio del crédito</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>asset_price</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Producto del crédito</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>asset_product</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Crédito proporcionado por</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>asset_providedby_account</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Id. de Crédito proporcionado por</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>asset_providedby_account_id</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Fecha de compra del crédito</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>asset_purchasedate</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Cantidad del crédito</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>asset_quantity</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Tipo de registro de crédito</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Tipos de registros de créditos</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>asset_record_type</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Crédito raíz</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>asset_root</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Id. de crédito raíz</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>asset_root_id</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Número de serie del crédito</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>asset_serialnumber</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Crédito atendido por</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>asset_servicedby_account</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Id. de Crédito atendido por</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>asset_servicedby_account_id</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Estado del crédito</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>asset_status</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Fecha final de uso del crédito</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>asset_usageenddate</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Vista del crédito</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Vistas del crédito</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>asset_view</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Crédito de competidor</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>competitor_asset</name>
+    </fields>
+    <gender>Masculine</gender>
+</CustomObjectTranslation>

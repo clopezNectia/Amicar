@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Documentación</fullName>
+        <color>#E27001</color>
+        <default>false</default>
+        <label>Documentación</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Otros</fullName>
+        <color>#DDDDDD</color>
+        <default>false</default>
+        <label>Otros</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Pago de Cuotas</fullName>
+        <color>#2F5D85</color>
+        <default>false</default>
+        <label>Pago de Cuotas</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Perú</fullName>
+        <color>#FF0000</color>
+        <default>false</default>
+        <label>Perú</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Pie Cero</fullName>
+        <color>#000066</color>
+        <default>false</default>
+        <label>Pie Cero</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Pre Pago</fullName>
+        <color>#000099</color>
+        <default>false</default>
+        <label>Pre Pago</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Refinanciamiento</fullName>
+        <color>#33CCFF</color>
+        <default>false</default>
+        <label>Refinanciamiento</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Renovaciones</fullName>
+        <color>#666666</color>
+        <default>false</default>
+        <label>Renovaciones</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Requisitos</fullName>
+        <color>#FFCC66</color>
+        <default>false</default>
+        <label>Requisitos</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Seguros y Asistencias</fullName>
+        <color>#FF6600</color>
+        <default>false</default>
+        <label>Seguros y Asistencias</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Solicitud de Crédito</fullName>
+        <color>#FF9900</color>
+        <default>false</default>
+        <label>Solicitud de Crédito</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Trabaja con Nosotros</fullName>
+        <color>#AFCADF</color>
+        <default>false</default>
+        <label>Trabaja con Nosotros</label>
+    </standardValue>
+</StandardValueSet>

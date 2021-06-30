@@ -1,0 +1,5073 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Decline</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Decline</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Decline</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>DeleteSeries</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>DeleteSeries</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>DeleteSeries</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>NewEvent</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>NewEvent</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>NewEvent</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>NewSfdcEvent</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>NewSfdcEvent</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>NewSfdcEvent</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Today</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Today</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Today</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>Renovaciones</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>Renovaciones</fullName>
+        <fields>Subject</fields>
+        <fields>Estado_de_Actividad__c</fields>
+        <fields>Location</fields>
+        <fields>StartDateTime</fields>
+        <fields>EndDateTime</fields>
+        <label>Renovaciones</label>
+    </compactLayouts>
+    <enableFeeds>true</enableFeeds>
+    <fields>
+        <fullName>ActivityDate</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>ActivityDateTime</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>Attendees</fullName>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>DurationInMinutes</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>Email</fullName>
+    </fields>
+    <fields>
+        <fullName>EndDateTime</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>EventSubtype</fullName>
+    </fields>
+    <fields>
+        <fullName>IsAllDayEvent</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>IsPrivate</fullName>
+    </fields>
+    <fields>
+        <fullName>IsRecurrence2</fullName>
+    </fields>
+    <fields>
+        <fullName>IsReminderSet</fullName>
+    </fields>
+    <fields>
+        <fullName>IsVisibleInSelfService</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>Location</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>OwnerId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Phone</fullName>
+    </fields>
+    <fields>
+        <fullName>ShowAs</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>StartDateTime</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>Subject</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Type</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>WhatId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>WhoId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <listViews>
+        <fullName>MyRecentEvents</fullName>
+        <columns>START_DATE_TIME</columns>
+        <columns>END_DATE_TIME</columns>
+        <columns>SUBJECT</columns>
+        <columns>WHO_NAME</columns>
+        <columns>WHAT_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>ALL_DAY</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>DUE_DATE</field>
+            <operation>equals</operation>
+            <value>LAST_N_DAYS:60</value>
+        </filters>
+        <label>My Recent Events</label>
+    </listViews>
+    <listViews>
+        <fullName>MyTeamsRecentEvents</fullName>
+        <columns>START_DATE_TIME</columns>
+        <columns>END_DATE_TIME</columns>
+        <columns>SUBJECT</columns>
+        <columns>WHO_NAME</columns>
+        <columns>WHAT_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>ALL_DAY</columns>
+        <filterScope>Team</filterScope>
+        <filters>
+            <field>DUE_DATE</field>
+            <operation>equals</operation>
+            <value>LAST_N_DAYS:30</value>
+        </filters>
+        <label>My Team&apos;s Recent Events</label>
+    </listViews>
+    <listViews>
+        <fullName>MyTeamsUpcomingEvents</fullName>
+        <columns>START_DATE_TIME</columns>
+        <columns>END_DATE_TIME</columns>
+        <columns>SUBJECT</columns>
+        <columns>WHO_NAME</columns>
+        <columns>WHAT_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>ALL_DAY</columns>
+        <filterScope>Team</filterScope>
+        <filters>
+            <field>DUE_DATE</field>
+            <operation>equals</operation>
+            <value>TODAY,NEXT_N_DAYS:30</value>
+        </filters>
+        <label>My Team&apos;s Upcoming Events</label>
+    </listViews>
+    <listViews>
+        <fullName>MyUpcomingEvents</fullName>
+        <columns>START_DATE_TIME</columns>
+        <columns>END_DATE_TIME</columns>
+        <columns>SUBJECT</columns>
+        <columns>WHO_NAME</columns>
+        <columns>WHAT_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>ALL_DAY</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>DUE_DATE</field>
+            <operation>equals</operation>
+            <value>TODAY,NEXT_N_DAYS:60</value>
+        </filters>
+        <label>My Upcoming Events</label>
+    </listViews>
+    <listViews>
+        <fullName>TodaysAgenda</fullName>
+        <columns>START_DATE_TIME</columns>
+        <columns>END_DATE_TIME</columns>
+        <columns>SUBJECT</columns>
+        <columns>WHO_NAME</columns>
+        <columns>WHAT_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>ALL_DAY</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>DUE_DATE</field>
+            <operation>lessOrEqual</operation>
+            <value>TODAY</value>
+        </filters>
+        <filters>
+            <field>END_DATE</field>
+            <operation>greaterOrEqual</operation>
+            <value>TODAY</value>
+        </filters>
+        <label>Today&apos;s Agenda</label>
+    </listViews>
+    <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
+    <recordTypes>
+        <fullName>Evento_Agenda_Visita</fullName>
+        <active>true</active>
+        <label>Evento Agenda Visita</label>
+        <picklistValues>
+            <picklist>Control_CallCenter__c</picklist>
+            <values>
+                <fullName>Asignado</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Llamado no exitoso</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Ejecutivo_F_I__c</picklist>
+            <values>
+                <fullName>ABALLAY FRIGERIO DANIELA BELEN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ABARCA LATORRE GLADYS ELIZABETH</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ADRIAZOLA HENRIQUEZ JAVIER ARNAL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AGUAYO GUERRA MARIA IGNACIA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AGUAYO OPAZO EDUARDO IGNACIO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AGUILA ROSAS CAMILA BELEN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AGUIRRE MORALES DANIELA ALEJANDR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AHUMADA MOYA GISSEL MARGARITA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ALARCON GONZALEZ VANESSA ALLISON</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ALEGRIA MEDINA CLAUDIA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ALGUERNO MUÑOZ CLAUDIA P%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ALIQUINTUI VERA GABRIELA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ALLENDES RODRIGUEZ PAZ</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ALVAREZ ARAVENA GONZALO CLAUDIO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ANDRADE VERA ELIZABETH ANDREA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ARANEDA ORTIZ TAMARA CECILIA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ARANGUIZ AGUILERA JIMMY ANDRES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ARAVENA CALFUNAO FELIPE ANDRES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ARENAS TAPIA CLAUDIA PAOLA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AROSTICA VERDUGO DAMARIS LISSETTE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ARRIAGADA LETELIER ISRAEL ESTEBA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ASTORGA LIZANA CRISTIAN ANDRES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BARRIGA RIVEROS FELIPE ALBERTO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BASCUR BENARDOS ROCIO FERNANDA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BASCUÑAN MORA CARLA ANDREA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BERRIOS SAN MARTIN SEBASTIAN IGNACIO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BRAVO CANCEC EDUARDO LUIS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BRIONES DEL PINO MIGUEL PABLO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BRIONES REBOLLEDO PATRICIA ALEJANDRA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BUCAREY LEFNO JOHAN ALEJANDRO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CANTALLOPTS SUSARTE MARGARITA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CARABANTES BARRIA RODRIGO MAURIC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CARDENAS BECERRA CRISTIAN ANDRES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CARRASCO VENEGAS GABRIEL LEOPOLD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CARVAJAL ALVAREZ GUSTAVO ELADIO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CASTIBLANCO CHAPARRO NATALY ELENA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CASTILLO MARCHANT TOMAS EDUARDO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CASTRO CANOVI DAYSE CATHERINE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CASTRO HIDALGO KARLA NICOL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CELIS FUENTES RAUL ANDRES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CERNA SAN MARTIN CONNE FERNANDA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CISTERNA SOLAR EDUARDO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CONCHA MUÑOZ ABSALON NATAN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CONCHA RAMOS JONATHAN ESTEBAN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CONTRERAS SANTA CRUZ VALERIA PAZ</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CONTRERAS VERGARA FERNANDO ALONSO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CORDERO CHAVEZ CAMILA IGNACIA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CORDOVA JORQUERA CATHERINNE L%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CORREA TAPIA ISABEL A%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CORTES HORMAZABAL TERESA DE JESU</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CUEVAS MORA RENATO JAVIER</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DAGHER CHALHOUB ELIANA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DELGADO NEIRA LESLIE DAMARIS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DEVIA ASTETE SCARLETT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DIAZ BUSTAMANTE GEORGINA DEL CARMEN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DIAZ DIAZ CAMILA FRANCISCA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DIAZ VEGA XIMENA IVETTE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DOMINGUEZ MORIS CAROLINA ALEJ</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DONOSO DIAZ CLAUDIO ANDRES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DONOSO RETAMAL CRISTOPHER GUILLERMO ANDRES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DOSQUE URRA NATHALIE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ELGUETA SOLIS DENISSE ANDREA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ESPINOZA BLANCO VIVIANA IVONNE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ESPINOZA QUINTANA MACARENA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FERNANDEZ AYALA DEBORA BELEN MICAL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FERNANDEZ FERNANDEZ CAMILA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FIGUEROA FIGUEROA LESLY LAURA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FIGUEROA SANDIA CAMILA FERNANDA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FISCHER PEREZ IGNACIO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FLORES ESPINOZA KRIZIAN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FLORES PLASENCIO GABRIELA INES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GAJARDO CAMPOS JESSICA PAOLA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GALLO MIRANDA MARIA FERNANDA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GATICA VALENZUELA HUGO ANDRES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GIACAMAN SMITH TERESITA CLEMENCIA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GOMEZ SALINAS CLAUDIA LIZETH</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GONZALEZ CARDENAS MARIO ESTEBAN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GONZALEZ GIOVAGNOLI PAMELA GIOVA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GONZALEZ TAPIA KAREN ANDREA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GONZALEZ YANTEN CLAUDIO ANDRES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GUTIERREZ ZAMORANO NICOLE ESTEFANIA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HENRIQUEZ HIDALGO GUSTAVO ALBERT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HENRIQUEZ SAN MARTIN RODRIGO GABRIEL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HERNANDEZ CAMPOS KAREN PAULINA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HERNANDEZ CHAMORRO ANGELO ANDRES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HERNANDEZ VARGAS OSVALDO JAVIER</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HIDALGO TOLOZA NIDIA INES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HORMAZABAL PADILLA CARLOS ESTEBA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HURTADO GONZALEZ MAYRA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HURTADO TENORIO JAVIERA ALEJANDR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>INOSTROZA OCAMPO PAULA VERONICA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>JELDRES TISELJ MAURICIO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>JOFRE AGUIRRE KATHERINE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>KLEIN QUEZADA ALEXIS LEONARD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LAGOS ANDRADES FERNANDO SEBASTIAN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LEFICURA OYARZUN SOFIA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LEFORT SOTO IVONNE ELIZABETH</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LEON CARRASCO ANA CECILIA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LETELIER SILVA MARIA ELENA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LEYTON MARDONES MARIA EUGENIA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LEZANA LIPPIANS EDUARDO JAVIER</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LONGA GALVEZ JAZMIN PAOLA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LOPEZ GARRIDO OSCAR HERNAN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LOPEZ TENORIO KARINA ABIMELET</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MAGAÑA GORDILLO ENZO FRANCO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MALUENDA ALFARO JESSICA VIVIANA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MANRIQUEZ MEDINA LAURA ELIZABETH</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MARCHANT QUEZADA CAROL CRISTINA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MARTINEZ ADAOS PAULINA BELEN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MARTINEZ ROMAN JOAQUIN OCTAVIO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MARTINEZ ZAMORA IVAR SIMON</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MEDINA GUZMAN ANA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MENDEZ TRONCOSO ESTEBAN ALONSO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MENDOZA CORDERO ELIZABETH</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MESINA VALLEJOS FELIPE HERNAN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MIRANDA MENA HELLEN CECILIA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MOLINA FAURE POLA YASMIN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MOLINA SOTO SILVIA PAOLA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MONTENEGRO LOPEZ VICTOR MANUEL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MONTENEGRO MELENDEZ CAROLINA PAZ</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MORALES DABNER MITHZY NATALIA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MORALES VILLALOBOS FRANCISCO JAVIER</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MUNDACA MUNIZAGA MONICA LILIAN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MUÑOZ LUAN PAULINA ANDREA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MUÑOZ MORENO VALERIA NICOL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MUÑOZ NEIRA MACARENA ANDREA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NARANJO MANSILLA CONSTANZA ALEJANDRA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NUÑEZ YAÑEZ LESLIE NICOLE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OLGUIN IGOR CONSTANZA STEPHANI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OLIVA ORTIZ CLAUDIA ANDREA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OLIVARES BARAHONA ELIANA DEL CARMEN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OLIVAS COFRE DIEGO DARKO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OLIVER MUNOZ KARINA E%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PEREZ BALADA ENRIQUE JOSE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PEREZ CASTRO BRAYHAM GUILLERMO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PEREZ MUÑOZ RICARDO ANDRES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PEÑA TAPIA FRANCHESCA ANDREA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PIETRASANTA ASTUDILLO CATHERINE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PINTO YAÑEZ DANIELA ANDREA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>POBLETE FIGUEROA GABRIELA ANDREA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>POBLETE LOPEZ MARIA GLADYS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PONCE DE LEON MEZA CYNTHIA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PRADENAS OLAVE PEDRO PABLO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PRADINES RUBILAR DIEGO MAXIMILIANO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>QUEZADA ROJAS MARCELA ALEJANDRA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>QUIROGA RODRIGUEZ FELIX ANIBAL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RAMIREZ CASTRO JAVIER</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>REQUENA JOFRE XIMENA ARACELLY</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>REYES PINTO TAMARA VALENTINA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>REYES ROJAS MARIA JOSE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>REYES SANCHEZ SILVIA VANIA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ROBLES VALENZUELA JESSICA ROMINA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ROJAS BRAVO GONZALO ANDRES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ROJAS GUZMAN DIEGO ALEJANDRO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SALAZAR RIQUELME SOPHIA BELEN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAN MARTIN CASTRO ALEJANDRA DEL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAN MARTIN GARNICA DAVID ALEJAND</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SANHUEZA CARES ALVARO ESTEBAN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SEPULVEDA CASTILLO KEVIN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SEPULVEDA GONZALEZ MATIAS IGNACIO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SILVA FARIAS VALERIA DEL C%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SILVA PEREZ OSVALDO CHRISTIAN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SILVA PEÑA YASNA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SOTO ALVEAR MARCELA ALEJANDRA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SOTO NAVARRO FABIAM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SOTO VERGARA MIGUEL ANGEL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SUAREZ RODRIGUEZ JAVIERA FRANCISCA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TAPIA CISTERNA OLGA ELIZABETH</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TEJOS LETELIER ANA MARIA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TOLEDO GONZALEZ CARLOS DAVID</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TORO VILCHES GENESIS YOLANDA DEL PILAR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TORREALBA LOPEZ MARIA ARACELLI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VALDES MUÑOZ CAROLINA PAZ</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VALDIVIA JEREZ CAMILO IVAN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VALENZUELA NETTLE VICTOR IGNACIO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VARAS SALINAS MARISOL ALEJANDRA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VASQUEZ TORRES DAISY DANIELA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VEGA PAVEZ CELIA EDITH</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VERA SILVA CRISTIAN MARCELO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VERDUGO VERGARA JUAN RODRIGO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VERGARA HENRIQUEZ STEPHANIE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VERGARA MIRANDA ANDREA ELVIRA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VIDELA MONTENEGRO PATRICIA VALER</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VILA PALOMERA DARINKA ANDREA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VILLANUEVA QUEZADA JUAN ROBERT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VILLARROEL VILO CAROLINA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VILLOUTA ARRIAGADA SEBASTIAN IGNACIO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VILLOUTA SCHELL RAUL FERNANDO</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Estado_de_Actividad__c</picklist>
+            <values>
+                <fullName>AGENDADO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>APERTURA DE CORREO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CONTACTADO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DATO ERRONEO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NO CONTESTA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>REFERENCIA</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Local_Comuna__c</picklist>
+            <values>
+                <fullName>Antofagasta  92 AUTOS YUSIC COSTANERA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Antofagasta 149 YUSIC JUMBO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Antofagasta 18 AG ANTOFAGASTA - 91 FORTALEZA ANTOFAGASTA - 32 CARMEISTER ANTOFAGASTA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Antofagasta 19 AG AUTOPLAZA ANTOFAGASTA - 99 FORTALEZA PLAZA ANTOFAGASTA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Antofagasta 9 AUTOS YUSIC ANTOFAGASTA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Buin 155 COMERCIAL ERRAZURIZ</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Buin 45 CURIFOR BUIN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Calama 17 AG CALAMA - 90 FORTALEZA CALAMA - 162 CARMEISTER CALAMA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Calama 43 AUTOS YUSIC CALAMA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Castro 52 EXEQUIEL BERRIOS CASTRO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cerrillos 138 MOVICETER %28JAC%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cerrillos 140 H MOTORES S%2EA PLAZA OESTE %28INCLUYE USADOS%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cerrillos 140 H MOTORES SA PLAZA OESTE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cerrillos 150 AUTOSHOPPING DERCOCENTER</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cerrillos 189 VIRTUAL PLAZA OESTE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cerrillos 195  H MOTORES S%2EA PLAZA OESTE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cerrillos 24 PLAZA OESTE %28MZD-SMG-RNT%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cerrillos 25 PLAZA OESTE USADOS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cerrillos 61 H MOTORES LONQUEN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cerrillos 61 PLAZA OESTE SUZUKI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cerrillos 75 PLAZA OESTE %28GWM-CHA-JAC%29 CHANGAN GEELY JAC GREATWALL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cerrillos 75 PLAZA OESTE %28GWM-CHA-JAC-GEE%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cerrillos 93 AG CERRILLOS - 109 FORTALEZA CERRILLOS - 180 CARMEISTER CERRILLOS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Chillan 51 CURIFOR CHILLÁN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Chillán 51 SERGIO ESCOBAR CHILLÁN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Concepción  164 CARMEISTER CONCEPCION</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Concepción  20 AG CONCEPCION</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Concepción  52 BRUNO FRITSCH CONCEPCION</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Concepción  AG- FORTALEZA MALL PLAZA EL TREBOL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Concepción 118 SERGIO ESCOBAR CARRERA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Concepción 134 SERGIO ESCOBAR CNT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Concepción 142 SERGIO ESCOBAR PAICAVI CHINOS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Concepción 142 SERGIO ESCOBAR PAICAVI CHINOS%2C 48 SERGIO ESCOBAR PAICAVI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Concepción 181 SERGIO ESCOBAR O%27HIGGINS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Concepción 30 SERGIO ESCOBAR MALL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Concepción 48 SERGIO ESCOBAR PAICAVI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Concepción 48 SERGIO ESCOBAR PAICAVÍ y 142 SERGIO ESCOBAR CHINOS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Copiapó 6 AUTOCENTRO NICOLÁS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Coquimbo 159 ASPILLAGA Y HORNAUER COQUIMBO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Coquimbo 189 CURIFOR COQUIMBO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Coyhaique 121 RECASUR COYHAIQUE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Coyhaique 150 MALL HYUNDAI ZONA FRANCA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Curicó 164 JESUS PONS - CURICO %28DERCO%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Curicó 47 JESUS PONS CURICO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Estación Central 128 FORTALEZA MALL PLAZA ALAMEDA - 70 AG MALL PLAZA ALAMEDA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Huechuraba 110 FORTALEZA MALL PLAZA NORTE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Huechuraba 111 MOVICENTER %28GWM%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Huechuraba 118 FORTALEZA MOVICENTER</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Huechuraba 12 AG MOVICENTER</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Huechuraba 138 MOVICENTER %28JAC%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Huechuraba 18 Movicenter Usados</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Huechuraba 19 MOVICENTER %28MAZDA%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Huechuraba 20 MOVICENTER %28SZK%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Huechuraba 20 MOVICENTER 4 %28SUZUKI%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Huechuraba 60 CARMEISTER MOVICENTER</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Huechuraba 83 MOVICENTER %28RNT-SMG%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Huechuraba 9 AG PLAZA NORTE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Huechuraba DERCOCENTER CHINOS PLAZA NORTE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Huechuraba PLAZA NORTE SUZUKI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Iquique 16 AG IQUIQUE - 200 FORTALEZA IQUIQUE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Iquique 89 CITY TIME MALL IQUIQUE 97 CITYTIME ARICA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LA REINA 167 G%2EMORALES PLAZA EGAÑA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>La Calera 103 HERNANDEZ MOTORES LA CALERA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>La Calera 44 SUZUVAL LA CALERA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>La Cisterna 101 BRUNO FRITSCH GRAN AVENIDA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>La Florida 11 AG MALL PLAZA VESPUCIO - 113 FORTALEZA MALL PLAZA VESPUCIO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>La Florida 112 PLAZA VESPUCIO %28GWM-GEE-JAC-CHA%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>La Florida 210 H MOTORES HYUNDAI - 211 H MOTORES FORTALEZA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>La Florida 27 PLAZA VESPUCIO SUZUKI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>La Florida 28 CURIFOR VICUÑA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>La Florida 63 PLAZA VESPUCIO MAZDA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>La Florida 90 PLAZA VESPUCIO %28RNT-SMG%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>La Reina 2 ANFRUNS SANTIAGO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>La Serena 12 COMERCIAL VALENTINI %2F 144 COMERCIAL VALENTINI MALL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>La Serena 12 VALENTINI CASA MATRIZ</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>La Serena 121 FORTALEZA PLAZA LA SERENA%2C 58 AG PLAZA LA SERENA AG MINI P%2E LA SERENA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>La Serena 144 VALENTINI PUERTAS DEL MAR %2F12 VALENTINI MAZDA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>La Serena 170 AG BALMACEDA %28EX COVALSA%29 - 168 CARMEISTER LA SERENA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Las Condes 145 AG CORPORATIVO%2C FORTALEZA ALTRA%2C CARMEISTER ALTRA Y CANTAGALLO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Las Condes 156 DERCO KENNEDY %28MAZDA%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Las Condes 157 DERCO TABANCURA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Las Condes 17 MEGACENTER %28SUZUKI%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Las Condes 17 Megacenter %28Todas las Marcas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Linares 165 JESUS PONS LINARES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Linares 185 CIRCULO LINARES %28HYUNDAI%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lo Barnechea 102 AG MINI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Los Ángeles  116 FORTALEZA LOS ANGELES %2F 22 AG LOS ANGELES %2F 163 CARMEISTER LOS ANGELES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Los Ángeles  50 SERGIO ESCOBAR LOS ANGELES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Macul 167 DERCO AUTOSHOPPING USADOS - 95 DEPARTAMENTAL USADOS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Maipu 180 PROMOTORS MAIPU</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Maipu 41 P%2E HIDALGO PAJARITOS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Osorno 114 FORTALEZA OSORNO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Osorno 171 SERGIO ESCOBAR OSORNO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Osorno 25 AG OSORNO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Osorno 56 BILBAO AUTOS %28MICHEL MARTABIT%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ovalle 160 ASPILLAGA Y HORNAUER OVALLE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ovalle 187 Curifor Ovalle</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Peñalolen 186 CARMEISTER AUTOSHOPPING</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Providencia 128 PRO MOTORS %28SUZUKI%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Providencia 16 GUSTAVO SAAVEDRA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Providencia 172 AUTOMOTORA BILBAO CHINOS MATRIZ</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Providencia 172 PORTILLO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Providencia 202 SAINT GERMAIN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Providencia 29 LIRA LARRAIN PROVIDENCIA %28HYUNDAI%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Providencia 7 AUTOMOTORA BILBAO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pudahuel 5 AG CASA MATRIZ</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Puente Alto 10 AG MALL PLAZA TOBALABA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Puente Alto 10 AG MALL PLAZA TOBALABA%2C 112 FORTALEZA MALL PLAZA TOBALABA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Puente Alto 26 PLAZA TOBALABA %28SMG-SZK%29 - 88 PLAZA TOBALABA %28GWM-GEE-JAC-CHA%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Puente Alto PLAZA TOBALABA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Puerto Montt 111 FORTALEZA PUERTO MONTT %28BAIC%2C BRILLIANCE%2C MAHINDRA%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Puerto Montt 14 EXEQUIEL BERRIOS - 177 EXEQUIEL BERRIOS USADOS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Puerto Montt 14 EXEQUIEL BERRIOS Y CIA%2E LTDA%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Puerto Montt 14 EXEQUIEL BERRIOS Y CIA%2E LTDA%2E Y CASTRO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Puerto Montt 188 GUILLERMO MORALES PUERTO MONTT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Puerto Montt 26 AG PUERTO MONTT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Puerto Varas 196 AG PUERTO VARAS - 197 CARMEISTER PUERTO VARAS - 190 FORTALEZA PUERTO VARAS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Punta Arenas 203 AG PUNTA ARENAS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Punta Arenas 55 RECASUR PUNTA ARENAS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Quillota 152 ASPILLAGA Y HORNAUER QUILLOTA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Quillota 4 ASPILLAGA Y HORNAUER - VIÑA DEL MAR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Quilpué 141 H MOTORES BELLOTO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Quilpué 191 ASPILLAGA Y HORNAUER EL BELLOTO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rancagua 1 ANFRUNS RANCAGUA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rancagua 37 VEGA ARTUS RANCAGUA %28HYUNDAI-MAHINDRA%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rancagua ANFRUNS RANCAGUA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rancagua ANFRUNS RANCAGUA %28SOLO NUEVOS%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Romeral 50 CURIFOR CURICÓ</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>San Antonio 45 SUZUVAL SAN ANTONIO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>San Bernardo 108 NUEVOS S%2EA%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>San Bernardo 94 BRUNO FRITSCH PLAZA SUR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>San Felipe 86 ROSSELOT - SAN FELIPE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>San Felipe R Y R PINTO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>San Fernando 57 PEDRO CUMSILLE%2C 67 CUMSILLE SAN FERNANDO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Santiago 108 NUEVOS S%2EA%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Santiago 154 PLAZA OESTE RENAULT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Santiago Carrera %2F Virtual Derco</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Santiago Centro 1 AG ALAMEDA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Santiago Centro 105 FORTALEZA ALAMEDA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Talca  175 ARAUCO COLIN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Talca  3 ARAUCO - TALCA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Talca  82 CAVAL TALCA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Talca 3 ARAUCO - TALCA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Talca 71 MEDITERRANEO AUTOMOTORES CIRCULO HYUNDAI TALCA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Talcahuano 30 SERGIO ESCOBAR MALL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Temuco  193 CARMEISTER TEMUCO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Temuco 119 FORTALEZA TEMUCO SAN MARTIN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Temuco 125 DECAR MOTORS %28USADOS%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Temuco 141 DECAR HOCHSTETTER</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Temuco 153 MEDINA %26 BALLART</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Temuco 23 AG TEMUCO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Temuco 66 DECAR S%2EA%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Temuco 66 DECAR SA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Valdivia AG Y FORTALEZA VALDIVIA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Valdivia E%2E BERRIOS VALDIVIA %28SOLO NUEVO%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Valparaiso 34 SUZUVAL VALPARAISO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Valparaiso 34 SUZUVAL VALPARAISO%2C MAZDA%2C RENAULT%2C SUZUKI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Valparaiso 49 HERNÁNDEZ MOTORES VALPARAÍSO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Villarica 66 DECAR VILLARRICA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vitacura 153 DERCOUSADOS VITACURA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vitacura 157 DERCO TABANCURA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vitacura 69 GUILLERMO MORALES VITACURA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Viña del Mar 35 SUZUVAL VIÑA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Viña del Mar 36 H%2E MOTORES S%2EA%2E 15 NORTE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Viña del Mar 4 ASPILLAGA Y HORNAUER - VIÑA DEL MAR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Viña del Mar 84 AG VIÑA DEL MAR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ñuñoa 11 CHAMY HNOS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ñuñoa 135 AUTOMOTORA BILBAO CHINOS IRARRAZABAL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ñuñoa 139 AUTOMOTORA BILBAO MAZDA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ñuñoa 182 AUTOMOTORA BILBAO RENAULT IRARRAZABAL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ñuñoa 74 AG VICUÑA MACKENNA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ñuñoa 95 CIRCULO IRARRAZABAL</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Marca__c</picklist>
+            <values>
+                <fullName>BAIC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BRILLIANCE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CHANGAN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GEELY</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GREAT WALL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HAVAL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HYUNDAI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>JAC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MAHINDRA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MAZDA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MINI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RENAULT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SUZUKI</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Subject</picklist>
+            <values>
+                <fullName>Agenda Visita</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Call</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Evento_Renovaciones</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>Renovaciones</compactLayoutAssignment>
+        <label>Evento Renovaciones</label>
+        <picklistValues>
+            <picklist>Control_CallCenter__c</picklist>
+            <values>
+                <fullName>Asignado</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Llamado no exitoso</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Ejecutivo_F_I__c</picklist>
+            <values>
+                <fullName>ABALLAY FRIGERIO DANIELA BELEN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ABARCA LATORRE GLADYS ELIZABETH</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ADRIAZOLA HENRIQUEZ JAVIER ARNAL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AGUAYO GUERRA MARIA IGNACIA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AGUAYO OPAZO EDUARDO IGNACIO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AGUILA ROSAS CAMILA BELEN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AGUIRRE MORALES DANIELA ALEJANDR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AHUMADA MOYA GISSEL MARGARITA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ALARCON GONZALEZ VANESSA ALLISON</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ALEGRIA MEDINA CLAUDIA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ALGUERNO MUÑOZ CLAUDIA P%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ALIQUINTUI VERA GABRIELA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ALLENDES RODRIGUEZ PAZ</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ALVAREZ ARAVENA GONZALO CLAUDIO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ANDRADE VERA ELIZABETH ANDREA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ARANEDA ORTIZ TAMARA CECILIA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ARANGUIZ AGUILERA JIMMY ANDRES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ARAVENA CALFUNAO FELIPE ANDRES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ARENAS TAPIA CLAUDIA PAOLA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AROSTICA VERDUGO DAMARIS LISSETTE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ARRIAGADA LETELIER ISRAEL ESTEBA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ASTORGA LIZANA CRISTIAN ANDRES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BARRIGA RIVEROS FELIPE ALBERTO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BASCUR BENARDOS ROCIO FERNANDA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BASCUÑAN MORA CARLA ANDREA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BERRIOS SAN MARTIN SEBASTIAN IGNACIO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BRAVO CANCEC EDUARDO LUIS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BRIONES DEL PINO MIGUEL PABLO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BRIONES REBOLLEDO PATRICIA ALEJANDRA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BUCAREY LEFNO JOHAN ALEJANDRO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CANTALLOPTS SUSARTE MARGARITA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CARABANTES BARRIA RODRIGO MAURIC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CARDENAS BECERRA CRISTIAN ANDRES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CARRASCO VENEGAS GABRIEL LEOPOLD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CARVAJAL ALVAREZ GUSTAVO ELADIO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CASTIBLANCO CHAPARRO NATALY ELENA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CASTILLO MARCHANT TOMAS EDUARDO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CASTRO CANOVI DAYSE CATHERINE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CASTRO HIDALGO KARLA NICOL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CELIS FUENTES RAUL ANDRES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CERNA SAN MARTIN CONNE FERNANDA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CISTERNA SOLAR EDUARDO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CONCHA MUÑOZ ABSALON NATAN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CONCHA RAMOS JONATHAN ESTEBAN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CONTRERAS SANTA CRUZ VALERIA PAZ</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CONTRERAS VERGARA FERNANDO ALONSO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CORDERO CHAVEZ CAMILA IGNACIA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CORDOVA JORQUERA CATHERINNE L%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CORREA TAPIA ISABEL A%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CORTES HORMAZABAL TERESA DE JESU</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CUEVAS MORA RENATO JAVIER</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DAGHER CHALHOUB ELIANA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DELGADO NEIRA LESLIE DAMARIS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DEVIA ASTETE SCARLETT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DIAZ BUSTAMANTE GEORGINA DEL CARMEN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DIAZ DIAZ CAMILA FRANCISCA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DIAZ VEGA XIMENA IVETTE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DOMINGUEZ MORIS CAROLINA ALEJ</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DONOSO DIAZ CLAUDIO ANDRES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DONOSO RETAMAL CRISTOPHER GUILLERMO ANDRES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DOSQUE URRA NATHALIE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ELGUETA SOLIS DENISSE ANDREA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ESPINOZA BLANCO VIVIANA IVONNE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ESPINOZA QUINTANA MACARENA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FERNANDEZ AYALA DEBORA BELEN MICAL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FERNANDEZ FERNANDEZ CAMILA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FIGUEROA FIGUEROA LESLY LAURA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FIGUEROA SANDIA CAMILA FERNANDA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FISCHER PEREZ IGNACIO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FLORES ESPINOZA KRIZIAN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FLORES PLASENCIO GABRIELA INES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GAJARDO CAMPOS JESSICA PAOLA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GALLO MIRANDA MARIA FERNANDA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GATICA VALENZUELA HUGO ANDRES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GIACAMAN SMITH TERESITA CLEMENCIA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GOMEZ SALINAS CLAUDIA LIZETH</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GONZALEZ CARDENAS MARIO ESTEBAN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GONZALEZ GIOVAGNOLI PAMELA GIOVA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GONZALEZ TAPIA KAREN ANDREA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GONZALEZ YANTEN CLAUDIO ANDRES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GUTIERREZ ZAMORANO NICOLE ESTEFANIA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HENRIQUEZ HIDALGO GUSTAVO ALBERT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HENRIQUEZ SAN MARTIN RODRIGO GABRIEL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HERNANDEZ CAMPOS KAREN PAULINA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HERNANDEZ CHAMORRO ANGELO ANDRES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HERNANDEZ VARGAS OSVALDO JAVIER</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HIDALGO TOLOZA NIDIA INES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HORMAZABAL PADILLA CARLOS ESTEBA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HURTADO GONZALEZ MAYRA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HURTADO TENORIO JAVIERA ALEJANDR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>INOSTROZA OCAMPO PAULA VERONICA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>JELDRES TISELJ MAURICIO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>JOFRE AGUIRRE KATHERINE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>KLEIN QUEZADA ALEXIS LEONARD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LAGOS ANDRADES FERNANDO SEBASTIAN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LEFICURA OYARZUN SOFIA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LEFORT SOTO IVONNE ELIZABETH</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LEON CARRASCO ANA CECILIA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LETELIER SILVA MARIA ELENA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LEYTON MARDONES MARIA EUGENIA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LEZANA LIPPIANS EDUARDO JAVIER</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LONGA GALVEZ JAZMIN PAOLA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LOPEZ GARRIDO OSCAR HERNAN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LOPEZ TENORIO KARINA ABIMELET</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MAGAÑA GORDILLO ENZO FRANCO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MALUENDA ALFARO JESSICA VIVIANA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MANRIQUEZ MEDINA LAURA ELIZABETH</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MARCHANT QUEZADA CAROL CRISTINA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MARTINEZ ADAOS PAULINA BELEN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MARTINEZ ROMAN JOAQUIN OCTAVIO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MARTINEZ ZAMORA IVAR SIMON</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MEDINA GUZMAN ANA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MENDEZ TRONCOSO ESTEBAN ALONSO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MENDOZA CORDERO ELIZABETH</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MESINA VALLEJOS FELIPE HERNAN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MIRANDA MENA HELLEN CECILIA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MOLINA FAURE POLA YASMIN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MOLINA SOTO SILVIA PAOLA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MONTENEGRO LOPEZ VICTOR MANUEL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MONTENEGRO MELENDEZ CAROLINA PAZ</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MORALES DABNER MITHZY NATALIA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MORALES VILLALOBOS FRANCISCO JAVIER</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MUNDACA MUNIZAGA MONICA LILIAN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MUÑOZ LUAN PAULINA ANDREA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MUÑOZ MORENO VALERIA NICOL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MUÑOZ NEIRA MACARENA ANDREA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NARANJO MANSILLA CONSTANZA ALEJANDRA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NUÑEZ YAÑEZ LESLIE NICOLE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OLGUIN IGOR CONSTANZA STEPHANI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OLIVA ORTIZ CLAUDIA ANDREA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OLIVARES BARAHONA ELIANA DEL CARMEN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OLIVAS COFRE DIEGO DARKO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OLIVER MUNOZ KARINA E%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PEREZ BALADA ENRIQUE JOSE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PEREZ CASTRO BRAYHAM GUILLERMO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PEREZ MUÑOZ RICARDO ANDRES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PEÑA TAPIA FRANCHESCA ANDREA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PIETRASANTA ASTUDILLO CATHERINE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PINTO YAÑEZ DANIELA ANDREA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>POBLETE FIGUEROA GABRIELA ANDREA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>POBLETE LOPEZ MARIA GLADYS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PONCE DE LEON MEZA CYNTHIA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PRADENAS OLAVE PEDRO PABLO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PRADINES RUBILAR DIEGO MAXIMILIANO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>QUEZADA ROJAS MARCELA ALEJANDRA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>QUIROGA RODRIGUEZ FELIX ANIBAL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RAMIREZ CASTRO JAVIER</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>REQUENA JOFRE XIMENA ARACELLY</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>REYES PINTO TAMARA VALENTINA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>REYES ROJAS MARIA JOSE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>REYES SANCHEZ SILVIA VANIA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ROBLES VALENZUELA JESSICA ROMINA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ROJAS BRAVO GONZALO ANDRES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ROJAS GUZMAN DIEGO ALEJANDRO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SALAZAR RIQUELME SOPHIA BELEN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAN MARTIN CASTRO ALEJANDRA DEL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAN MARTIN GARNICA DAVID ALEJAND</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SANHUEZA CARES ALVARO ESTEBAN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SEPULVEDA CASTILLO KEVIN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SEPULVEDA GONZALEZ MATIAS IGNACIO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SILVA FARIAS VALERIA DEL C%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SILVA PEREZ OSVALDO CHRISTIAN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SILVA PEÑA YASNA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SOTO ALVEAR MARCELA ALEJANDRA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SOTO NAVARRO FABIAM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SOTO VERGARA MIGUEL ANGEL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SUAREZ RODRIGUEZ JAVIERA FRANCISCA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TAPIA CISTERNA OLGA ELIZABETH</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TEJOS LETELIER ANA MARIA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TOLEDO GONZALEZ CARLOS DAVID</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TORO VILCHES GENESIS YOLANDA DEL PILAR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TORREALBA LOPEZ MARIA ARACELLI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VALDES MUÑOZ CAROLINA PAZ</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VALDIVIA JEREZ CAMILO IVAN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VALENZUELA NETTLE VICTOR IGNACIO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VARAS SALINAS MARISOL ALEJANDRA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VASQUEZ TORRES DAISY DANIELA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VEGA PAVEZ CELIA EDITH</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VERA SILVA CRISTIAN MARCELO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VERDUGO VERGARA JUAN RODRIGO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VERGARA HENRIQUEZ STEPHANIE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VERGARA MIRANDA ANDREA ELVIRA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VIDELA MONTENEGRO PATRICIA VALER</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VILA PALOMERA DARINKA ANDREA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VILLANUEVA QUEZADA JUAN ROBERT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VILLARROEL VILO CAROLINA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VILLOUTA ARRIAGADA SEBASTIAN IGNACIO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VILLOUTA SCHELL RAUL FERNANDO</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Estado_de_Actividad__c</picklist>
+            <values>
+                <fullName>AGENDADO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>APERTURA DE CORREO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CONTACTADO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DATO ERRONEO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NO CONTESTA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>REFERENCIA</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Local_Comuna__c</picklist>
+            <values>
+                <fullName>Antofagasta  92 AUTOS YUSIC COSTANERA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Antofagasta 149 YUSIC JUMBO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Antofagasta 18 AG ANTOFAGASTA - 91 FORTALEZA ANTOFAGASTA - 32 CARMEISTER ANTOFAGASTA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Antofagasta 19 AG AUTOPLAZA ANTOFAGASTA - 99 FORTALEZA PLAZA ANTOFAGASTA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Antofagasta 9 AUTOS YUSIC ANTOFAGASTA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Buin 155 COMERCIAL ERRAZURIZ</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Buin 45 CURIFOR BUIN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Calama 17 AG CALAMA - 90 FORTALEZA CALAMA - 162 CARMEISTER CALAMA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Calama 43 AUTOS YUSIC CALAMA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Castro 52 EXEQUIEL BERRIOS CASTRO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cerrillos 138 MOVICETER %28JAC%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cerrillos 140 H MOTORES S%2EA PLAZA OESTE %28INCLUYE USADOS%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cerrillos 140 H MOTORES SA PLAZA OESTE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cerrillos 150 AUTOSHOPPING DERCOCENTER</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cerrillos 189 VIRTUAL PLAZA OESTE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cerrillos 195  H MOTORES S%2EA PLAZA OESTE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cerrillos 24 PLAZA OESTE %28MZD-SMG-RNT%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cerrillos 25 PLAZA OESTE USADOS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cerrillos 61 H MOTORES LONQUEN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cerrillos 61 PLAZA OESTE SUZUKI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cerrillos 75 PLAZA OESTE %28GWM-CHA-JAC%29 CHANGAN GEELY JAC GREATWALL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cerrillos 75 PLAZA OESTE %28GWM-CHA-JAC-GEE%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cerrillos 93 AG CERRILLOS - 109 FORTALEZA CERRILLOS - 180 CARMEISTER CERRILLOS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Chillan 51 CURIFOR CHILLÁN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Chillán 51 SERGIO ESCOBAR CHILLÁN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Concepción  164 CARMEISTER CONCEPCION</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Concepción  20 AG CONCEPCION</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Concepción  52 BRUNO FRITSCH CONCEPCION</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Concepción  AG- FORTALEZA MALL PLAZA EL TREBOL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Concepción 118 SERGIO ESCOBAR CARRERA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Concepción 134 SERGIO ESCOBAR CNT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Concepción 142 SERGIO ESCOBAR PAICAVI CHINOS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Concepción 142 SERGIO ESCOBAR PAICAVI CHINOS%2C 48 SERGIO ESCOBAR PAICAVI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Concepción 181 SERGIO ESCOBAR O%27HIGGINS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Concepción 30 SERGIO ESCOBAR MALL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Concepción 48 SERGIO ESCOBAR PAICAVI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Concepción 48 SERGIO ESCOBAR PAICAVÍ y 142 SERGIO ESCOBAR CHINOS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Copiapó 6 AUTOCENTRO NICOLÁS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Coquimbo 159 ASPILLAGA Y HORNAUER COQUIMBO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Coquimbo 189 CURIFOR COQUIMBO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Coyhaique 121 RECASUR COYHAIQUE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Coyhaique 150 MALL HYUNDAI ZONA FRANCA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Curicó 164 JESUS PONS - CURICO %28DERCO%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Curicó 47 JESUS PONS CURICO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Estación Central 128 FORTALEZA MALL PLAZA ALAMEDA - 70 AG MALL PLAZA ALAMEDA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Huechuraba 110 FORTALEZA MALL PLAZA NORTE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Huechuraba 111 MOVICENTER %28GWM%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Huechuraba 118 FORTALEZA MOVICENTER</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Huechuraba 12 AG MOVICENTER</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Huechuraba 138 MOVICENTER %28JAC%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Huechuraba 18 Movicenter Usados</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Huechuraba 19 MOVICENTER %28MAZDA%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Huechuraba 20 MOVICENTER %28SZK%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Huechuraba 20 MOVICENTER 4 %28SUZUKI%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Huechuraba 60 CARMEISTER MOVICENTER</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Huechuraba 83 MOVICENTER %28RNT-SMG%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Huechuraba 9 AG PLAZA NORTE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Huechuraba DERCOCENTER CHINOS PLAZA NORTE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Huechuraba PLAZA NORTE SUZUKI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Iquique 16 AG IQUIQUE - 200 FORTALEZA IQUIQUE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Iquique 89 CITY TIME MALL IQUIQUE 97 CITYTIME ARICA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LA REINA 167 G%2EMORALES PLAZA EGAÑA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>La Calera 103 HERNANDEZ MOTORES LA CALERA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>La Calera 44 SUZUVAL LA CALERA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>La Cisterna 101 BRUNO FRITSCH GRAN AVENIDA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>La Florida 11 AG MALL PLAZA VESPUCIO - 113 FORTALEZA MALL PLAZA VESPUCIO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>La Florida 112 PLAZA VESPUCIO %28GWM-GEE-JAC-CHA%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>La Florida 210 H MOTORES HYUNDAI - 211 H MOTORES FORTALEZA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>La Florida 27 PLAZA VESPUCIO SUZUKI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>La Florida 28 CURIFOR VICUÑA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>La Florida 63 PLAZA VESPUCIO MAZDA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>La Florida 90 PLAZA VESPUCIO %28RNT-SMG%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>La Reina 2 ANFRUNS SANTIAGO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>La Serena 12 COMERCIAL VALENTINI %2F 144 COMERCIAL VALENTINI MALL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>La Serena 12 VALENTINI CASA MATRIZ</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>La Serena 121 FORTALEZA PLAZA LA SERENA%2C 58 AG PLAZA LA SERENA AG MINI P%2E LA SERENA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>La Serena 144 VALENTINI PUERTAS DEL MAR %2F12 VALENTINI MAZDA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>La Serena 170 AG BALMACEDA %28EX COVALSA%29 - 168 CARMEISTER LA SERENA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Las Condes 145 AG CORPORATIVO%2C FORTALEZA ALTRA%2C CARMEISTER ALTRA Y CANTAGALLO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Las Condes 156 DERCO KENNEDY %28MAZDA%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Las Condes 157 DERCO TABANCURA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Las Condes 17 MEGACENTER %28SUZUKI%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Las Condes 17 Megacenter %28Todas las Marcas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Linares 165 JESUS PONS LINARES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Linares 185 CIRCULO LINARES %28HYUNDAI%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lo Barnechea 102 AG MINI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Los Ángeles  116 FORTALEZA LOS ANGELES %2F 22 AG LOS ANGELES %2F 163 CARMEISTER LOS ANGELES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Los Ángeles  50 SERGIO ESCOBAR LOS ANGELES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Macul 167 DERCO AUTOSHOPPING USADOS - 95 DEPARTAMENTAL USADOS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Maipu 180 PROMOTORS MAIPU</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Maipu 41 P%2E HIDALGO PAJARITOS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Osorno 114 FORTALEZA OSORNO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Osorno 171 SERGIO ESCOBAR OSORNO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Osorno 25 AG OSORNO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Osorno 56 BILBAO AUTOS %28MICHEL MARTABIT%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ovalle 160 ASPILLAGA Y HORNAUER OVALLE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ovalle 187 Curifor Ovalle</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Peñalolen 186 CARMEISTER AUTOSHOPPING</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Providencia 128 PRO MOTORS %28SUZUKI%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Providencia 16 GUSTAVO SAAVEDRA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Providencia 172 AUTOMOTORA BILBAO CHINOS MATRIZ</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Providencia 172 PORTILLO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Providencia 202 SAINT GERMAIN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Providencia 29 LIRA LARRAIN PROVIDENCIA %28HYUNDAI%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Providencia 7 AUTOMOTORA BILBAO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pudahuel 5 AG CASA MATRIZ</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Puente Alto 10 AG MALL PLAZA TOBALABA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Puente Alto 10 AG MALL PLAZA TOBALABA%2C 112 FORTALEZA MALL PLAZA TOBALABA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Puente Alto 26 PLAZA TOBALABA %28SMG-SZK%29 - 88 PLAZA TOBALABA %28GWM-GEE-JAC-CHA%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Puente Alto PLAZA TOBALABA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Puerto Montt 111 FORTALEZA PUERTO MONTT %28BAIC%2C BRILLIANCE%2C MAHINDRA%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Puerto Montt 14 EXEQUIEL BERRIOS - 177 EXEQUIEL BERRIOS USADOS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Puerto Montt 14 EXEQUIEL BERRIOS Y CIA%2E LTDA%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Puerto Montt 14 EXEQUIEL BERRIOS Y CIA%2E LTDA%2E Y CASTRO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Puerto Montt 188 GUILLERMO MORALES PUERTO MONTT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Puerto Montt 26 AG PUERTO MONTT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Puerto Varas 196 AG PUERTO VARAS - 197 CARMEISTER PUERTO VARAS - 190 FORTALEZA PUERTO VARAS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Punta Arenas 203 AG PUNTA ARENAS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Punta Arenas 55 RECASUR PUNTA ARENAS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Quillota 152 ASPILLAGA Y HORNAUER QUILLOTA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Quillota 4 ASPILLAGA Y HORNAUER - VIÑA DEL MAR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Quilpué 141 H MOTORES BELLOTO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Quilpué 191 ASPILLAGA Y HORNAUER EL BELLOTO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rancagua 1 ANFRUNS RANCAGUA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rancagua 37 VEGA ARTUS RANCAGUA %28HYUNDAI-MAHINDRA%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rancagua ANFRUNS RANCAGUA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rancagua ANFRUNS RANCAGUA %28SOLO NUEVOS%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Romeral 50 CURIFOR CURICÓ</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>San Antonio 45 SUZUVAL SAN ANTONIO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>San Bernardo 108 NUEVOS S%2EA%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>San Bernardo 94 BRUNO FRITSCH PLAZA SUR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>San Felipe 86 ROSSELOT - SAN FELIPE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>San Felipe R Y R PINTO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>San Fernando 57 PEDRO CUMSILLE%2C 67 CUMSILLE SAN FERNANDO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Santiago 108 NUEVOS S%2EA%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Santiago 154 PLAZA OESTE RENAULT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Santiago Carrera %2F Virtual Derco</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Santiago Centro 1 AG ALAMEDA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Santiago Centro 105 FORTALEZA ALAMEDA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Talca  175 ARAUCO COLIN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Talca  3 ARAUCO - TALCA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Talca  82 CAVAL TALCA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Talca 3 ARAUCO - TALCA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Talca 71 MEDITERRANEO AUTOMOTORES CIRCULO HYUNDAI TALCA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Talcahuano 30 SERGIO ESCOBAR MALL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Temuco  193 CARMEISTER TEMUCO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Temuco 119 FORTALEZA TEMUCO SAN MARTIN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Temuco 125 DECAR MOTORS %28USADOS%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Temuco 141 DECAR HOCHSTETTER</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Temuco 153 MEDINA %26 BALLART</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Temuco 23 AG TEMUCO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Temuco 66 DECAR S%2EA%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Temuco 66 DECAR SA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Valdivia AG Y FORTALEZA VALDIVIA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Valdivia E%2E BERRIOS VALDIVIA %28SOLO NUEVO%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Valparaiso 34 SUZUVAL VALPARAISO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Valparaiso 34 SUZUVAL VALPARAISO%2C MAZDA%2C RENAULT%2C SUZUKI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Valparaiso 49 HERNÁNDEZ MOTORES VALPARAÍSO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Villarica 66 DECAR VILLARRICA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vitacura 153 DERCOUSADOS VITACURA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vitacura 157 DERCO TABANCURA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vitacura 69 GUILLERMO MORALES VITACURA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Viña del Mar 35 SUZUVAL VIÑA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Viña del Mar 36 H%2E MOTORES S%2EA%2E 15 NORTE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Viña del Mar 4 ASPILLAGA Y HORNAUER - VIÑA DEL MAR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Viña del Mar 84 AG VIÑA DEL MAR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ñuñoa 11 CHAMY HNOS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ñuñoa 135 AUTOMOTORA BILBAO CHINOS IRARRAZABAL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ñuñoa 139 AUTOMOTORA BILBAO MAZDA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ñuñoa 182 AUTOMOTORA BILBAO RENAULT IRARRAZABAL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ñuñoa 74 AG VICUÑA MACKENNA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ñuñoa 95 CIRCULO IRARRAZABAL</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Marca__c</picklist>
+            <values>
+                <fullName>BAIC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BRILLIANCE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CHANGAN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GEELY</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GREAT WALL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HAVAL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HYUNDAI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>JAC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MAHINDRA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MAZDA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MINI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RENAULT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SUZUKI</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Subject</picklist>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Llamada</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reunión</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Call</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Evento_Renovaciones_sin_campos</fullName>
+        <active>true</active>
+        <description>sin campo estado de la actividad</description>
+        <label>Evento Renovaciones sin campos</label>
+        <picklistValues>
+            <picklist>Control_CallCenter__c</picklist>
+            <values>
+                <fullName>Asignado</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Llamado no exitoso</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Ejecutivo_F_I__c</picklist>
+            <values>
+                <fullName>ABALLAY FRIGERIO DANIELA BELEN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ABARCA LATORRE GLADYS ELIZABETH</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ADRIAZOLA HENRIQUEZ JAVIER ARNAL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AGUAYO GUERRA MARIA IGNACIA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AGUAYO OPAZO EDUARDO IGNACIO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AGUILA ROSAS CAMILA BELEN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AGUIRRE MORALES DANIELA ALEJANDR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AHUMADA MOYA GISSEL MARGARITA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ALARCON GONZALEZ VANESSA ALLISON</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ALEGRIA MEDINA CLAUDIA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ALGUERNO MUÑOZ CLAUDIA P%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ALIQUINTUI VERA GABRIELA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ALLENDES RODRIGUEZ PAZ</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ALVAREZ ARAVENA GONZALO CLAUDIO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ANDRADE VERA ELIZABETH ANDREA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ARANEDA ORTIZ TAMARA CECILIA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ARANGUIZ AGUILERA JIMMY ANDRES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ARAVENA CALFUNAO FELIPE ANDRES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ARENAS TAPIA CLAUDIA PAOLA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AROSTICA VERDUGO DAMARIS LISSETTE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ARRIAGADA LETELIER ISRAEL ESTEBA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ASTORGA LIZANA CRISTIAN ANDRES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BARRIGA RIVEROS FELIPE ALBERTO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BASCUR BENARDOS ROCIO FERNANDA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BASCUÑAN MORA CARLA ANDREA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BERRIOS SAN MARTIN SEBASTIAN IGNACIO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BRAVO CANCEC EDUARDO LUIS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BRIONES DEL PINO MIGUEL PABLO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BRIONES REBOLLEDO PATRICIA ALEJANDRA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BUCAREY LEFNO JOHAN ALEJANDRO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CANTALLOPTS SUSARTE MARGARITA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CARABANTES BARRIA RODRIGO MAURIC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CARDENAS BECERRA CRISTIAN ANDRES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CARRASCO VENEGAS GABRIEL LEOPOLD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CARVAJAL ALVAREZ GUSTAVO ELADIO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CASTIBLANCO CHAPARRO NATALY ELENA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CASTILLO MARCHANT TOMAS EDUARDO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CASTRO CANOVI DAYSE CATHERINE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CASTRO HIDALGO KARLA NICOL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CELIS FUENTES RAUL ANDRES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CERNA SAN MARTIN CONNE FERNANDA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CISTERNA SOLAR EDUARDO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CONCHA MUÑOZ ABSALON NATAN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CONCHA RAMOS JONATHAN ESTEBAN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CONTRERAS SANTA CRUZ VALERIA PAZ</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CONTRERAS VERGARA FERNANDO ALONSO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CORDERO CHAVEZ CAMILA IGNACIA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CORDOVA JORQUERA CATHERINNE L%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CORREA TAPIA ISABEL A%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CORTES HORMAZABAL TERESA DE JESU</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CUEVAS MORA RENATO JAVIER</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DAGHER CHALHOUB ELIANA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DELGADO NEIRA LESLIE DAMARIS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DEVIA ASTETE SCARLETT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DIAZ BUSTAMANTE GEORGINA DEL CARMEN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DIAZ DIAZ CAMILA FRANCISCA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DIAZ VEGA XIMENA IVETTE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DOMINGUEZ MORIS CAROLINA ALEJ</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DONOSO DIAZ CLAUDIO ANDRES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DONOSO RETAMAL CRISTOPHER GUILLERMO ANDRES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DOSQUE URRA NATHALIE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ELGUETA SOLIS DENISSE ANDREA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ESPINOZA BLANCO VIVIANA IVONNE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ESPINOZA QUINTANA MACARENA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FERNANDEZ AYALA DEBORA BELEN MICAL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FERNANDEZ FERNANDEZ CAMILA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FIGUEROA FIGUEROA LESLY LAURA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FIGUEROA SANDIA CAMILA FERNANDA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FISCHER PEREZ IGNACIO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FLORES ESPINOZA KRIZIAN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FLORES PLASENCIO GABRIELA INES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GAJARDO CAMPOS JESSICA PAOLA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GALLO MIRANDA MARIA FERNANDA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GATICA VALENZUELA HUGO ANDRES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GIACAMAN SMITH TERESITA CLEMENCIA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GOMEZ SALINAS CLAUDIA LIZETH</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GONZALEZ CARDENAS MARIO ESTEBAN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GONZALEZ GIOVAGNOLI PAMELA GIOVA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GONZALEZ TAPIA KAREN ANDREA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GONZALEZ YANTEN CLAUDIO ANDRES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GUTIERREZ ZAMORANO NICOLE ESTEFANIA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HENRIQUEZ HIDALGO GUSTAVO ALBERT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HENRIQUEZ SAN MARTIN RODRIGO GABRIEL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HERNANDEZ CAMPOS KAREN PAULINA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HERNANDEZ CHAMORRO ANGELO ANDRES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HERNANDEZ VARGAS OSVALDO JAVIER</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HIDALGO TOLOZA NIDIA INES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HORMAZABAL PADILLA CARLOS ESTEBA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HURTADO GONZALEZ MAYRA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HURTADO TENORIO JAVIERA ALEJANDR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>INOSTROZA OCAMPO PAULA VERONICA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>JELDRES TISELJ MAURICIO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>JOFRE AGUIRRE KATHERINE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>KLEIN QUEZADA ALEXIS LEONARD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LAGOS ANDRADES FERNANDO SEBASTIAN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LEFICURA OYARZUN SOFIA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LEFORT SOTO IVONNE ELIZABETH</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LEON CARRASCO ANA CECILIA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LETELIER SILVA MARIA ELENA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LEYTON MARDONES MARIA EUGENIA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LEZANA LIPPIANS EDUARDO JAVIER</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LONGA GALVEZ JAZMIN PAOLA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LOPEZ GARRIDO OSCAR HERNAN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LOPEZ TENORIO KARINA ABIMELET</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MAGAÑA GORDILLO ENZO FRANCO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MALUENDA ALFARO JESSICA VIVIANA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MANRIQUEZ MEDINA LAURA ELIZABETH</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MARCHANT QUEZADA CAROL CRISTINA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MARTINEZ ADAOS PAULINA BELEN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MARTINEZ ROMAN JOAQUIN OCTAVIO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MARTINEZ ZAMORA IVAR SIMON</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MEDINA GUZMAN ANA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MENDEZ TRONCOSO ESTEBAN ALONSO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MENDOZA CORDERO ELIZABETH</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MESINA VALLEJOS FELIPE HERNAN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MIRANDA MENA HELLEN CECILIA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MOLINA FAURE POLA YASMIN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MOLINA SOTO SILVIA PAOLA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MONTENEGRO LOPEZ VICTOR MANUEL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MONTENEGRO MELENDEZ CAROLINA PAZ</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MORALES DABNER MITHZY NATALIA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MORALES VILLALOBOS FRANCISCO JAVIER</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MUNDACA MUNIZAGA MONICA LILIAN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MUÑOZ LUAN PAULINA ANDREA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MUÑOZ MORENO VALERIA NICOL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MUÑOZ NEIRA MACARENA ANDREA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NARANJO MANSILLA CONSTANZA ALEJANDRA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NUÑEZ YAÑEZ LESLIE NICOLE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OLGUIN IGOR CONSTANZA STEPHANI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OLIVA ORTIZ CLAUDIA ANDREA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OLIVARES BARAHONA ELIANA DEL CARMEN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OLIVAS COFRE DIEGO DARKO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OLIVER MUNOZ KARINA E%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PEREZ BALADA ENRIQUE JOSE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PEREZ CASTRO BRAYHAM GUILLERMO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PEREZ MUÑOZ RICARDO ANDRES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PEÑA TAPIA FRANCHESCA ANDREA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PIETRASANTA ASTUDILLO CATHERINE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PINTO YAÑEZ DANIELA ANDREA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>POBLETE FIGUEROA GABRIELA ANDREA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>POBLETE LOPEZ MARIA GLADYS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PONCE DE LEON MEZA CYNTHIA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PRADENAS OLAVE PEDRO PABLO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PRADINES RUBILAR DIEGO MAXIMILIANO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>QUEZADA ROJAS MARCELA ALEJANDRA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>QUIROGA RODRIGUEZ FELIX ANIBAL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RAMIREZ CASTRO JAVIER</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>REQUENA JOFRE XIMENA ARACELLY</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>REYES PINTO TAMARA VALENTINA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>REYES ROJAS MARIA JOSE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>REYES SANCHEZ SILVIA VANIA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ROBLES VALENZUELA JESSICA ROMINA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ROJAS BRAVO GONZALO ANDRES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ROJAS GUZMAN DIEGO ALEJANDRO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SALAZAR RIQUELME SOPHIA BELEN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAN MARTIN CASTRO ALEJANDRA DEL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAN MARTIN GARNICA DAVID ALEJAND</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SANHUEZA CARES ALVARO ESTEBAN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SEPULVEDA CASTILLO KEVIN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SEPULVEDA GONZALEZ MATIAS IGNACIO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SILVA FARIAS VALERIA DEL C%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SILVA PEREZ OSVALDO CHRISTIAN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SILVA PEÑA YASNA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SOTO ALVEAR MARCELA ALEJANDRA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SOTO NAVARRO FABIAM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SOTO VERGARA MIGUEL ANGEL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SUAREZ RODRIGUEZ JAVIERA FRANCISCA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TAPIA CISTERNA OLGA ELIZABETH</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TEJOS LETELIER ANA MARIA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TOLEDO GONZALEZ CARLOS DAVID</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TORO VILCHES GENESIS YOLANDA DEL PILAR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TORREALBA LOPEZ MARIA ARACELLI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VALDES MUÑOZ CAROLINA PAZ</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VALDIVIA JEREZ CAMILO IVAN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VALENZUELA NETTLE VICTOR IGNACIO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VARAS SALINAS MARISOL ALEJANDRA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VASQUEZ TORRES DAISY DANIELA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VEGA PAVEZ CELIA EDITH</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VERA SILVA CRISTIAN MARCELO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VERDUGO VERGARA JUAN RODRIGO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VERGARA HENRIQUEZ STEPHANIE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VERGARA MIRANDA ANDREA ELVIRA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VIDELA MONTENEGRO PATRICIA VALER</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VILA PALOMERA DARINKA ANDREA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VILLANUEVA QUEZADA JUAN ROBERT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VILLARROEL VILO CAROLINA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VILLOUTA ARRIAGADA SEBASTIAN IGNACIO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VILLOUTA SCHELL RAUL FERNANDO</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Estado_de_Actividad__c</picklist>
+            <values>
+                <fullName>AGENDADO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>APERTURA DE CORREO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CONTACTADO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DATO ERRONEO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NO CONTESTA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>REFERENCIA</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Local_Comuna__c</picklist>
+            <values>
+                <fullName>Antofagasta  92 AUTOS YUSIC COSTANERA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Antofagasta 149 YUSIC JUMBO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Antofagasta 18 AG ANTOFAGASTA - 91 FORTALEZA ANTOFAGASTA - 32 CARMEISTER ANTOFAGASTA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Antofagasta 19 AG AUTOPLAZA ANTOFAGASTA - 99 FORTALEZA PLAZA ANTOFAGASTA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Antofagasta 9 AUTOS YUSIC ANTOFAGASTA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Buin 155 COMERCIAL ERRAZURIZ</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Buin 45 CURIFOR BUIN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Calama 17 AG CALAMA - 90 FORTALEZA CALAMA - 162 CARMEISTER CALAMA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Calama 43 AUTOS YUSIC CALAMA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Castro 52 EXEQUIEL BERRIOS CASTRO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cerrillos 138 MOVICETER %28JAC%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cerrillos 140 H MOTORES S%2EA PLAZA OESTE %28INCLUYE USADOS%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cerrillos 140 H MOTORES SA PLAZA OESTE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cerrillos 150 AUTOSHOPPING DERCOCENTER</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cerrillos 189 VIRTUAL PLAZA OESTE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cerrillos 195  H MOTORES S%2EA PLAZA OESTE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cerrillos 24 PLAZA OESTE %28MZD-SMG-RNT%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cerrillos 25 PLAZA OESTE USADOS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cerrillos 61 H MOTORES LONQUEN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cerrillos 61 PLAZA OESTE SUZUKI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cerrillos 75 PLAZA OESTE %28GWM-CHA-JAC%29 CHANGAN GEELY JAC GREATWALL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cerrillos 75 PLAZA OESTE %28GWM-CHA-JAC-GEE%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cerrillos 93 AG CERRILLOS - 109 FORTALEZA CERRILLOS - 180 CARMEISTER CERRILLOS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Chillan 51 CURIFOR CHILLÁN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Chillán 51 SERGIO ESCOBAR CHILLÁN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Concepción  164 CARMEISTER CONCEPCION</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Concepción  20 AG CONCEPCION</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Concepción  52 BRUNO FRITSCH CONCEPCION</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Concepción  AG- FORTALEZA MALL PLAZA EL TREBOL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Concepción 118 SERGIO ESCOBAR CARRERA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Concepción 134 SERGIO ESCOBAR CNT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Concepción 142 SERGIO ESCOBAR PAICAVI CHINOS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Concepción 142 SERGIO ESCOBAR PAICAVI CHINOS%2C 48 SERGIO ESCOBAR PAICAVI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Concepción 181 SERGIO ESCOBAR O%27HIGGINS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Concepción 30 SERGIO ESCOBAR MALL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Concepción 48 SERGIO ESCOBAR PAICAVI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Concepción 48 SERGIO ESCOBAR PAICAVÍ y 142 SERGIO ESCOBAR CHINOS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Copiapó 6 AUTOCENTRO NICOLÁS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Coquimbo 159 ASPILLAGA Y HORNAUER COQUIMBO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Coquimbo 189 CURIFOR COQUIMBO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Coyhaique 121 RECASUR COYHAIQUE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Coyhaique 150 MALL HYUNDAI ZONA FRANCA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Curicó 164 JESUS PONS - CURICO %28DERCO%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Curicó 47 JESUS PONS CURICO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Estación Central 128 FORTALEZA MALL PLAZA ALAMEDA - 70 AG MALL PLAZA ALAMEDA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Huechuraba 110 FORTALEZA MALL PLAZA NORTE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Huechuraba 111 MOVICENTER %28GWM%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Huechuraba 118 FORTALEZA MOVICENTER</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Huechuraba 12 AG MOVICENTER</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Huechuraba 138 MOVICENTER %28JAC%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Huechuraba 18 Movicenter Usados</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Huechuraba 19 MOVICENTER %28MAZDA%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Huechuraba 20 MOVICENTER %28SZK%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Huechuraba 20 MOVICENTER 4 %28SUZUKI%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Huechuraba 60 CARMEISTER MOVICENTER</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Huechuraba 83 MOVICENTER %28RNT-SMG%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Huechuraba 9 AG PLAZA NORTE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Huechuraba DERCOCENTER CHINOS PLAZA NORTE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Huechuraba PLAZA NORTE SUZUKI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Iquique 16 AG IQUIQUE - 200 FORTALEZA IQUIQUE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Iquique 89 CITY TIME MALL IQUIQUE 97 CITYTIME ARICA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LA REINA 167 G%2EMORALES PLAZA EGAÑA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>La Calera 103 HERNANDEZ MOTORES LA CALERA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>La Calera 44 SUZUVAL LA CALERA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>La Cisterna 101 BRUNO FRITSCH GRAN AVENIDA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>La Florida 11 AG MALL PLAZA VESPUCIO - 113 FORTALEZA MALL PLAZA VESPUCIO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>La Florida 112 PLAZA VESPUCIO %28GWM-GEE-JAC-CHA%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>La Florida 210 H MOTORES HYUNDAI - 211 H MOTORES FORTALEZA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>La Florida 27 PLAZA VESPUCIO SUZUKI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>La Florida 28 CURIFOR VICUÑA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>La Florida 63 PLAZA VESPUCIO MAZDA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>La Florida 90 PLAZA VESPUCIO %28RNT-SMG%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>La Reina 2 ANFRUNS SANTIAGO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>La Serena 12 COMERCIAL VALENTINI %2F 144 COMERCIAL VALENTINI MALL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>La Serena 12 VALENTINI CASA MATRIZ</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>La Serena 121 FORTALEZA PLAZA LA SERENA%2C 58 AG PLAZA LA SERENA AG MINI P%2E LA SERENA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>La Serena 144 VALENTINI PUERTAS DEL MAR %2F12 VALENTINI MAZDA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>La Serena 170 AG BALMACEDA %28EX COVALSA%29 - 168 CARMEISTER LA SERENA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Las Condes 145 AG CORPORATIVO%2C FORTALEZA ALTRA%2C CARMEISTER ALTRA Y CANTAGALLO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Las Condes 156 DERCO KENNEDY %28MAZDA%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Las Condes 157 DERCO TABANCURA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Las Condes 17 MEGACENTER %28SUZUKI%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Las Condes 17 Megacenter %28Todas las Marcas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Linares 165 JESUS PONS LINARES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Linares 185 CIRCULO LINARES %28HYUNDAI%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lo Barnechea 102 AG MINI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Los Ángeles  116 FORTALEZA LOS ANGELES %2F 22 AG LOS ANGELES %2F 163 CARMEISTER LOS ANGELES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Los Ángeles  50 SERGIO ESCOBAR LOS ANGELES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Macul 167 DERCO AUTOSHOPPING USADOS - 95 DEPARTAMENTAL USADOS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Maipu 180 PROMOTORS MAIPU</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Maipu 41 P%2E HIDALGO PAJARITOS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Osorno 114 FORTALEZA OSORNO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Osorno 171 SERGIO ESCOBAR OSORNO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Osorno 25 AG OSORNO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Osorno 56 BILBAO AUTOS %28MICHEL MARTABIT%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ovalle 160 ASPILLAGA Y HORNAUER OVALLE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ovalle 187 Curifor Ovalle</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Peñalolen 186 CARMEISTER AUTOSHOPPING</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Providencia 128 PRO MOTORS %28SUZUKI%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Providencia 16 GUSTAVO SAAVEDRA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Providencia 172 AUTOMOTORA BILBAO CHINOS MATRIZ</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Providencia 172 PORTILLO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Providencia 202 SAINT GERMAIN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Providencia 29 LIRA LARRAIN PROVIDENCIA %28HYUNDAI%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Providencia 7 AUTOMOTORA BILBAO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pudahuel 5 AG CASA MATRIZ</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Puente Alto 10 AG MALL PLAZA TOBALABA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Puente Alto 10 AG MALL PLAZA TOBALABA%2C 112 FORTALEZA MALL PLAZA TOBALABA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Puente Alto 26 PLAZA TOBALABA %28SMG-SZK%29 - 88 PLAZA TOBALABA %28GWM-GEE-JAC-CHA%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Puente Alto PLAZA TOBALABA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Puerto Montt 111 FORTALEZA PUERTO MONTT %28BAIC%2C BRILLIANCE%2C MAHINDRA%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Puerto Montt 14 EXEQUIEL BERRIOS - 177 EXEQUIEL BERRIOS USADOS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Puerto Montt 14 EXEQUIEL BERRIOS Y CIA%2E LTDA%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Puerto Montt 14 EXEQUIEL BERRIOS Y CIA%2E LTDA%2E Y CASTRO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Puerto Montt 188 GUILLERMO MORALES PUERTO MONTT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Puerto Montt 26 AG PUERTO MONTT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Puerto Varas 196 AG PUERTO VARAS - 197 CARMEISTER PUERTO VARAS - 190 FORTALEZA PUERTO VARAS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Punta Arenas 203 AG PUNTA ARENAS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Punta Arenas 55 RECASUR PUNTA ARENAS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Quillota 152 ASPILLAGA Y HORNAUER QUILLOTA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Quillota 4 ASPILLAGA Y HORNAUER - VIÑA DEL MAR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Quilpué 141 H MOTORES BELLOTO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Quilpué 191 ASPILLAGA Y HORNAUER EL BELLOTO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rancagua 1 ANFRUNS RANCAGUA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rancagua 37 VEGA ARTUS RANCAGUA %28HYUNDAI-MAHINDRA%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rancagua ANFRUNS RANCAGUA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rancagua ANFRUNS RANCAGUA %28SOLO NUEVOS%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Romeral 50 CURIFOR CURICÓ</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>San Antonio 45 SUZUVAL SAN ANTONIO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>San Bernardo 108 NUEVOS S%2EA%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>San Bernardo 94 BRUNO FRITSCH PLAZA SUR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>San Felipe 86 ROSSELOT - SAN FELIPE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>San Felipe R Y R PINTO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>San Fernando 57 PEDRO CUMSILLE%2C 67 CUMSILLE SAN FERNANDO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Santiago 108 NUEVOS S%2EA%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Santiago 154 PLAZA OESTE RENAULT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Santiago Carrera %2F Virtual Derco</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Santiago Centro 1 AG ALAMEDA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Santiago Centro 105 FORTALEZA ALAMEDA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Talca  175 ARAUCO COLIN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Talca  3 ARAUCO - TALCA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Talca  82 CAVAL TALCA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Talca 3 ARAUCO - TALCA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Talca 71 MEDITERRANEO AUTOMOTORES CIRCULO HYUNDAI TALCA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Talcahuano 30 SERGIO ESCOBAR MALL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Temuco  193 CARMEISTER TEMUCO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Temuco 119 FORTALEZA TEMUCO SAN MARTIN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Temuco 125 DECAR MOTORS %28USADOS%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Temuco 141 DECAR HOCHSTETTER</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Temuco 153 MEDINA %26 BALLART</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Temuco 23 AG TEMUCO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Temuco 66 DECAR S%2EA%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Temuco 66 DECAR SA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Valdivia AG Y FORTALEZA VALDIVIA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Valdivia E%2E BERRIOS VALDIVIA %28SOLO NUEVO%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Valparaiso 34 SUZUVAL VALPARAISO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Valparaiso 34 SUZUVAL VALPARAISO%2C MAZDA%2C RENAULT%2C SUZUKI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Valparaiso 49 HERNÁNDEZ MOTORES VALPARAÍSO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Villarica 66 DECAR VILLARRICA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vitacura 153 DERCOUSADOS VITACURA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vitacura 157 DERCO TABANCURA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vitacura 69 GUILLERMO MORALES VITACURA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Viña del Mar 35 SUZUVAL VIÑA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Viña del Mar 36 H%2E MOTORES S%2EA%2E 15 NORTE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Viña del Mar 4 ASPILLAGA Y HORNAUER - VIÑA DEL MAR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Viña del Mar 84 AG VIÑA DEL MAR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ñuñoa 11 CHAMY HNOS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ñuñoa 135 AUTOMOTORA BILBAO CHINOS IRARRAZABAL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ñuñoa 139 AUTOMOTORA BILBAO MAZDA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ñuñoa 182 AUTOMOTORA BILBAO RENAULT IRARRAZABAL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ñuñoa 74 AG VICUÑA MACKENNA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ñuñoa 95 CIRCULO IRARRAZABAL</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Marca__c</picklist>
+            <values>
+                <fullName>BAIC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BRILLIANCE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CHANGAN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GEELY</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GREAT WALL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HAVAL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HYUNDAI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>JAC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MAHINDRA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MAZDA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MINI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RENAULT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SUZUKI</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Subject</picklist>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Llamada</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reunión</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Call</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts/>
+    <sharingModel>Private</sharingModel>
+</CustomObject>

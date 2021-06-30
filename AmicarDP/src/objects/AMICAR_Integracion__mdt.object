@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Endpoints para integraciones.</description>
+    <fields>
+        <fullName>Metodo__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Metodo</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>PUT</fullName>
+                    <default>true</default>
+                    <label>PUT</label>
+                </value>
+                <value>
+                    <fullName>GET</fullName>
+                    <default>false</default>
+                    <label>GET</label>
+                </value>
+                <value>
+                    <fullName>POST</fullName>
+                    <default>false</default>
+                    <label>POST</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>URL__c</fullName>
+        <description>URL de Endpoint</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>URL</label>
+        <required>true</required>
+        <type>Url</type>
+    </fields>
+    <label>AMICAR_Integracion</label>
+    <pluralLabel>AMICAR_Integraciones</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

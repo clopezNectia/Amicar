@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SamlSsoConfig xmlns="http://soap.sforce.com/2006/04/metadata">
+    <identityLocation>SubjectNameId</identityLocation>
+    <identityMapping>FederationId</identityMapping>
+    <issuer>https://accounts.google.com/o/saml2?idpid=C02hlr6og</issuer>
+    <loginUrl>https://accounts.google.com/o/saml2/idp?idpid=C02hlr6og</loginUrl>
+    <name>Google</name>
+    <oauthTokenEndpoint>https://amicar--sbxdodoria.my.salesforce.com/services/oauth2/token?so=00D6u0000008fjk</oauthTokenEndpoint>
+    <redirectBinding>true</redirectBinding>
+    <requestSignatureMethod>1</requestSignatureMethod>
+    <requestSigningCertId>0P12E000002pWcn</requestSigningCertId>
+    <salesforceLoginUrl>https://amicar--sbxdodoria.my.salesforce.com?so=00D6u0000008fjk</salesforceLoginUrl>
+    <samlEntityId>https://amicar.my.salesforce.com</samlEntityId>
+    <samlVersion>SAML2_0</samlVersion>
+    <useConfigRequestMethod>false</useConfigRequestMethod>
+    <userProvisioning>false</userProvisioning>
+    <validationCert>MIIDdDCCAlygAwIBAgIGAW63UWd3MA0GCSqGSIb3DQEBCwUAMHsxFDASBgNVBAoTC0dvb2dsZSBJ
+bmMuMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MQ8wDQYDVQQDEwZHb29nbGUxGDAWBgNVBAsTD0dv
+b2dsZSBGb3IgV29yazELMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNhbGlmb3JuaWEwHhcNMTkxMTI5
+MTMxOTU0WhcNMjQxMTI3MTMxOTU0WjB7MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEWMBQGA1UEBxMN
+TW91bnRhaW4gVmlldzEPMA0GA1UEAxMGR29vZ2xlMRgwFgYDVQQLEw9Hb29nbGUgRm9yIFdvcmsx
+CzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8A
+MIIBCgKCAQEAxICsm8SEC+/j2Vw0bJmFrgTGXYfxj5VvTkDpc+0bt6XSxjdVmM4+Iecu0fT58Ct2
+xy37fPT8GxWDY6TuswWLgcEHyOzIF5n144fhzoeELHZYKPXS+IjEmI4PZmXF03iNzb5B2p0U1KPV
+og12Kj4QTXMzJ/s5sJRCN4Je63NkGPSkBywvKtc1svsFSYdyMJlWeJDnDJalJhAGDI0ckNttCOgW
+Eib7gEpjzR8rgfYu+zUTClmkL9sLQqMKSnJ6Oz2ceE6ViOxPz1H+su8BFCF4XjNVciscVSOb1Ith
+3A8J5Ul9uu4zTeeRL1guug/L1eZJGEpWmciFnc0Ii4laqRyDHwIDAQABMA0GCSqGSIb3DQEBCwUA
+A4IBAQCvRryc4Q3SKJ3J28+ADHGQ8xdD0CgtKWnXXdhcDFfcp4HSBrkvZAy1pt7usEj1vOXaY6NG
+xfcHPqpC2vDaSOOrg03vwb4LbHA0eaYtV5+mgBl6nwR3NPeOhu5aD5hld6PWiSVrFgGwn1sJhiLF
+94jmBnb8BcL1VKu+etQicFfZtQbKyp7IFQeXSbyP6PVgaP2ibPG7wtii5+Ra97SWcsOuoDL83PQR
+5DlTULoA3DblYYU9YKq0uodxoT0CWhl0hqAs9WFUbYmFqScbrALzuzY6/TUfVvduQQj8Qtu1ckhj
+PVX4YuxgCuM4XnXz7nzsF3S8hlApQjcz0rnQtO1PIw28</validationCert>
+</SamlSsoConfig>

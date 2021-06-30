@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>CONVENTIONAL_3_ZERO_FEES</fullName>
+        <default>false</default>
+        <label>CC 3 CUOTAS PAGO $0</label>
+    </customValue>
+    <customValue>
+        <fullName>CONVENTIONAL_BLACK</fullName>
+        <default>false</default>
+        <label>CC BLACK</label>
+    </customValue>
+    <customValue>
+        <fullName>CONVENTIONAL_APPS_NORMAL_TRANSPORTS</fullName>
+        <default>false</default>
+        <label>CC APPs TRANSPORTES NORMAL</label>
+    </customValue>
+    <customValue>
+        <fullName>CONVENTIONAL_LIGHT_TRUCK</fullName>
+        <default>false</default>
+        <label>CC CAMION LIVIANO</label>
+    </customValue>
+    <customValue>
+        <fullName>CONVENTIONAL_PARTNERS</fullName>
+        <default>false</default>
+        <label>CC COLABORADORES</label>
+    </customValue>
+    <customValue>
+        <fullName>CONVENTIONAL_COMMERCIAL_PARTNERS</fullName>
+        <default>false</default>
+        <label>CC COMERCIAL COLABORADORES</label>
+    </customValue>
+    <customValue>
+        <fullName>CONVENTIONAL_COMMERCIAL_NORMAL</fullName>
+        <default>false</default>
+        <label>CC COMERCIAL NORMAL</label>
+    </customValue>
+    <customValue>
+        <fullName>CONVENTIONAL_CONSUMER</fullName>
+        <default>false</default>
+        <label>CC CONSUMO</label>
+    </customValue>
+    <customValue>
+        <fullName>CONVENTIONAL_CONVERSION</fullName>
+        <default>false</default>
+        <label>CC CONVERSIÓN</label>
+    </customValue>
+    <customValue>
+        <fullName>CONVENTIONAL_DIGITAL_USED</fullName>
+        <default>false</default>
+        <label>CC DIGITAL USADO</label>
+    </customValue>
+    <customValue>
+        <fullName>CONVENTIONAL_NEW_MOTORCYCLE</fullName>
+        <default>false</default>
+        <label>CC MOTO NUEVA</label>
+    </customValue>
+    <customValue>
+        <fullName>CONVENTIONAL_USED_MOTORCYCLE</fullName>
+        <default>false</default>
+        <label>CC MOTO USADA</label>
+    </customValue>
+    <customValue>
+        <fullName>CONVENTIONAL_NORMAL</fullName>
+        <default>false</default>
+        <label>CC NORMAL</label>
+    </customValue>
+    <customValue>
+        <fullName>CONVENTIONAL_PAYMENT_2021</fullName>
+        <default>false</default>
+        <label>CC PAGA LA CUOTA EL 2021</label>
+    </customValue>
+    <customValue>
+        <fullName>CONVENTIONAL_PICKUP_PARTNERS</fullName>
+        <default>false</default>
+        <label>CC PICK UP COLABORADORES</label>
+    </customValue>
+    <customValue>
+        <fullName>CONVENTIONAL_PICKUP_NORMAL</fullName>
+        <default>false</default>
+        <label>CC PICK UP NORMAL</label>
+    </customValue>
+    <customValue>
+        <fullName>CONVENTIONAL_PICKUP_PRIME</fullName>
+        <default>false</default>
+        <label>CC PICK UP PRIME</label>
+    </customValue>
+    <customValue>
+        <fullName>CONVENTIONAL_PICKUP_ZERO_NINETY_NINE</fullName>
+        <default>false</default>
+        <label>CC PICK UP TASA 0.99%</label>
+    </customValue>
+    <customValue>
+        <fullName>CONVENTIONAL_FIFTY_FIFTY</fullName>
+        <default>false</default>
+        <label>CC PLAN 50/50</label>
+    </customValue>
+    <customValue>
+        <fullName>CONVENTIONAL_PRIME</fullName>
+        <default>false</default>
+        <label>CC PRIME</label>
+    </customValue>
+    <customValue>
+        <fullName>CONVENTIONAL_ZERO_NINETY_NINE_RATE</fullName>
+        <default>false</default>
+        <label>CC TASA 0.99%</label>
+    </customValue>
+    <customValue>
+        <fullName>CONVENTIONAL_TAXI_NORMAL</fullName>
+        <default>false</default>
+        <label>CC TAXI NORMAL</label>
+    </customValue>
+    <customValue>
+        <fullName>CONVENTIONAL_SCHOOL_TRANSPORTATION</fullName>
+        <default>false</default>
+        <label>CC TRANSPORTE ESCOLAR</label>
+    </customValue>
+    <customValue>
+        <fullName>CONVENTIONAL_COMPANIES_AND_ENTREPRENEURS</fullName>
+        <default>false</default>
+        <label>EMPRESAS Y EMPRENDEDORES</label>
+    </customValue>
+    <customValue>
+        <fullName>CONVENTIONAL_RENEGOTIATION_HIGH_LINE</fullName>
+        <default>false</default>
+        <label>RENEGOCIACIÓN CIXCC LINEA ALTA</label>
+    </customValue>
+    <customValue>
+        <fullName>CONVENTIONAL_REFINANCING_HIGH_LINE</fullName>
+        <default>false</default>
+        <label>REFI CIXCC LINEA ALTA</label>
+    </customValue>
+    <customValue>
+        <fullName>SMART_BLACK</fullName>
+        <default>false</default>
+        <label>CI BLACK</label>
+    </customValue>
+    <customValue>
+        <fullName>SMART_PARTNERS</fullName>
+        <default>false</default>
+        <label>CI COLABORADORES</label>
+    </customValue>
+    <customValue>
+        <fullName>SMART_HIGH_LINE</fullName>
+        <default>false</default>
+        <label>CI LÍNEA ALTA</label>
+    </customValue>
+    <customValue>
+        <fullName>SMART_EMERGING_NORMAL</fullName>
+        <default>false</default>
+        <label>CI M. EMERGENTE NORMAL</label>
+    </customValue>
+    <customValue>
+        <fullName>SMART_EMERGING_PRIME</fullName>
+        <default>false</default>
+        <label>CI M. EMERGENTE PRIME</label>
+    </customValue>
+    <customValue>
+        <fullName>SMART_MINI</fullName>
+        <default>false</default>
+        <label>CI MINI</label>
+    </customValue>
+    <customValue>
+        <fullName>SMART_NORMAL</fullName>
+        <default>false</default>
+        <label>CI NORMAL</label>
+    </customValue>
+    <customValue>
+        <fullName>SMART_NORMAL_20_DOWNPAYMENT</fullName>
+        <default>false</default>
+        <label>CI NORMAL 20% PIE</label>
+    </customValue>
+    <customValue>
+        <fullName>SMART_NORMAL_30_DOWNPAYMENT</fullName>
+        <default>false</default>
+        <label>CI NORMAL 30% PIE</label>
+    </customValue>
+    <customValue>
+        <fullName>SMART_NORMAL_50_VFG</fullName>
+        <default>false</default>
+        <label>CI NORMAL VFG 50%</label>
+    </customValue>
+    <customValue>
+        <fullName>SMART_PICKUP_PARTNERS</fullName>
+        <default>false</default>
+        <label>CI PICK UP COLABORADORES</label>
+    </customValue>
+    <customValue>
+        <fullName>SMART_PAYMENT_2021</fullName>
+        <default>false</default>
+        <label>CI PAGA LA CUOTA EL 2021</label>
+    </customValue>
+    <customValue>
+        <fullName>SMART_PICKUP_NORMAL</fullName>
+        <default>false</default>
+        <label>CI PICK UP NORMAL</label>
+    </customValue>
+    <customValue>
+        <fullName>SMART_PICKUP_PRIME</fullName>
+        <default>false</default>
+        <label>CI PICK UP PRIME</label>
+    </customValue>
+    <customValue>
+        <fullName>SMART_PREMIUM</fullName>
+        <default>false</default>
+        <label>CI PREMIUM</label>
+    </customValue>
+    <customValue>
+        <fullName>SMART_PRIME</fullName>
+        <default>false</default>
+        <label>CI PRIME</label>
+    </customValue>
+    <customValue>
+        <fullName>SMART_ZERO_NINETY_NINE_RATE</fullName>
+        <default>false</default>
+        <label>CI TASA 0.99%</label>
+    </customValue>
+    <customValue>
+        <fullName>CONVENTIONAL_REFINANCING</fullName>
+        <default>false</default>
+        <label>REFI CIXCC</label>
+    </customValue>
+    <customValue>
+        <fullName>CONVENTIONAL_REFINANCING_PARTNERS</fullName>
+        <default>false</default>
+        <label>REFI CIXCC COLABORADORES</label>
+    </customValue>
+    <customValue>
+        <fullName>CONVENTIONAL_RENEGOTIATION</fullName>
+        <default>false</default>
+        <label>RENEGOCIACIÓN CIXCC</label>
+    </customValue>
+    <customValue>
+        <fullName>SMART_REFINANCING_PARTNERS</fullName>
+        <default>false</default>
+        <label>REFI CIXCI COLABORADORES</label>
+    </customValue>
+    <customValue>
+        <fullName>SMART_REFINANCING</fullName>
+        <default>false</default>
+        <label>REFI CIXCI</label>
+    </customValue>
+    <customValue>
+        <fullName>SMART_REFINANCING_HIGH_LINE</fullName>
+        <default>false</default>
+        <label>REFI CIXCI LINEA ALTA</label>
+    </customValue>
+    <customValue>
+        <fullName>NORMAL</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>NORMAL</label>
+    </customValue>
+    <customValue>
+        <fullName>CONVERSION</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>CONVERSION</label>
+    </customValue>
+    <customValue>
+        <fullName>PRIME</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>PRIME</label>
+    </customValue>
+    <masterLabel>Tipo de tasa</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

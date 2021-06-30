@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Cliente</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Clientes</value>
+    </caseValues>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Acceso a clientes</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>account_access</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Nivel de acceso al cliente</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>account_access_level</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Función del contacto del cliente</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Funciones del contacto del cliente</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>account_contact_role</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Creador de clientes</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>account_creator</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Divisa del cliente</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>account_currency</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Descripción del cliente</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>account_description</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Página de detalles del cliente</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>account_detail_page</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>División de clientes</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>account_division</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Modificación de cliente</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>account_edit</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Fax del cliente</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>account_fax</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Campo de cliente</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Campos de cliente</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>account_field</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Información general del cliente</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>account_general</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Jerarquía de clientes</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>account_hierarchy</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Historial de clientes</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>account_history</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Informe de historial de clientes</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>account_history_report</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Id. del cliente</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>account_id</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Información del cliente</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>account_information</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Nombre del cliente</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Nombres del cliente</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>account_name</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Nombre de cliente (Local)</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>account_name_local</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Número del cliente</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>account_number</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Propietario del cliente</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Propietarios del cliente</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>account_owner</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Alias del propietario del cliente</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>account_owner_alias</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Informe del propietario del cliente</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>account_owner_report</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Alias del propietario del cliente</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>account_owner_role</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>propietario del cliente</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>account_ownership</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Teléfono del cliente</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>account_phone</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Valoración del cliente</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>account_rating</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Registro de cliente</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Registros de clientes</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>account_record</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Tipo de registro de cliente</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Tipos de registro de cliente</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>account_record_type</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Informe de clientes</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Informes de clientes</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>account_report</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Colaboración de clientes</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>account_sharing</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Sitio del cliente</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Sitios del cliente</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>account_site</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Origen de cliente</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>account_source</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>ID de etapa de cliente</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>account_stage_id</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Equipo de clientes</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Equipos de clientes</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>account_team</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Miembro del equipo de clientes</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Miembros del equipo de clientes</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>account_team_member</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Id. del miembro del equipo de clientes</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>account_team_member_id</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Informe del equipo de clientes</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>account_team_report</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Territorio de cliente</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Territorios de cliente</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>account_territory</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Herramienta de la cliente</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Herramientas de la cliente</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>account_tool</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Tipo de cliente</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Tipos de cliente</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>account_type</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Vista de clientes</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Vistas de clientes</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>account_view</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Cliente empresarial</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Clientes empresariales</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>business_account</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Cliente principal</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Clientes principales</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>parent_account</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>División de cliente principal</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>parent_account_division</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Id. del cliente principal</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>parent_account_id</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Sitio del cliente principal</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>parent_account_site</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Cliente personal</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Clientes personales</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>person_account</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Registro de cliente personal</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Registros de clientes personales</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>person_account_record</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Teléfono comercial</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>phone_account</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Dirección empleador</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>shipping_address_account</name>
+    </fields>
+    <gender>Masculine</gender>
+</CustomObjectTranslation>

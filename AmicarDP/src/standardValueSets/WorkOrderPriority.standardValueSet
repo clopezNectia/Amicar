@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Bajo</fullName>
+        <default>true</default>
+        <label>Bajo</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Mediano</fullName>
+        <default>false</default>
+        <label>Mediano</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Alto</fullName>
+        <default>false</default>
+        <label>Alto</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Crítico</fullName>
+        <default>false</default>
+        <label>Crítico</label>
+    </standardValue>
+</StandardValueSet>

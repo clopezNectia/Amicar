@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <block>
+        <blockInfo>
+            <blockId>B0</blockId>
+            <joinTable>a</joinTable>
+        </blockInfo>
+        <columns>
+            <field>ACCOUNT.NAME</field>
+        </columns>
+        <columns>
+            <field>Activity.Estado_de_Actividad__c</field>
+        </columns>
+        <columns>
+            <field>Account.RUT__c</field>
+        </columns>
+        <columns>
+            <field>CREATED_BY</field>
+        </columns>
+        <filter>
+            <criteriaItems>
+                <column>Activity.Estado_de_Actividad__c</column>
+                <columnToColumn>false</columnToColumn>
+                <isUnlocked>true</isUnlocked>
+                <operator>notEqual</operator>
+                <value></value>
+            </criteriaItems>
+        </filter>
+        <format>Tabular</format>
+        <name>Actividades con Clientes bloque 1</name>
+        <params>
+            <name>closed</name>
+            <value>all</value>
+        </params>
+        <params>
+            <name>type</name>
+            <value>te</value>
+        </params>
+        <params>
+            <name>co</name>
+            <value>1</value>
+        </params>
+        <reportType>AccountActivity</reportType>
+        <scope>organization</scope>
+        <showGrandTotal>true</showGrandTotal>
+        <showSubTotals>true</showSubTotals>
+        <timeFrameFilter>
+            <dateColumn>DUE_DATE</dateColumn>
+            <interval>INTERVAL_CURFY</interval>
+        </timeFrameFilter>
+    </block>
+    <blockInfo>
+        <blockId xsi:nil="true"/>
+        <joinTable>a</joinTable>
+    </blockInfo>
+    <format>MultiBlock</format>
+    <name>prueba informe1</name>
+    <reportType>AccountActivity</reportType>
+    <showDetails>true</showDetails>
+</Report>
