@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Package xmlns="http://soap.sforce.com/2006/04/metadata">
-  <types>
-    <name>CustomField</name>
-    <members>Opportunity.Marca_Renovaciones__c</members>
-    <members>Opportunity.Modelo_Renovaciones__c</members>
-  </types>
-  <version>52.0</version>
-</Package>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">  
+<types>
+        <members>Opportunity.Solicitud_Renovaciones</members>
+        <name>RecordType</name>
+    </types>
+    </CustomObject>
