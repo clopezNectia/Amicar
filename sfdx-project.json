@@ -1,0 +1,11 @@
+{
+    "packageDirectories": [
+        {
+            "path": "src",
+            "default": true
+        },
+    ],
+    "namespace": "",
+  "sfdcLoginUrl": "https://amicar--pruebasci.my.salesforce.com/",
+  "sourceApiVersion": "43.0"
+}
