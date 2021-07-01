@@ -4,6 +4,8 @@
     <name>CustomField</name>
     <members>Opportunity.Marca_Renovaciones__c</members>
     <members>Opportunity.Modelo_Renovaciones__c</members>
+   </types>
+  <types>
 	<members>Opportunity.Solicitud_Renovaciones</members>
         <name>RecordType</name>
   </types>
