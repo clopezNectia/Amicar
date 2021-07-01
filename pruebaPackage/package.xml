@@ -3,7 +3,7 @@
   <types>
     <name>CustomField</name>
     <members>Opportunity.Marca_Renovaciones__c</members>
-    <members>Opportunity.modelo_Renovaciones__c</members>
+    <members>Opportunity.Modelo_Renovaciones__c</members>
   </types>
   <version>52.0</version>
 </Package>
